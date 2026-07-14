@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1350" width="100%" height="100%" style="background:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;">
+<defs>
+<filter id="shadow" x="-4%" y="-4%" width="108%" height="112%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/></filter>
+<filter id="shadow-sm" x="-2%" y="-2%" width="104%" height="108%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.06"/></filter>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/></marker>
+<linearGradient id="header-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1e40af"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+<linearGradient id="section-title" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2563eb"/><stop offset="100%" stop-color="#6366f1"/></linearGradient>
+</defs>
+<text x="700" y="64" text-anchor="middle" fill="#bfdbfe" font-size="13">系统技术架构图 · 六层分层架构 + 数据流全景</text>
+<rect x="30" y="110" width="1340" height="36" rx="6" fill="url(#section-title)"/>
+<text x="700" y="133" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">第一部分：六层系统架构图</text>
+<rect x="30" y="156" width="1340" height="135" rx="8" fill="none" stroke="#93c5fd" stroke-width="2" stroke-dasharray="6,3"/>
+<rect x="40" y="156" width="170" height="135" rx="6" fill="#dbeafe"/>
+<text x="125" y="214" text-anchor="middle" fill="#1e40af" font-size="15" font-weight="700">数据源层</text>
+<text x="125" y="234" text-anchor="middle" fill="#3b82f6" font-size="11">Data Source Layer</text>
+<rect x="230" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="295" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">智联招聘</text><text x="295" y="206" text-anchor="middle" fill="#64748b" font-size="10">zhilianzhaopin</text>
+<rect x="380" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="445" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">BOSS直聘</text><text x="445" y="206" text-anchor="middle" fill="#64748b" font-size="10">bosszhipin</text>
+<rect x="530" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="595" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">猎聘网</text><text x="595" y="206" text-anchor="middle" fill="#64748b" font-size="10">liepin</text>
+<rect x="680" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="745" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">前程无忧</text><text x="745" y="206" text-anchor="middle" fill="#64748b" font-size="10">51job</text>
+<rect x="830" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="895" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">58同城</text><text x="895" y="206" text-anchor="middle" fill="#64748b" font-size="10">58tongcheng</text>
+<rect x="980" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="1045" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">拉勾网</text><text x="1045" y="206" text-anchor="middle" fill="#64748b" font-size="10">lagou</text>
+<rect x="1130" y="166" width="130" height="50" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1" filter="url(#shadow-sm)"/><text x="1195" y="190" text-anchor="middle" fill="#1e40af" font-size="13" font-weight="600">应届生求职网</text><text x="1195" y="206" text-anchor="middle" fill="#64748b" font-size="10">yingjiesheng</text>
+<rect x="230" y="228" width="1030" height="50" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="580" y="252" text-anchor="middle" fill="#166534" font-size="13" font-weight="600">简历上传（PDF / Word / TXT 格式）</text>
+<text x="580" y="268" text-anchor="middle" fill="#64748b" font-size="10">通过浏览器上传或 API 提交，支持批量简历解析</text>
+<line x1="700" y1="291" x2="700" y2="305" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="308" width="1340" height="155" rx="8" fill="none" stroke="#5eead4" stroke-width="2"/>
+<rect x="40" y="308" width="170" height="155" rx="6" fill="#ccfbf1"/>
+<text x="125" y="372" text-anchor="middle" fill="#115e59" font-size="15" font-weight="700">数据采集层</text>
+<text x="125" y="392" text-anchor="middle" fill="#14b8a6" font-size="11">Data Acquisition</text>
+<rect x="60" y="410" width="130" height="28" rx="14" fill="#14b8a6"/><text x="125" y="429" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">已有实现</text>
+<rect x="230" y="318" width="260" height="66" rx="6" fill="#f0fdfa" stroke="#5eead4" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="360" y="338" text-anchor="middle" fill="#0f766e" font-size="13" font-weight="600">BaseSpider 基类</text>
+<text x="360" y="354" text-anchor="middle" fill="#64748b" font-size="10">浏览器管理 · 多标签页并发</text>
+<text x="360" y="370" text-anchor="middle" fill="#64748b" font-size="10">反检测 · Motor 异步 MongoDB</text>
+<rect x="510" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="570" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">智联爬虫</text><text x="570" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">8步+Cookie</text><text x="570" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">多Part并行</text>
+<rect x="640" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="700" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">BOSS爬虫</text><text x="700" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">4步流程</text><text x="700" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">多版本解析</text>
+<rect x="770" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="830" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">猎聘爬虫</text><text x="830" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">6步+三维枚举</text><text x="830" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">多Part并行</text>
+<rect x="900" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="960" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">前程无忧爬虫</text><text x="960" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">5步+Selenium</text><text x="960" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">反爬极严</text>
+<rect x="1030" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="1090" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">58同城爬虫</text><text x="1090" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">7步+分类遍历</text><text x="1090" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">城市+公司遍历</text>
+<rect x="1160" y="318" width="120" height="66" rx="6" fill="#fff" stroke="#cbd5e1" stroke-width="1" filter="url(#shadow-sm)"/><text x="1220" y="340" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">拉勾/应届生</text><text x="1220" y="356" text-anchor="middle" fill="#94a3b8" font-size="9">7步+Cookie</text><text x="1220" y="372" text-anchor="middle" fill="#94a3b8" font-size="9">校园招聘</text>
+<rect x="230" y="396" width="350" height="28" rx="14" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+<text x="405" y="415" text-anchor="middle" fill="#dc2626" font-size="11">反爬机制：UA轮换 · 代理池 · 指纹混淆 · 鼠标轨迹 · 动态Cookie</text>
+<rect x="920" y="396" width="360" height="56" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="1100" y="417" text-anchor="middle" fill="#c2410c" font-size="14" font-weight="600">MongoDB · jobs_raw 原始数据</text>
+<text x="1100" y="437" text-anchor="middle" fill="#64748b" font-size="10">job_id | title | company | salary | city | experience | education | source | crawl_time</text>
+<line x1="700" y1="463" x2="700" y2="477" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="480" width="1340" height="155" rx="8" fill="none" stroke="#fcd34d" stroke-width="2"/>
+<rect x="40" y="480" width="170" height="155" rx="6" fill="#fef3c7"/>
+<text x="125" y="544" text-anchor="middle" fill="#78350f" font-size="15" font-weight="700">数据处理层</text>
+<text x="125" y="564" text-anchor="middle" fill="#d97706" font-size="11">Data Processing</text>
+<rect x="230" y="492" width="370" height="66" rx="6" fill="#fffbeb" stroke="#fcd34d" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="415" y="513" text-anchor="middle" fill="#b45309" font-size="13" font-weight="600">DataCleaner 数据清洗引擎</text>
+<text x="415" y="531" text-anchor="middle" fill="#64748b" font-size="10">薪资统一 · 技能关键词抽取</text>
+<text x="415" y="547" text-anchor="middle" fill="#64748b" font-size="10">城市/经验/学历标准化 · 标题清洗去噪</text>
+<rect x="630" y="492" width="500" height="66" rx="6" fill="#fffbeb" stroke="#fcd34d" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="880" y="513" text-anchor="middle" fill="#b45309" font-size="13" font-weight="600">多源交叉验证引擎</text>
+<text x="880" y="531" text-anchor="middle" fill="#64748b" font-size="10">跨平台去重 · 时滞检测</text>
+<text x="880" y="547" text-anchor="middle" fill="#64748b" font-size="10">抄袭检测 · 噪声过滤</text>
+<rect x="1160" y="492" width="180" height="66" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="1250" y="518" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">MongoDB</text>
+<text x="1250" y="538" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="600">jobs_clean</text>
+<rect x="230" y="570" width="1110" height="28" rx="14" fill="#fef3c7"/>
+<text x="785" y="589" text-anchor="middle" fill="#92400e" font-size="11">清洗后数据：salary_min | salary_max | skills[] | location | status | unified_job_id</text>
+<line x1="700" y1="635" x2="700" y2="649" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="652" width="1340" height="310" rx="8" fill="none" stroke="#a78bfa" stroke-width="2"/>
+<rect x="40" y="652" width="170" height="310" rx="6" fill="#ede9fe"/>
+<text x="125" y="792" text-anchor="middle" fill="#4c1d95" font-size="15" font-weight="700">AI智能体分析层</text>
+<text x="125" y="812" text-anchor="middle" fill="#4c1d95" font-size="15" font-weight="700">核心创新层</text>
+<text x="125" y="832" text-anchor="middle" fill="#8b5cf6" font-size="11">AI Agent Layer</text>
+<rect x="60" y="860" width="130" height="28" rx="14" fill="#8b5cf6"/><text x="125" y="879" text-anchor="middle" fill="#fff" font-size="11" font-weight="600">核心创新层</text>
+<rect x="230" y="664" width="370" height="165" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="230" y="664" width="370" height="34" rx="8" fill="#8b5cf6"/>
+<text x="415" y="686" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">智能体1：新兴岗位发现与定义 + 既有能力更新</text>
+<text x="415" y="714" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="600">BERTopic/LDA聚类 → 新岗位候选识别</text>
+<text x="415" y="734" text-anchor="middle" fill="#475569" font-size="11">LLM + RAG 生成岗位定义</text>
+<text x="415" y="754" text-anchor="middle" fill="#475569" font-size="11">时间窗口技能频率对比 → diff 日志</text>
+<text x="415" y="774" text-anchor="middle" fill="#475569" font-size="11">岗位-技能层级树构建</text>
+<text x="415" y="798" text-anchor="middle" fill="#6b7280" font-size="10" font-style="italic">解决难题1：精准发现并定义新兴岗位</text>
+<rect x="630" y="664" width="370" height="165" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="630" y="664" width="370" height="34" rx="8" fill="#8b5cf6"/>
+<text x="815" y="686" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">智能体2：数据质量治理 + 幻觉防控</text>
+<text x="815" y="714" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="600">时间序列 · 趋势与噪声区分</text>
+<text x="815" y="734" text-anchor="middle" fill="#475569" font-size="11">文本相似度抄袭检测</text>
+<text x="815" y="754" text-anchor="middle" fill="#475569" font-size="11">多模型共识机制：多LLM独立推理，共识入图</text>
+<text x="815" y="774" text-anchor="middle" fill="#475569" font-size="11">知识库约束 + 置信度评分 + 数据溯源</text>
+<text x="815" y="798" text-anchor="middle" fill="#6b7280" font-size="10" font-style="italic">解决难题2：时滞·噪声·抄袭·幻觉防控</text>
+<rect x="1030" y="664" width="310" height="165" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="1030" y="664" width="310" height="34" rx="8" fill="#8b5cf6"/>
+<text x="1185" y="686" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">智能体3：简历解析与人岗匹配</text>
+<text x="1185" y="714" text-anchor="middle" fill="#4338ca" font-size="12" font-weight="600">NER + LLM 简历要素提取</text>
+<text x="1185" y="734" text-anchor="middle" fill="#475569" font-size="11">技能向量 × 岗位图谱语义匹配</text>
+<text x="1185" y="754" text-anchor="middle" fill="#475569" font-size="11">匹配度·覆盖度·缺失项·冗余项</text>
+<text x="1185" y="774" text-anchor="middle" fill="#475569" font-size="11">学习路径规划（课程→项目→认证）</text>
+<text x="1185" y="798" text-anchor="middle" fill="#6b7280" font-size="10" font-style="italic">解决难题3：高精度简历解析与差距分析</text>
+<rect x="550" y="852" width="380" height="50" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="740" y="876" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">MongoDB · jobs_kg 知识图谱中间存储</text>
+<text x="740" y="894" text-anchor="middle" fill="#64748b" font-size="10">存储Agent加工后的结构化关系数据</text>
+<line x1="700" y1="962" x2="700" y2="976" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="979" width="1340" height="130" rx="8" fill="none" stroke="#f472b6" stroke-width="2"/>
+<rect x="40" y="979" width="170" height="130" rx="6" fill="#fce7f3"/>
+<text x="125" y="1033" text-anchor="middle" fill="#831843" font-size="15" font-weight="700">知识图谱层</text>
+<text x="125" y="1053" text-anchor="middle" fill="#ec4899" font-size="11">Knowledge Graph</text>
+<rect x="230" y="992" width="520" height="102" rx="6" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="490" y="1014" text-anchor="middle" fill="#be185d" font-size="14" font-weight="600">图数据库（Neo4j / NebulaGraph）</text>
+<text x="490" y="1036" text-anchor="middle" fill="#64748b" font-size="11">节点：岗位 | 技能 | 行业 | 公司 | 工具栈</text>
+<text x="490" y="1054" text-anchor="middle" fill="#64748b" font-size="11">边：requires | depends_on | belongs_to | evolves_from</text>
+<text x="490" y="1072" text-anchor="middle" fill="#64748b" font-size="11">岗位→技能→行业全景关系网络，支持多跳查询</text>
+<rect x="780" y="992" width="520" height="102" rx="6" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="1040" y="1014" text-anchor="middle" fill="#be185d" font-size="14" font-weight="600">动态演化引擎</text>
+<text x="1040" y="1036" text-anchor="middle" fill="#64748b" font-size="11">节点/关系带时间戳版本标记，支持回溯历史状态</text>
+<text x="1040" y="1054" text-anchor="middle" fill="#64748b" font-size="11">定期自动增量更新</text>
+<text x="1040" y="1072" text-anchor="middle" fill="#64748b" font-size="11">变更日志：来源数据 + 置信度评分</text>
+<line x1="700" y1="1109" x2="700" y2="1123" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="1126" width="1340" height="155" rx="8" fill="none" stroke="#f87171" stroke-width="2"/>
+<rect x="40" y="1126" width="170" height="155" rx="6" fill="#fee2e2"/>
+<text x="125" y="1190" text-anchor="middle" fill="#7f1d1d" font-size="15" font-weight="700">应用展示层</text>
+<text x="125" y="1210" text-anchor="middle" fill="#ef4444" font-size="11">UI Layer</text>
+<rect x="240" y="1138" width="220" height="62" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="350" y="1160" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="600">FastAPI 后端 API 层</text>
+<text x="350" y="1180" text-anchor="middle" fill="#64748b" font-size="10">图谱查询 · 人岗匹配 · 简历上传解析</text>
+<text x="350" y="1196" text-anchor="middle" fill="#64748b" font-size="10">岗位搜索筛选 · 数据管理</text>
+<rect x="490" y="1138" width="380" height="62" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="680" y="1160" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="600">全景图谱仪表盘（D3.js / ECharts）</text>
+<text x="680" y="1180" text-anchor="middle" fill="#64748b" font-size="10">力导向图 · 树形图 · 桑基图 多模式展示</text>
+<text x="680" y="1196" text-anchor="middle" fill="#64748b" font-size="10">按技术栈/级别切换视图 · 下钻到技能点级</text>
+<rect x="900" y="1138" width="380" height="62" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="1090" y="1160" text-anchor="middle" fill="#dc2626" font-size="13" font-weight="600">人岗匹配诊断界面</text>
+<text x="1090" y="1180" text-anchor="middle" fill="#64748b" font-size="10">技能缺失雷达图 · 匹配百分比 · 差距项列表</text>
+<text x="1090" y="1196" text-anchor="middle" fill="#64748b" font-size="10">点击每项查看学习路径推荐</text>
+<rect x="240" y="1214" width="1040" height="28" rx="14" fill="#fee2e2"/>
+<text x="760" y="1233" text-anchor="middle" fill="#b91c1c" font-size="11">前端：React/Vue3 + TS · 后端：FastAPI · 可视化：D3.js+ECharts · 部署：Docker</text>
+<rect x="1345" y="1280" width="25" height="30" rx="4" fill="#f1f5f9"/><text x="1357" y="1300" text-anchor="middle" fill="#94a3b8" font-size="10">6层</text>
+<line x1="80" y1="1310" x2="1320" y2="1310" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="8,4"/>
+<rect x="550" y="1300" width="300" height="20" rx="10" fill="#f1f5f9"/>
+<text x="700" y="1314" text-anchor="middle" fill="#64748b" font-size="11">▼ 六层架构至此结束 ▼</text>
+</svg>

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'DIN-Regular';
+  src: url('../fonts/DIN-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap; /* 优化字体加载显示 */
+}
+
+@font-face {
+  font-family: 'DIN-Medium';
+  src: url('../fonts/DIN-Medium.otf') format('opentype');
+  font-weight: medium;
+  font-display: swap; /* 优化字体加载显示 */
+}

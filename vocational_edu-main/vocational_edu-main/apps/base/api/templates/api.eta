@@ -1,0 +1,30 @@
+<%
+const { apiConfig, routes, utils, config } = it;
+%>
+
+import { CachedApi, ContentType, RequestParams, ApiConfig } from '../composables/CachedAxiosClient'
+
+let API: CachedApi
+
+export function initApi(config: ApiConfig) {
+    API = new CachedApi(config)
+    return API
+}
+
+<% routes.combined && routes.combined.forEach(({ routes = [], moduleName, urlPrefix }) => { %>
+
+export const $<%~ moduleName %> = {
+        <% routes.forEach((route) => { %>
+
+            <%~ includeFile('./procedure-call.eta', { ...it, route, moduleName: moduleName }) %>
+
+        <% }) %>
+
+
+        Reload: (...parts: string[]) => {
+             return API.removeCache('<%~ urlPrefix %>', ...parts)
+        }
+}
+
+<% }) %>
+

@@ -1,0 +1,200 @@
+{
+    "industry": [
+        {
+            "name": "电商平台",
+            "is_active": false
+        },
+        {
+            "name": "汽车交易平台",
+            "is_active": false
+        },
+        {
+            "name": "游戏",
+            "is_active": false
+        },
+        {
+            "name": "工具类产品",
+            "is_active": false
+        },
+        {
+            "name": "软件服务｜咨询",
+            "is_active": false
+        },
+        {
+            "name": "数据服务｜咨询",
+            "is_active": false
+        },
+        {
+            "name": "IT技术服务｜咨询",
+            "is_active": false
+        },
+        {
+            "name": "营销服务｜咨询",
+            "is_active": false
+        },
+        {
+            "name": "人工智能服务",
+            "is_active": false
+        },
+        {
+            "name": "物联网",
+            "is_active": false
+        },
+        {
+            "name": "分类信息",
+            "is_active": false
+        },
+        {
+            "name": "消费生活",
+            "is_active": false
+        },
+        {
+            "name": "社交平台",
+            "is_active": false
+        },
+        {
+            "name": "内容资讯",
+            "is_active": false
+        },
+        {
+            "name": "内容社区",
+            "is_active": false
+        },
+        {
+            "name": "社交媒体",
+            "is_active": false
+        },
+        {
+            "name": "音频｜视频媒体",
+            "is_active": false
+        },
+        {
+            "name": "短视频",
+            "is_active": false
+        },
+        {
+            "name": "MCN｜直播平台",
+            "is_active": false
+        },
+        {
+            "name": "区块链",
+            "is_active": false
+        },
+        {
+            "name": "信息安全",
+            "is_active": false
+        },
+        {
+            "name": "信息检索",
+            "is_active": false
+        },
+        {
+            "name": "新零售",
+            "is_active": false
+        },
+        {
+            "name": "在线教育",
+            "is_active": false
+        },
+        {
+            "name": "物流平台",
+            "is_active": false
+        },
+        {
+            "name": "生活服务",
+            "is_active": false
+        },
+        {
+            "name": "影视｜动漫",
+            "is_active": false
+        },
+        {
+            "name": "新媒体",
+            "is_active": false
+        },
+        {
+            "name": "科技金融",
+            "is_active": false
+        },
+        {
+            "name": "居住服务",
+            "is_active": false
+        },
+        {
+            "name": "新能源汽车制造",
+            "is_active": false
+        },
+        {
+            "name": "智能硬件",
+            "is_active": false
+        },
+        {
+            "name": "网络通信",
+            "is_active": false
+        },
+        {
+            "name": "在线医疗",
+            "is_active": false
+        },
+        {
+            "name": "旅游｜出行",
+            "is_active": false
+        },
+        {
+            "name": "批发｜零售",
+            "is_active": false
+        },
+        {
+            "name": "贸易｜进出口",
+            "is_active": false
+        },
+        {
+            "name": "教育｜培训",
+            "is_active": false
+        },
+        {
+            "name": "专业服务｜咨询",
+            "is_active": false
+        },
+        {
+            "name": "物流｜运输",
+            "is_active": false
+        },
+        {
+            "name": "文化传媒",
+            "is_active": false
+        },
+        {
+            "name": "金融业",
+            "is_active": false
+        },
+        {
+            "name": "房地产｜建筑｜物业",
+            "is_active": false
+        },
+        {
+            "name": "制造业",
+            "is_active": false
+        },
+        {
+            "name": "医疗｜保健｜美容",
+            "is_active": false
+        },
+        {
+            "name": "服务业",
+            "is_active": false
+        },
+        {
+            "name": "能源｜矿产｜环保",
+            "is_active": false
+        },
+        {
+            "name": "农林牧渔",
+            "is_active": false
+        },
+        {
+            "name": "休闲｜娱乐",
+            "is_active": false
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🔍 运行pre-commit检查..."
+
+# 运行lint-staged
+npx lint-staged
+
+echo "✅ pre-commit检查完成"

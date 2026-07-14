@@ -1,0 +1,79 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install
+        env:
+          PNPM_REGISTRY: https://registry.npmjs.org/
+
+      # 构建、部署并同步 bigScreen 项目
+      - name: 构建 bigScreen 项目
+        run: npm run build:bigScreen
+
+      - name: 同步 bigScreen 到服务器
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: dist/bigScreen
+          remote_path: /app/vocational_edu/
+          remote_host: 210.14.140.54
+          remote_port: 41135
+          remote_user: root
+          remote_key: ${{ secrets.DEPLOY_TO_54_PK }}
+
+      - name: 重启 bigScreen 项目
+        uses: appleboy/ssh-action@master
+        with:
+          host: 210.14.140.54
+          port: 41135
+          username: root
+          key: ${{ secrets.DEPLOY_TO_54_PK }}
+          script: |
+            pm2 restart zj_big_screen
+
+      # 构建、部署并同步 dataManagement 项目
+      - name: 构建 dataManagement 项目
+        run: npm run build:data
+
+      - name: 同步 dataManagement 到服务器
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: dist/dataManagement
+          remote_path: /app/vocational_edu/
+          remote_host: 210.14.140.54
+          remote_port: 41135
+          remote_user: root
+          remote_key: ${{ secrets.DEPLOY_TO_54_PK }}
+
+      - name: 重启 dataManagement 项目
+        uses: appleboy/ssh-action@master
+        with:
+          host: 210.14.140.54
+          port: 41135
+          username: root
+          key: ${{ secrets.DEPLOY_TO_54_PK }}
+          script: |
+            pm2 restart zj_data_management

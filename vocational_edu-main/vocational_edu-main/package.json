@@ -1,0 +1,45 @@
+{
+  "name": "vocational_edu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen:api": "pnpm --filter base run gen:api",
+    "dev:bigScreen": "pnpm --filter bigScreen dev",
+    "build:bigScreen": "pnpm --filter bigScreen build",
+    "dev:data": "pnpm --filter dataManagement dev",
+    "build:data": "pnpm --filter dataManagement build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.0.0",
+    "swagger-typescript-api": "^13.0.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.5",
+    "dayjs": "^1.11.18",
+    "lodash": "^4.17.21",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "pnpm": {
+    "overrides": {
+      "nanoid": "3.3.7",
+      "@rolldown/pluginutils": "1.0.0-beta.32"
+    }
+  }
+}

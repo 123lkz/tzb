@@ -1,0 +1,1803 @@
+{
+  "全国": {
+    "jobCount": 16254,
+    "totalRecruit": 15442369,
+    "regionRanking": [
+      {
+        "name": "北京市",
+        "value": 32000,
+        "rank": 1
+      },
+      {
+        "name": "天津市",
+        "value": 28000,
+        "rank": 2
+      },
+      {
+        "name": "河北省",
+        "value": 27000,
+        "rank": 3
+      },
+      {
+        "name": "山西省",
+        "value": 25000,
+        "rank": 4
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 20000,
+        "rank": 5
+      },
+      {
+        "name": "辽宁省",
+        "value": 29000,
+        "rank": 6
+      },
+      {
+        "name": "吉林省",
+        "value": 24000,
+        "rank": 7
+      },
+      {
+        "name": "黑龙江省",
+        "value": 23000,
+        "rank": 8
+      },
+      {
+        "name": "上海市",
+        "value": 31000,
+        "rank": 9
+      },
+      {
+        "name": "江苏省",
+        "value": 30000,
+        "rank": 10
+      },
+      {
+        "name": "浙江省",
+        "value": 29000,
+        "rank": 11
+      },
+      {
+        "name": "安徽省",
+        "value": 26000,
+        "rank": 12
+      },
+      {
+        "name": "福建省",
+        "value": 27000,
+        "rank": 13
+      },
+      {
+        "name": "江西省",
+        "value": 25000,
+        "rank": 14
+      },
+      {
+        "name": "山东省",
+        "value": 31000,
+        "rank": 15
+      },
+      {
+        "name": "河南省",
+        "value": 28000,
+        "rank": 16
+      },
+      {
+        "name": "湖北省",
+        "value": 27000,
+        "rank": 17
+      },
+      {
+        "name": "湖南省",
+        "value": 26000,
+        "rank": 18
+      },
+      {
+        "name": "广东省",
+        "value": 33000,
+        "rank": 19
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 22000,
+        "rank": 20
+      },
+      {
+        "name": "海南省",
+        "value": 19000,
+        "rank": 21
+      },
+      {
+        "name": "重庆市",
+        "value": 29000,
+        "rank": 22
+      },
+      {
+        "name": "四川省",
+        "value": 27000,
+        "rank": 23
+      },
+      {
+        "name": "贵州省",
+        "value": 23000,
+        "rank": 24
+      },
+      {
+        "name": "云南省",
+        "value": 24000,
+        "rank": 25
+      },
+      {
+        "name": "西藏自治区",
+        "value": 18000,
+        "rank": 26
+      },
+      {
+        "name": "陕西省",
+        "value": 26000,
+        "rank": 27
+      },
+      {
+        "name": "甘肃省",
+        "value": 22000,
+        "rank": 28
+      },
+      {
+        "name": "青海省",
+        "value": 19000,
+        "rank": 29
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 20000,
+        "rank": 30
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 21000,
+        "rank": 31
+      },
+      {
+        "name": "台湾省",
+        "value": 20000,
+        "rank": 32
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 21000,
+        "rank": 33
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 18000,
+        "rank": 34
+      }
+    ],
+    "industryRanking": [
+      {
+        "name": "互联网平台",
+        "value": 32000,
+        "rank": 1
+      },
+      {
+        "name": "广告业",
+        "value": 28000,
+        "rank": 2
+      },
+      {
+        "name": "人力资源服务",
+        "value": 27000,
+        "rank": 3
+      },
+      {
+        "name": "保险业",
+        "value": 25000,
+        "rank": 4
+      },
+      {
+        "name": "软件开发",
+        "value": 20000,
+        "rank": 5
+      },
+      {
+        "name": "餐饮业",
+        "value": 29000,
+        "rank": 6
+      },
+      {
+        "name": "零售业",
+        "value": 24000,
+        "rank": 7
+      },
+      {
+        "name": "咨询与调查",
+        "value": 23000,
+        "rank": 8
+      },
+      {
+        "name": "道路运输",
+        "value": 31000,
+        "rank": 9
+      },
+      {
+        "name": "批发业",
+        "value": 30000,
+        "rank": 10
+      },
+      {
+        "name": "农副食品加工",
+        "value": 29000,
+        "rank": 11
+      },
+      {
+        "name": "医疗行业",
+        "value": 26000,
+        "rank": 12
+      },
+      {
+        "name": "纺织业",
+        "value": 27000,
+        "rank": 13
+      },
+      {
+        "name": "商务服务",
+        "value": 25000,
+        "rank": 14
+      },
+      {
+        "name": "专业技术服务",
+        "value": 31000,
+        "rank": 15
+      },
+      {
+        "name": "法律服务",
+        "value": 28000,
+        "rank": 16
+      },
+      {
+        "name": "邮政",
+        "value": 27000,
+        "rank": 17
+      },
+      {
+        "name": "饮料制造",
+        "value": 26000,
+        "rank": 18
+      },
+      {
+        "name": "通信设备",
+        "value": 33000,
+        "rank": 19
+      }
+    ],
+    "careerRanking": [
+      {
+        "name": "AI算法工程师",
+        "value": 9500,
+        "rank": 1
+      },
+      {
+        "name": "大数据开发",
+        "value": 9200,
+        "rank": 2
+      },
+      {
+        "name": "软件工程师",
+        "value": 12000,
+        "rank": 3
+      },
+      {
+        "name": "前端开发",
+        "value": 10500,
+        "rank": 4
+      },
+      {
+        "name": "产品经理",
+        "value": 11000,
+        "rank": 5
+      }
+    ],
+    "topJob": [
+      {
+        "name": "软件工程师",
+        "value": 12000,
+        "rank": 1
+      },
+      {
+        "name": "产品经理",
+        "value": 11000,
+        "rank": 2
+      },
+      {
+        "name": "前端开发",
+        "value": 10500,
+        "rank": 3
+      },
+      {
+        "name": "Java开发",
+        "value": 9800,
+        "rank": 4
+      },
+      {
+        "name": "AI算法工程师",
+        "value": 9500,
+        "rank": 5
+      },
+      {
+        "name": "大数据开发",
+        "value": 9200,
+        "rank": 6
+      },
+      {
+        "name": "测试工程师",
+        "value": 9000,
+        "rank": 7
+      },
+      {
+        "name": "运维工程师",
+        "value": 8700,
+        "rank": 8
+      },
+      {
+        "name": "Python开发",
+        "value": 8500,
+        "rank": 9
+      },
+      {
+        "name": "UI设计师",
+        "value": 8200,
+        "rank": 10
+      },
+      {
+        "name": "C++开发",
+        "value": 8000,
+        "rank": 11
+      },
+      {
+        "name": "系统管理员",
+        "value": 7800,
+        "rank": 12
+      },
+      {
+        "name": "Android开发",
+        "value": 7600,
+        "rank": 13
+      },
+      {
+        "name": "iOS开发",
+        "value": 7400,
+        "rank": 14
+      },
+      {
+        "name": "架构师",
+        "value": 7200,
+        "rank": 15
+      },
+      {
+        "name": "机器学习工程师",
+        "value": 7000,
+        "rank": 16
+      },
+      {
+        "name": "Golang开发",
+        "value": 6800,
+        "rank": 17
+      },
+      {
+        "name": "网络安全工程师",
+        "value": 6600,
+        "rank": 18
+      },
+      {
+        "name": "数据分析员",
+        "value": 6400,
+        "rank": 19
+      },
+      {
+        "name": "数据库管理员",
+        "value": 6200,
+        "rank": 20
+      }
+    ],
+    "threeIndustry": [
+      {
+        "name": "第一产业",
+        "value": 1800,
+        "rank": 1
+      },
+      {
+        "name": "第二产业",
+        "value": 1700,
+        "rank": 2
+      },
+      {
+        "name": "第三产业",
+        "value": 1600,
+        "rank": 3
+      }
+    ],
+    "educationExp": {
+      "education": [
+        {
+          "name": "大专",
+          "value": 2501,
+          "rank": 1
+        },
+        {
+          "name": "本科",
+          "value": 509,
+          "rank": 2
+        },
+        {
+          "name": "硕士",
+          "value": 320,
+          "rank": 3
+        },
+        {
+          "name": "博士",
+          "value": 45,
+          "rank": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "无经验",
+          "value": 930,
+          "rank": 1
+        },
+        {
+          "name": "1年以下",
+          "value": 784,
+          "rank": 2
+        },
+        {
+          "name": "1-3年",
+          "value": 2100,
+          "rank": 3
+        },
+        {
+          "name": "3-5年",
+          "value": 1800,
+          "rank": 4
+        },
+        {
+          "name": "5年以上",
+          "value": 650,
+          "rank": 5
+        }
+      ],
+      "companyType": [
+        {
+          "name": "大型",
+          "value": 25,
+          "rank": 1
+        },
+        {
+          "name": "中型",
+          "value": 509,
+          "rank": 2
+        },
+        {
+          "name": "小型",
+          "value": 300,
+          "rank": 3
+        }
+      ]
+    },
+    "companyType": [
+      {
+        "name": "大型",
+        "value": 25,
+        "rank": 1
+      },
+      {
+        "name": "中型",
+        "value": 509,
+        "rank": 2
+      },
+      {
+        "name": "小型",
+        "value": 300,
+        "rank": 3
+      }
+    ],
+    "map": [
+      {
+        "name": "北京市",
+        "value": 32000,
+        "rank": 1
+      },
+      {
+        "name": "天津市",
+        "value": 28000,
+        "rank": 2
+      },
+      {
+        "name": "河北省",
+        "value": 27000,
+        "rank": 3
+      },
+      {
+        "name": "山西省",
+        "value": 25000,
+        "rank": 4
+      },
+      {
+        "name": "内蒙古自治区",
+        "value": 20000,
+        "rank": 5
+      },
+      {
+        "name": "辽宁省",
+        "value": 29000,
+        "rank": 6
+      },
+      {
+        "name": "吉林省",
+        "value": 24000,
+        "rank": 7
+      },
+      {
+        "name": "黑龙江省",
+        "value": 23000,
+        "rank": 8
+      },
+      {
+        "name": "上海市",
+        "value": 31000,
+        "rank": 9
+      },
+      {
+        "name": "江苏省",
+        "value": 30000,
+        "rank": 10
+      },
+      {
+        "name": "浙江省",
+        "value": 29000,
+        "rank": 11
+      },
+      {
+        "name": "安徽省",
+        "value": 26000,
+        "rank": 12
+      },
+      {
+        "name": "福建省",
+        "value": 27000,
+        "rank": 13
+      },
+      {
+        "name": "江西省",
+        "value": 25000,
+        "rank": 14
+      },
+      {
+        "name": "山东省",
+        "value": 31000,
+        "rank": 15
+      },
+      {
+        "name": "河南省",
+        "value": 28000,
+        "rank": 16
+      },
+      {
+        "name": "湖北省",
+        "value": 27000,
+        "rank": 17
+      },
+      {
+        "name": "湖南省",
+        "value": 26000,
+        "rank": 18
+      },
+      {
+        "name": "广东省",
+        "value": 33000,
+        "rank": 19
+      },
+      {
+        "name": "广西壮族自治区",
+        "value": 22000,
+        "rank": 20
+      },
+      {
+        "name": "海南省",
+        "value": 19000,
+        "rank": 21
+      },
+      {
+        "name": "重庆市",
+        "value": 29000,
+        "rank": 22
+      },
+      {
+        "name": "四川省",
+        "value": 27000,
+        "rank": 23
+      },
+      {
+        "name": "贵州省",
+        "value": 23000,
+        "rank": 24
+      },
+      {
+        "name": "云南省",
+        "value": 24000,
+        "rank": 25
+      },
+      {
+        "name": "西藏自治区",
+        "value": 18000,
+        "rank": 26
+      },
+      {
+        "name": "陕西省",
+        "value": 26000,
+        "rank": 27
+      },
+      {
+        "name": "甘肃省",
+        "value": 22000,
+        "rank": 28
+      },
+      {
+        "name": "青海省",
+        "value": 19000,
+        "rank": 29
+      },
+      {
+        "name": "宁夏回族自治区",
+        "value": 20000,
+        "rank": 30
+      },
+      {
+        "name": "新疆维吾尔自治区",
+        "value": 21000,
+        "rank": 31
+      },
+      {
+        "name": "台湾省",
+        "value": 20000,
+        "rank": 32
+      },
+      {
+        "name": "香港特别行政区",
+        "value": 21000,
+        "rank": 33
+      },
+      {
+        "name": "澳门特别行政区",
+        "value": 18000,
+        "rank": 34
+      }
+    ],
+    "trendData": [
+      { "name": "2024-07", "jobCount": 10000, "recruitCount": 20000 },
+      { "name": "2024-08", "jobCount": 12000, "recruitCount": 22000 },
+      { "name": "2024-09", "jobCount": 13000, "recruitCount": 21000 },
+      { "name": "2024-10", "jobCount": 14000, "recruitCount": 23000 },
+      { "name": "2024-11", "jobCount": 15000, "recruitCount": 25000 },
+      { "name": "2024-12", "jobCount": 16000, "recruitCount": 26000 },
+      { "name": "2025-01", "jobCount": 17000, "recruitCount": 27000 },
+      { "name": "2025-02", "jobCount": 18000, "recruitCount": 28000 },
+      { "name": "2025-03", "jobCount": 19000, "recruitCount": 29000 },
+      { "name": "2025-04", "jobCount": 20000, "recruitCount": 30000 },
+      { "name": "2025-05", "jobCount": 21000, "recruitCount": 31000 },
+      { "name": "2025-06", "jobCount": 22000, "recruitCount": 32000 },
+      { "name": "2025-07", "jobCount": 23000, "recruitCount": 33000 }
+    ]
+  },
+  "北京市": {
+    "jobCount": 6012,
+    "totalRecruit": 12512,
+    "provinceBar": [
+      {
+        "name": "东城区",
+        "value": 8000,
+        "rank": 1
+      },
+      {
+        "name": "西城区",
+        "value": 7000,
+        "rank": 2
+      },
+      {
+        "name": "朝阳区",
+        "value": 9000,
+        "rank": 3
+      },
+      {
+        "name": "海淀区",
+        "value": 10000,
+        "rank": 4
+      },
+      {
+        "name": "丰台区",
+        "value": 7500,
+        "rank": 5
+      },
+      {
+        "name": "石景山区",
+        "value": 6500,
+        "rank": 6
+      }
+    ],
+    "topJob": [
+      {
+        "name": "软件工程师",
+        "value": 3000,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 2800,
+        "rank": 2
+      },
+      {
+        "name": "产品经理",
+        "value": 2500,
+        "rank": 3
+      },
+      {
+        "name": "AI算法工程师",
+        "value": 2400,
+        "rank": 4
+      },
+      {
+        "name": "大数据开发",
+        "value": 2300,
+        "rank": 5
+      },
+      {
+        "name": "Java开发",
+        "value": 2200,
+        "rank": 6
+      },
+      {
+        "name": "运维工程师",
+        "value": 2100,
+        "rank": 7
+      },
+      {
+        "name": "Python开发",
+        "value": 2000,
+        "rank": 8
+      },
+      {
+        "name": "UI设计师",
+        "value": 1900,
+        "rank": 9
+      },
+      {
+        "name": "Golang开发",
+        "value": 1800,
+        "rank": 10
+      },
+      {
+        "name": "Android开发",
+        "value": 1700,
+        "rank": 11
+      },
+      {
+        "name": "iOS开发",
+        "value": 1600,
+        "rank": 12
+      },
+      {
+        "name": "架构师",
+        "value": 1500,
+        "rank": 13
+      },
+      {
+        "name": "机器学习工程师",
+        "value": 1400,
+        "rank": 14
+      },
+      {
+        "name": "测试工程师",
+        "value": 1300,
+        "rank": 15
+      },
+      {
+        "name": "数据库管理员",
+        "value": 1200,
+        "rank": 16
+      },
+      {
+        "name": "系统管理员",
+        "value": 1100,
+        "rank": 17
+      },
+      {
+        "name": "网络安全工程师",
+        "value": 1000,
+        "rank": 18
+      },
+      {
+        "name": "数据分析员",
+        "value": 950,
+        "rank": 19
+      },
+      {
+        "name": "C++开发",
+        "value": 900,
+        "rank": 20
+      }
+    ],
+    "hotJob": [
+      {
+        "name": "AI算法工程师",
+        "value": 2400,
+        "rank": 1
+      },
+      {
+        "name": "大数据开发",
+        "value": 2300,
+        "rank": 2
+      },
+      {
+        "name": "软件工程师",
+        "value": 3000,
+        "rank": 3
+      },
+      {
+        "name": "前端开发",
+        "value": 2800,
+        "rank": 4
+      },
+      {
+        "name": "产品经理",
+        "value": 2500,
+        "rank": 5
+      }
+    ],
+    "educationExp": {
+      "education": [
+        {
+          "name": "大专",
+          "value": 1000,
+          "rank": 1
+        },
+        {
+          "name": "本科",
+          "value": 2000,
+          "rank": 2
+        },
+        {
+          "name": "硕士",
+          "value": 800,
+          "rank": 3
+        },
+        {
+          "name": "博士",
+          "value": 200,
+          "rank": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "无经验",
+          "value": 500,
+          "rank": 1
+        },
+        {
+          "name": "1年以下",
+          "value": 600,
+          "rank": 2
+        },
+        {
+          "name": "1-3年",
+          "value": 1500,
+          "rank": 3
+        },
+        {
+          "name": "3-5年",
+          "value": 1200,
+          "rank": 4
+        },
+        {
+          "name": "5年以上",
+          "value": 400,
+          "rank": 5
+        }
+      ]
+    },
+    "companyType": [
+      {
+        "name": "大型",
+        "value": 5,
+        "rank": 1
+      },
+      {
+        "name": "中型",
+        "value": 50,
+        "rank": 2
+      },
+      {
+        "name": "小型",
+        "value": 30,
+        "rank": 3
+      }
+    ],
+    "map": [
+      {
+        "name": "东城区",
+        "value": 8000,
+        "rank": 1
+      },
+      {
+        "name": "西城区",
+        "value": 7000,
+        "rank": 2
+      },
+      {
+        "name": "朝阳区",
+        "value": 9000,
+        "rank": 3
+      },
+      {
+        "name": "海淀区",
+        "value": 10000,
+        "rank": 4
+      },
+      {
+        "name": "丰台区",
+        "value": 7500,
+        "rank": 5
+      },
+      {
+        "name": "石景山区",
+        "value": 6500,
+        "rank": 6
+      }
+    ],
+    "trendData": [
+      { "name": "2024-07", "jobCount": 10000, "recruitCount": 20000 },
+      { "name": "2024-08", "jobCount": 12000, "recruitCount": 22000 },
+      { "name": "2024-09", "jobCount": 13000, "recruitCount": 21000 },
+      { "name": "2024-10", "jobCount": 14000, "recruitCount": 23000 },
+      { "name": "2024-11", "jobCount": 15000, "recruitCount": 25000 },
+      { "name": "2024-12", "jobCount": 16000, "recruitCount": 26000 },
+      { "name": "2025-01", "jobCount": 17000, "recruitCount": 27000 },
+      { "name": "2025-02", "jobCount": 18000, "recruitCount": 28000 },
+      { "name": "2025-03", "jobCount": 19000, "recruitCount": 29000 },
+      { "name": "2025-04", "jobCount": 20000, "recruitCount": 30000 },
+      { "name": "2025-05", "jobCount": 21000, "recruitCount": 31000 },
+      { "name": "2025-06", "jobCount": 22000, "recruitCount": 32000 },
+      { "name": "2025-07", "jobCount": 23000, "recruitCount": 33000 }
+    ]
+  },
+  "天津市": {
+    "jobCount": 4012,
+    "totalRecruit": 10512,
+    "provinceBar": [
+      {
+        "name": "和平区",
+        "value": 6000,
+        "rank": 1
+      },
+      {
+        "name": "河东区",
+        "value": 5500,
+        "rank": 2
+      },
+      {
+        "name": "河西区",
+        "value": 5800,
+        "rank": 3
+      },
+      {
+        "name": "南开区",
+        "value": 6200,
+        "rank": 4
+      },
+      {
+        "name": "河北区",
+        "value": 5000,
+        "rank": 5
+      },
+      {
+        "name": "红桥区",
+        "value": 4800,
+        "rank": 6
+      }
+    ],
+    "topJob": [
+      {
+        "name": "软件工程师",
+        "value": 1800,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 1700,
+        "rank": 2
+      },
+      {
+        "name": "Java开发",
+        "value": 1600,
+        "rank": 3
+      },
+      {
+        "name": "测试工程师",
+        "value": 1500,
+        "rank": 4
+      },
+      {
+        "name": "运维工程师",
+        "value": 1400,
+        "rank": 5
+      },
+      {
+        "name": "产品经理",
+        "value": 1300,
+        "rank": 6
+      },
+      {
+        "name": "Python开发",
+        "value": 1200,
+        "rank": 7
+      },
+      {
+        "name": "UI设计师",
+        "value": 1100,
+        "rank": 8
+      },
+      {
+        "name": "大数据开发",
+        "value": 1000,
+        "rank": 9
+      },
+      {
+        "name": "AI算法工程师",
+        "value": 950,
+        "rank": 10
+      },
+      {
+        "name": "Android开发",
+        "value": 900,
+        "rank": 11
+      },
+      {
+        "name": "iOS开发",
+        "value": 850,
+        "rank": 12
+      },
+      {
+        "name": "架构师",
+        "value": 800,
+        "rank": 13
+      },
+      {
+        "name": "系统管理员",
+        "value": 750,
+        "rank": 14
+      },
+      {
+        "name": "机器学习工程师",
+        "value": 700,
+        "rank": 15
+      },
+      {
+        "name": "Golang开发",
+        "value": 650,
+        "rank": 16
+      },
+      {
+        "name": "数据库管理员",
+        "value": 600,
+        "rank": 17
+      },
+      {
+        "name": "网络安全工程师",
+        "value": 550,
+        "rank": 18
+      },
+      {
+        "name": "数据分析员",
+        "value": 500,
+        "rank": 19
+      },
+      {
+        "name": "C++开发",
+        "value": 450,
+        "rank": 20
+      }
+    ],
+    "hotJob": [
+      {
+        "name": "软件工程师",
+        "value": 1800,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 1700,
+        "rank": 2
+      },
+      {
+        "name": "Java开发",
+        "value": 1600,
+        "rank": 3
+      },
+      {
+        "name": "测试工程师",
+        "value": 1500,
+        "rank": 4
+      },
+      {
+        "name": "运维工程师",
+        "value": 1400,
+        "rank": 5
+      }
+    ],
+    "educationExp": {
+      "education": [
+        {
+          "name": "大专",
+          "value": 800,
+          "rank": 1
+        },
+        {
+          "name": "本科",
+          "value": 1200,
+          "rank": 2
+        },
+        {
+          "name": "硕士",
+          "value": 300,
+          "rank": 3
+        },
+        {
+          "name": "博士",
+          "value": 80,
+          "rank": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "无经验",
+          "value": 400,
+          "rank": 1
+        },
+        {
+          "name": "1年以下",
+          "value": 500,
+          "rank": 2
+        },
+        {
+          "name": "1-3年",
+          "value": 1000,
+          "rank": 3
+        },
+        {
+          "name": "3-5年",
+          "value": 800,
+          "rank": 4
+        },
+        {
+          "name": "5年以上",
+          "value": 200,
+          "rank": 5
+        }
+      ]
+    },
+    "companyType": [
+      {
+        "name": "大型",
+        "value": 3,
+        "rank": 1
+      },
+      {
+        "name": "中型",
+        "value": 30,
+        "rank": 2
+      },
+      {
+        "name": "小型",
+        "value": 20,
+        "rank": 3
+      }
+    ],
+    "map": [
+      {
+        "name": "和平区",
+        "value": 6000,
+        "rank": 1
+      },
+      {
+        "name": "河东区",
+        "value": 5500,
+        "rank": 2
+      },
+      {
+        "name": "河西区",
+        "value": 5800,
+        "rank": 3
+      },
+      {
+        "name": "南开区",
+        "value": 6200,
+        "rank": 4
+      },
+      {
+        "name": "河北区",
+        "value": 5000,
+        "rank": 5
+      },
+      {
+        "name": "红桥区",
+        "value": 4800,
+        "rank": 6
+      }
+    ],
+    "trendData": [
+      { "name": "2024-07", "jobCount": 10000, "recruitCount": 20000 },
+      { "name": "2024-08", "jobCount": 12000, "recruitCount": 22000 },
+      { "name": "2024-09", "jobCount": 13000, "recruitCount": 21000 },
+      { "name": "2024-10", "jobCount": 14000, "recruitCount": 23000 },
+      { "name": "2024-11", "jobCount": 15000, "recruitCount": 25000 },
+      { "name": "2024-12", "jobCount": 16000, "recruitCount": 26000 },
+      { "name": "2025-01", "jobCount": 17000, "recruitCount": 27000 },
+      { "name": "2025-02", "jobCount": 18000, "recruitCount": 28000 },
+      { "name": "2025-03", "jobCount": 19000, "recruitCount": 29000 },
+      { "name": "2025-04", "jobCount": 20000, "recruitCount": 30000 },
+      { "name": "2025-05", "jobCount": 21000, "recruitCount": 31000 },
+      { "name": "2025-06", "jobCount": 22000, "recruitCount": 32000 },
+      { "name": "2025-07", "jobCount": 23000, "recruitCount": 33000 }
+    ]
+  },
+  "上海市": {
+    "jobCount": 7012,
+    "totalRecruit": 15512,
+    "provinceBar": [
+      {
+        "name": "黄浦区",
+        "value": 7500,
+        "rank": 1
+      },
+      {
+        "name": "徐汇区",
+        "value": 7000,
+        "rank": 2
+      },
+      {
+        "name": "长宁区",
+        "value": 6800,
+        "rank": 3
+      },
+      {
+        "name": "静安区",
+        "value": 7200,
+        "rank": 4
+      },
+      {
+        "name": "普陀区",
+        "value": 6500,
+        "rank": 5
+      },
+      {
+        "name": "虹口区",
+        "value": 6000,
+        "rank": 6
+      }
+    ],
+    "topJob": [
+      {
+        "name": "软件工程师",
+        "value": 2200,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 2100,
+        "rank": 2
+      },
+      {
+        "name": "Java开发",
+        "value": 2000,
+        "rank": 3
+      },
+      {
+        "name": "测试工程师",
+        "value": 1900,
+        "rank": 4
+      },
+      {
+        "name": "运维工程师",
+        "value": 1800,
+        "rank": 5
+      },
+      {
+        "name": "产品经理",
+        "value": 1700,
+        "rank": 6
+      },
+      {
+        "name": "Python开发",
+        "value": 1600,
+        "rank": 7
+      },
+      {
+        "name": "UI设计师",
+        "value": 1500,
+        "rank": 8
+      },
+      {
+        "name": "大数据开发",
+        "value": 1400,
+        "rank": 9
+      },
+      {
+        "name": "AI算法工程师",
+        "value": 1300,
+        "rank": 10
+      },
+      {
+        "name": "Android开发",
+        "value": 1200,
+        "rank": 11
+      },
+      {
+        "name": "iOS开发",
+        "value": 1100,
+        "rank": 12
+      },
+      {
+        "name": "架构师",
+        "value": 1000,
+        "rank": 13
+      },
+      {
+        "name": "系统管理员",
+        "value": 900,
+        "rank": 14
+      },
+      {
+        "name": "机器学习工程师",
+        "value": 800,
+        "rank": 15
+      },
+      {
+        "name": "Golang开发",
+        "value": 750,
+        "rank": 16
+      },
+      {
+        "name": "数据库管理员",
+        "value": 700,
+        "rank": 17
+      },
+      {
+        "name": "网络安全工程师",
+        "value": 650,
+        "rank": 18
+      },
+      {
+        "name": "数据分析员",
+        "value": 600,
+        "rank": 19
+      },
+      {
+        "name": "C++开发",
+        "value": 550,
+        "rank": 20
+      }
+    ],
+    "hotJob": [
+      {
+        "name": "软件工程师",
+        "value": 2200,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 2100,
+        "rank": 2
+      },
+      {
+        "name": "Java开发",
+        "value": 2000,
+        "rank": 3
+      },
+      {
+        "name": "测试工程师",
+        "value": 1900,
+        "rank": 4
+      },
+      {
+        "name": "运维工程师",
+        "value": 1800,
+        "rank": 5
+      }
+    ],
+    "educationExp": {
+      "education": [
+        {
+          "name": "大专",
+          "value": 900,
+          "rank": 1
+        },
+        {
+          "name": "本科",
+          "value": 1300,
+          "rank": 2
+        },
+        {
+          "name": "硕士",
+          "value": 400,
+          "rank": 3
+        },
+        {
+          "name": "博士",
+          "value": 100,
+          "rank": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "无经验",
+          "value": 450,
+          "rank": 1
+        },
+        {
+          "name": "1年以下",
+          "value": 550,
+          "rank": 2
+        },
+        {
+          "name": "1-3年",
+          "value": 1200,
+          "rank": 3
+        },
+        {
+          "name": "3-5年",
+          "value": 900,
+          "rank": 4
+        },
+        {
+          "name": "5年以上",
+          "value": 300,
+          "rank": 5
+        }
+      ]
+    },
+    "companyType": [
+      {
+        "name": "大型",
+        "value": 4,
+        "rank": 1
+      },
+      {
+        "name": "中型",
+        "value": 40,
+        "rank": 2
+      },
+      {
+        "name": "小型",
+        "value": 25,
+        "rank": 3
+      }
+    ],
+    "map": [
+      {
+        "name": "黄浦区",
+        "value": 7500,
+        "rank": 1
+      },
+      {
+        "name": "徐汇区",
+        "value": 7000,
+        "rank": 2
+      },
+      {
+        "name": "长宁区",
+        "value": 6800,
+        "rank": 3
+      },
+      {
+        "name": "静安区",
+        "value": 7200,
+        "rank": 4
+      },
+      {
+        "name": "普陀区",
+        "value": 6500,
+        "rank": 5
+      },
+      {
+        "name": "虹口区",
+        "value": 6000,
+        "rank": 6
+      }
+    ],
+    "trendData": [
+      { "name": "2024-07", "jobCount": 10000, "recruitCount": 20000 },
+      { "name": "2024-08", "jobCount": 12000, "recruitCount": 22000 },
+      { "name": "2024-09", "jobCount": 13000, "recruitCount": 21000 },
+      { "name": "2024-10", "jobCount": 14000, "recruitCount": 23000 },
+      { "name": "2024-11", "jobCount": 15000, "recruitCount": 25000 },
+      { "name": "2024-12", "jobCount": 16000, "recruitCount": 26000 },
+      { "name": "2025-01", "jobCount": 17000, "recruitCount": 27000 },
+      { "name": "2025-02", "jobCount": 18000, "recruitCount": 28000 },
+      { "name": "2025-03", "jobCount": 19000, "recruitCount": 29000 },
+      { "name": "2025-04", "jobCount": 20000, "recruitCount": 30000 },
+      { "name": "2025-05", "jobCount": 21000, "recruitCount": 31000 },
+      { "name": "2025-06", "jobCount": 22000, "recruitCount": 32000 },
+      { "name": "2025-07", "jobCount": 23000, "recruitCount": 33000 }
+    ]
+  },
+  "重庆市": {
+    "jobCount": 4092,
+    "totalRecruit": 13202,
+    "provinceBar": [
+      {
+        "name": "渝中区",
+        "value": 6500,
+        "rank": 1
+      },
+      {
+        "name": "江北区",
+        "value": 6000,
+        "rank": 2
+      },
+      {
+        "name": "沙坪坝区",
+        "value": 5800,
+        "rank": 3
+      },
+      {
+        "name": "九龙坡区",
+        "value": 6200,
+        "rank": 4
+      },
+      {
+        "name": "南岸区",
+        "value": 5500,
+        "rank": 5
+      },
+      {
+        "name": "北碚区",
+        "value": 5000,
+        "rank": 6
+      }
+    ],
+    "topJob": [
+      {
+        "name": "软件工程师",
+        "value": 1800,
+        "rank": 1
+      },
+      {
+        "name": "前端开发",
+        "value": 1700,
+        "rank": 2
+      },
+      {
+        "name": "Java开发",
+        "value": 1600,
+        "rank": 3
+      },
+      {
+        "name": "测试工程师",
+        "value": 1500,
+        "rank": 4
+      },
+      {
+        "name": "运维工程师",
+        "value": 1400,
+        "rank": 5
+      },
+      {
+        "name": "产品经理",
+        "value": 1300,
+        "rank": 6
+      },
+      {
+        "name": "Python开发",
+        "value": 1200,
+        "rank": 7
+      },
+      {
+        "name": "UI设计师",
+        "value": 1100,
+        "rank": 8
+      },
+      {
+        "name": "大数据开发",
+        "value": 1000,
+        "rank": 9
+      },
+      {
+        "name": "AI算法工程师",
+        "value": 950,
+        "rank": 10
+      },
+      {
+        "name": "Android开发",
+        "value": 900,
+        "rank": 11
+      },
+      {
+        "name": "iOS开发",
+        "value": 850,
+        "rank": 12
+      },
+      {
+        "name": "架构师",
+        "value": 800,
+        "rank": 13
+      },
+      {
+        "name": "系统管理员",
+        "value": 750,
+        "rank": 14
+      },
+      {
+        "name": "机器学习工程师",
+        "value": 700,
+        "rank": 15
+      },
+      {
+        "name": "Golang开发",
+        "value": 650,
+        "rank": 16
+      },
+      {
+        "name": "数据库管理员",
+        "value": 600,
+        "rank": 17
+      },
+      {
+        "name": "网络安全工程师",
+        "value": 550,
+        "rank": 18
+      },
+      {
+        "name": "数据分析员",
+        "value": 500,
+        "rank": 19
+      },
+      {
+        "name": "C++开发",
+        "value": 450,
+        "rank": 20
+      }
+    ],
+    "threeIndustry": [
+      {
+        "name": "第一产业",
+        "value": 1800,
+        "rank": 1
+      },
+      {
+        "name": "第二产业",
+        "value": 1700,
+        "rank": 2
+      },
+      {
+        "name": "第三产业",
+        "value": 1600,
+        "rank": 3
+      }
+    ],
+    "educationExp": {
+      "education": [
+        {
+          "name": "大专",
+          "value": 700,
+          "rank": 1
+        },
+        {
+          "name": "本科",
+          "value": 1000,
+          "rank": 2
+        },
+        {
+          "name": "硕士",
+          "value": 250,
+          "rank": 3
+        },
+        {
+          "name": "博士",
+          "value": 60,
+          "rank": 4
+        }
+      ],
+      "experience": [
+        {
+          "name": "无经验",
+          "value": 350,
+          "rank": 1
+        },
+        {
+          "name": "1年以下",
+          "value": 450,
+          "rank": 2
+        },
+        {
+          "name": "1-3年",
+          "value": 900,
+          "rank": 3
+        },
+        {
+          "name": "3-5年",
+          "value": 700,
+          "rank": 4
+        },
+        {
+          "name": "5年以上",
+          "value": 150,
+          "rank": 5
+        }
+      ]
+    },
+    "companyType": [
+      {
+        "name": "大型",
+        "value": 2,
+        "rank": 1
+      },
+      {
+        "name": "中型",
+        "value": 25,
+        "rank": 2
+      },
+      {
+        "name": "小型",
+        "value": 15,
+        "rank": 3
+      }
+    ],
+    "map": [
+      {
+        "name": "渝中区",
+        "value": 6500,
+        "rank": 1
+      },
+      {
+        "name": "江北区",
+        "value": 6000,
+        "rank": 2
+      },
+      {
+        "name": "沙坪坝区",
+        "value": 5800,
+        "rank": 3
+      },
+      {
+        "name": "九龙坡区",
+        "value": 6200,
+        "rank": 4
+      },
+      {
+        "name": "南岸区",
+        "value": 5500,
+        "rank": 5
+      },
+      {
+        "name": "北碚区",
+        "value": 5000,
+        "rank": 6
+      }
+    ],
+    "trendData": [
+      { "name": "2024-07", "jobCount": 10000, "recruitCount": 20000 },
+      { "name": "2024-08", "jobCount": 12000, "recruitCount": 22000 },
+      { "name": "2024-09", "jobCount": 13000, "recruitCount": 21000 },
+      { "name": "2024-10", "jobCount": 14000, "recruitCount": 23000 },
+      { "name": "2024-11", "jobCount": 15000, "recruitCount": 25000 },
+      { "name": "2024-12", "jobCount": 16000, "recruitCount": 26000 },
+      { "name": "2025-01", "jobCount": 17000, "recruitCount": 27000 },
+      { "name": "2025-02", "jobCount": 18000, "recruitCount": 28000 },
+      { "name": "2025-03", "jobCount": 19000, "recruitCount": 29000 },
+      { "name": "2025-04", "jobCount": 20000, "recruitCount": 30000 },
+      { "name": "2025-05", "jobCount": 21000, "recruitCount": 31000 },
+      { "name": "2025-06", "jobCount": 22000, "recruitCount": 32000 },
+      { "name": "2025-07", "jobCount": 23000, "recruitCount": 33000 }
+    ]
+  }
+}

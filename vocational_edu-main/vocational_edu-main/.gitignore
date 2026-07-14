@@ -1,0 +1,9 @@
+node_modules
+dist
+
+.nuxt
+.turbo
+.idea
+
+.env*.local
+!.env.example

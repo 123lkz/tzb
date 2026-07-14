@@ -1,0 +1,1184 @@
+{
+    "job_type": [
+        {
+            "name": "Java",
+            "code": "Java"
+        },
+        {
+            "name": "PHP",
+            "code": "PHP"
+        },
+        {
+            "name": "C++",
+            "code": "C%2B%2B"
+        },
+        {
+            "name": "区块链",
+            "code": "%E5%8C%BA%E5%9D%97%E9%93%BE"
+        },
+        {
+            "name": "Android",
+            "code": "Android"
+        },
+        {
+            "name": "iOS",
+            "code": "iOS"
+        },
+        {
+            "name": "数据挖掘",
+            "code": "%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98"
+        },
+        {
+            "name": "深度学习",
+            "code": "%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0"
+        },
+        {
+            "name": "自然语言处理",
+            "code": "%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86"
+        },
+        {
+            "name": "机器学习",
+            "code": "%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0"
+        },
+        {
+            "name": "测试",
+            "code": "%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "html5",
+            "code": "html5"
+        },
+        {
+            "name": "技术总监",
+            "code": "%E6%8A%80%E6%9C%AF%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "架构师",
+            "code": "%E6%9E%B6%E6%9E%84%E5%B8%88"
+        },
+        {
+            "name": "CTO",
+            "code": "CTO"
+        },
+        {
+            "name": "产品总监",
+            "code": "%E4%BA%A7%E5%93%81%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "产品经理",
+            "code": "%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "数据产品经理",
+            "code": "%E6%95%B0%E6%8D%AE%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "游戏策划",
+            "code": "%E6%B8%B8%E6%88%8F%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "UI设计师",
+            "code": "UI%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "交互设计",
+            "code": "%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1"
+        },
+        {
+            "name": "网页设计师",
+            "code": "%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "平面设计师",
+            "code": "%E5%B9%B3%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "视觉设计师",
+            "code": "%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "新媒体运营",
+            "code": "%E6%96%B0%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "编辑",
+            "code": "%E7%BC%96%E8%BE%91"
+        },
+        {
+            "name": "数据运营",
+            "code": "%E6%95%B0%E6%8D%AE%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "运营总监",
+            "code": "%E8%BF%90%E8%90%A5%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "COO",
+            "code": "COO"
+        },
+        {
+            "name": "市场营销",
+            "code": "%E5%B8%82%E5%9C%BA%E8%90%A5%E9%94%80"
+        },
+        {
+            "name": "市场推广",
+            "code": "%E5%B8%82%E5%9C%BA%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "市场策划",
+            "code": "%E5%B8%82%E5%9C%BA%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "政府关系",
+            "code": "%E6%94%BF%E5%BA%9C%E5%85%B3%E7%B3%BB"
+        },
+        {
+            "name": "广告文案",
+            "code": "%E5%B9%BF%E5%91%8A%E6%96%87%E6%A1%88"
+        },
+        {
+            "name": "广告投放",
+            "code": "%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE"
+        },
+        {
+            "name": "SEO",
+            "code": "SEO"
+        },
+        {
+            "name": "SEM",
+            "code": "SEM"
+        },
+        {
+            "name": "销售专员",
+            "code": "%E9%94%80%E5%94%AE%E4%B8%93%E5%91%98"
+        },
+        {
+            "name": "销售经理",
+            "code": "%E9%94%80%E5%94%AE%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "销售总监",
+            "code": "%E9%94%80%E5%94%AE%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "大客户代表",
+            "code": "%E5%A4%A7%E5%AE%A2%E6%88%B7%E4%BB%A3%E8%A1%A8"
+        },
+        {
+            "name": "客户经理",
+            "code": "%E5%AE%A2%E6%88%B7%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "电话销售",
+            "code": "%E7%94%B5%E8%AF%9D%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "HR",
+            "code": "HR"
+        },
+        {
+            "name": "行政",
+            "code": "%E8%A1%8C%E6%94%BF"
+        },
+        {
+            "name": "财务",
+            "code": "%E8%B4%A2%E5%8A%A1"
+        },
+        {
+            "name": "审计",
+            "code": "%E5%AE%A1%E8%AE%A1"
+        },
+        {
+            "name": "小游戏开发",
+            "code": "%E5%B0%8F%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "U3D",
+            "code": "U3D"
+        },
+        {
+            "name": "游戏运营",
+            "code": "%E6%B8%B8%E6%88%8F%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "剧情设计",
+            "code": "%E5%89%A7%E6%83%85%E8%AE%BE%E8%AE%A1"
+        },
+        {
+            "name": "游戏动画",
+            "code": "%E6%B8%B8%E6%88%8F%E5%8A%A8%E7%94%BB"
+        },
+        {
+            "name": "游戏原画",
+            "code": "%E6%B8%B8%E6%88%8F%E5%8E%9F%E7%94%BB"
+        },
+        {
+            "name": "手游推广",
+            "code": "%E6%89%8B%E6%B8%B8%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "游戏主播",
+            "code": "%E6%B8%B8%E6%88%8F%E4%B8%BB%E6%92%AD"
+        },
+        {
+            "name": "游戏陪练",
+            "code": "%E6%B8%B8%E6%88%8F%E9%99%AA%E7%BB%83"
+        },
+        {
+            "name": "搜索算法",
+            "code": "%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95"
+        },
+        {
+            "name": "精准推荐",
+            "code": "%E7%B2%BE%E5%87%86%E6%8E%A8%E8%8D%90"
+        },
+        {
+            "name": "C",
+            "code": "C"
+        },
+        {
+            "name": "C#",
+            "code": "C%23"
+        },
+        {
+            "name": "全栈工程师",
+            "code": "%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": ".NET",
+            "code": ".NET"
+        },
+        {
+            "name": "Hadoop",
+            "code": "Hadoop"
+        },
+        {
+            "name": "Python",
+            "code": "Python"
+        },
+        {
+            "name": "Delphi",
+            "code": "Delphi"
+        },
+        {
+            "name": "VB",
+            "code": "VB"
+        },
+        {
+            "name": "Perl",
+            "code": "Perl"
+        },
+        {
+            "name": "Ruby",
+            "code": "Ruby"
+        },
+        {
+            "name": "Node.js",
+            "code": "Node.js"
+        },
+        {
+            "name": "Go",
+            "code": "Go"
+        },
+        {
+            "name": "ASP",
+            "code": "ASP"
+        },
+        {
+            "name": "Shell",
+            "code": "Shell"
+        },
+        {
+            "name": "后端开发其它",
+            "code": "%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "HTML5",
+            "code": "HTML5"
+        },
+        {
+            "name": "WP",
+            "code": "WP"
+        },
+        {
+            "name": "移动开发其它",
+            "code": "%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "web前端",
+            "code": "web%E5%89%8D%E7%AB%AF"
+        },
+        {
+            "name": "Flash",
+            "code": "Flash"
+        },
+        {
+            "name": "JavaScript",
+            "code": "JavaScript"
+        },
+        {
+            "name": "COCOS2D-X",
+            "code": "COCOS2D-X"
+        },
+        {
+            "name": "前端开发其它",
+            "code": "%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "图像处理",
+            "code": "%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86"
+        },
+        {
+            "name": "图像识别",
+            "code": "%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB"
+        },
+        {
+            "name": "语音识别",
+            "code": "%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB"
+        },
+        {
+            "name": "机器视觉",
+            "code": "%E6%9C%BA%E5%99%A8%E8%A7%86%E8%A7%89"
+        },
+        {
+            "name": "算法工程师",
+            "code": "%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "测试工程师",
+            "code": "%E6%B5%8B%E8%AF%95%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "自动化测试",
+            "code": "%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "功能测试",
+            "code": "%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "性能测试",
+            "code": "%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "测试开发",
+            "code": "%E6%B5%8B%E8%AF%95%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "游戏测试",
+            "code": "%E6%B8%B8%E6%88%8F%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "白盒测试",
+            "code": "%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "灰盒测试",
+            "code": "%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "黑盒测试",
+            "code": "%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "手机测试",
+            "code": "%E6%89%8B%E6%9C%BA%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "硬件测试",
+            "code": "%E7%A1%AC%E4%BB%B6%E6%B5%8B%E8%AF%95"
+        },
+        {
+            "name": "测试经理",
+            "code": "%E6%B5%8B%E8%AF%95%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "测试其它",
+            "code": "%E6%B5%8B%E8%AF%95%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "运维工程师",
+            "code": "%E8%BF%90%E7%BB%B4%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "运维开发工程师",
+            "code": "%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "网络工程师",
+            "code": "%E7%BD%91%E7%BB%9C%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "系统工程师",
+            "code": "%E7%B3%BB%E7%BB%9F%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "IT支持",
+            "code": "IT%E6%94%AF%E6%8C%81"
+        },
+        {
+            "name": "IDC",
+            "code": "IDC"
+        },
+        {
+            "name": "CDN",
+            "code": "CDN"
+        },
+        {
+            "name": "F5",
+            "code": "F5"
+        },
+        {
+            "name": "系统管理员",
+            "code": "%E7%B3%BB%E7%BB%9F%E7%AE%A1%E7%90%86%E5%91%98"
+        },
+        {
+            "name": "病毒分析",
+            "code": "%E7%97%85%E6%AF%92%E5%88%86%E6%9E%90"
+        },
+        {
+            "name": "WEB安全",
+            "code": "WEB%E5%AE%89%E5%85%A8"
+        },
+        {
+            "name": "网络安全",
+            "code": "%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8"
+        },
+        {
+            "name": "系统安全",
+            "code": "%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8"
+        },
+        {
+            "name": "运维经理",
+            "code": "%E8%BF%90%E7%BB%B4%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "运维其它",
+            "code": "%E8%BF%90%E7%BB%B4%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "MySQL",
+            "code": "MySQL"
+        },
+        {
+            "name": "SQLServer",
+            "code": "SQLServer"
+        },
+        {
+            "name": "Oracle",
+            "code": "Oracle"
+        },
+        {
+            "name": "DB2",
+            "code": "DB2"
+        },
+        {
+            "name": "MongoDB",
+            "code": "MongoDB"
+        },
+        {
+            "name": "ETL",
+            "code": "ETL"
+        },
+        {
+            "name": "Hive",
+            "code": "Hive"
+        },
+        {
+            "name": "数据仓库",
+            "code": "%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93"
+        },
+        {
+            "name": "DBA其它",
+            "code": "DBA%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "技术经理",
+            "code": "%E6%8A%80%E6%9C%AF%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "运维总监",
+            "code": "%E8%BF%90%E7%BB%B4%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "技术合伙人",
+            "code": "%E6%8A%80%E6%9C%AF%E5%90%88%E4%BC%99%E4%BA%BA"
+        },
+        {
+            "name": "项目总监",
+            "code": "%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "测试总监",
+            "code": "%E6%B5%8B%E8%AF%95%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "安全专家",
+            "code": "%E5%AE%89%E5%85%A8%E4%B8%93%E5%AE%B6"
+        },
+        {
+            "name": "高端技术职位其它",
+            "code": "%E9%AB%98%E7%AB%AF%E6%8A%80%E6%9C%AF%E8%81%8C%E4%BD%8D%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "项目经理",
+            "code": "%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "项目助理",
+            "code": "%E9%A1%B9%E7%9B%AE%E5%8A%A9%E7%90%86"
+        },
+        {
+            "name": "硬件",
+            "code": "%E7%A1%AC%E4%BB%B6"
+        },
+        {
+            "name": "嵌入式",
+            "code": "%E5%B5%8C%E5%85%A5%E5%BC%8F"
+        },
+        {
+            "name": "自动化",
+            "code": "%E8%87%AA%E5%8A%A8%E5%8C%96"
+        },
+        {
+            "name": "单片机",
+            "code": "%E5%8D%95%E7%89%87%E6%9C%BA"
+        },
+        {
+            "name": "电路设计",
+            "code": "%E7%94%B5%E8%B7%AF%E8%AE%BE%E8%AE%A1"
+        },
+        {
+            "name": "驱动开发",
+            "code": "%E9%A9%B1%E5%8A%A8%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "系统集成",
+            "code": "%E7%B3%BB%E7%BB%9F%E9%9B%86%E6%88%90"
+        },
+        {
+            "name": "FPGA开发",
+            "code": "FPGA%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "DSP开发",
+            "code": "DSP%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "ARM开发",
+            "code": "ARM%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "PCB工艺",
+            "code": "PCB%E5%B7%A5%E8%89%BA"
+        },
+        {
+            "name": "模具设计",
+            "code": "%E6%A8%A1%E5%85%B7%E8%AE%BE%E8%AE%A1"
+        },
+        {
+            "name": "热传导",
+            "code": "%E7%83%AD%E4%BC%A0%E5%AF%BC"
+        },
+        {
+            "name": "材料工程师",
+            "code": "%E6%9D%90%E6%96%99%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "精益工程师",
+            "code": "%E7%B2%BE%E7%9B%8A%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "射频工程师",
+            "code": "%E5%B0%84%E9%A2%91%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "硬件开发其它",
+            "code": "%E7%A1%AC%E4%BB%B6%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "实施工程师",
+            "code": "%E5%AE%9E%E6%96%BD%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "售前工程师",
+            "code": "%E5%94%AE%E5%89%8D%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "售后工程师",
+            "code": "%E5%94%AE%E5%90%8E%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "BI工程师",
+            "code": "BI%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "企业软件其它",
+            "code": "%E4%BC%81%E4%B8%9A%E8%BD%AF%E4%BB%B6%E5%85%B6%E5%AE%83"
+        },
+        {
+            "name": "网页产品经理",
+            "code": "%E7%BD%91%E9%A1%B5%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "移动产品经理",
+            "code": "%E7%A7%BB%E5%8A%A8%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "产品助理",
+            "code": "%E4%BA%A7%E5%93%81%E5%8A%A9%E7%90%86"
+        },
+        {
+            "name": "电商产品经理",
+            "code": "%E7%94%B5%E5%95%86%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "产品实习生",
+            "code": "%E4%BA%A7%E5%93%81%E5%AE%9E%E4%B9%A0%E7%94%9F"
+        },
+        {
+            "name": "网页产品设计师",
+            "code": "%E7%BD%91%E9%A1%B5%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "无线产品设计师",
+            "code": "%E6%97%A0%E7%BA%BF%E4%BA%A7%E5%93%81%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "产品部经理",
+            "code": "%E4%BA%A7%E5%93%81%E9%83%A8%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "游戏制作人",
+            "code": "%E6%B8%B8%E6%88%8F%E5%88%B6%E4%BD%9C%E4%BA%BA"
+        },
+        {
+            "name": "Flash设计师",
+            "code": "Flash%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "APP设计师",
+            "code": "APP%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "美术设计师（2D/3D）",
+            "code": "%E7%BE%8E%E6%9C%AF%E8%AE%BE%E8%AE%A1%E5%B8%88%EF%BC%882D%2F3D%EF%BC%89"
+        },
+        {
+            "name": "广告设计师",
+            "code": "%E5%B9%BF%E5%91%8A%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "多媒体设计师",
+            "code": "%E5%A4%9A%E5%AA%92%E4%BD%93%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "原画师",
+            "code": "%E5%8E%9F%E7%94%BB%E5%B8%88"
+        },
+        {
+            "name": "游戏特效",
+            "code": "%E6%B8%B8%E6%88%8F%E7%89%B9%E6%95%88"
+        },
+        {
+            "name": "游戏界面设计师",
+            "code": "%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "游戏场景",
+            "code": "%E6%B8%B8%E6%88%8F%E5%9C%BA%E6%99%AF"
+        },
+        {
+            "name": "游戏角色",
+            "code": "%E6%B8%B8%E6%88%8F%E8%A7%92%E8%89%B2"
+        },
+        {
+            "name": "游戏动作",
+            "code": "%E6%B8%B8%E6%88%8F%E5%8A%A8%E4%BD%9C"
+        },
+        {
+            "name": "交互设计师",
+            "code": "%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "无线交互设计师",
+            "code": "%E6%97%A0%E7%BA%BF%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "网页交互设计师",
+            "code": "%E7%BD%91%E9%A1%B5%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "硬件交互设计师",
+            "code": "%E7%A1%AC%E4%BB%B6%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E5%B8%88"
+        },
+        {
+            "name": "数据分析师",
+            "code": "%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E5%B8%88"
+        },
+        {
+            "name": "用户研究员",
+            "code": "%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6%E5%91%98"
+        },
+        {
+            "name": "游戏数值策划",
+            "code": "%E6%B8%B8%E6%88%8F%E6%95%B0%E5%80%BC%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "设计经理/主管",
+            "code": "%E8%AE%BE%E8%AE%A1%E7%BB%8F%E7%90%86%2F%E4%B8%BB%E7%AE%A1"
+        },
+        {
+            "name": "设计总监",
+            "code": "%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "视觉设计经理/主管",
+            "code": "%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1%E7%BB%8F%E7%90%86%2F%E4%B8%BB%E7%AE%A1"
+        },
+        {
+            "name": "视觉设计总监",
+            "code": "%E8%A7%86%E8%A7%89%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "交互设计经理/主管",
+            "code": "%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E7%BB%8F%E7%90%86%2F%E4%B8%BB%E7%AE%A1"
+        },
+        {
+            "name": "交互设计总监",
+            "code": "%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "用户研究经理/主管",
+            "code": "%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6%E7%BB%8F%E7%90%86%2F%E4%B8%BB%E7%AE%A1"
+        },
+        {
+            "name": "用户研究总监",
+            "code": "%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "用户运营",
+            "code": "%E7%94%A8%E6%88%B7%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "产品运营",
+            "code": "%E4%BA%A7%E5%93%81%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "内容运营",
+            "code": "%E5%86%85%E5%AE%B9%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "活动运营",
+            "code": "%E6%B4%BB%E5%8A%A8%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "商家运营",
+            "code": "%E5%95%86%E5%AE%B6%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "品类运营",
+            "code": "%E5%93%81%E7%B1%BB%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "网络推广",
+            "code": "%E7%BD%91%E7%BB%9C%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "运营专员",
+            "code": "%E8%BF%90%E8%90%A5%E4%B8%93%E5%91%98"
+        },
+        {
+            "name": "网店运营",
+            "code": "%E7%BD%91%E5%BA%97%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "海外运营",
+            "code": "%E6%B5%B7%E5%A4%96%E8%BF%90%E8%90%A5"
+        },
+        {
+            "name": "运营经理",
+            "code": "%E8%BF%90%E8%90%A5%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "副主编",
+            "code": "%E5%89%AF%E4%B8%BB%E7%BC%96"
+        },
+        {
+            "name": "内容编辑",
+            "code": "%E5%86%85%E5%AE%B9%E7%BC%96%E8%BE%91"
+        },
+        {
+            "name": "文案策划",
+            "code": "%E6%96%87%E6%A1%88%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "记者",
+            "code": "%E8%AE%B0%E8%80%85"
+        },
+        {
+            "name": "售前咨询",
+            "code": "%E5%94%AE%E5%89%8D%E5%92%A8%E8%AF%A2"
+        },
+        {
+            "name": "售后客服",
+            "code": "%E5%94%AE%E5%90%8E%E5%AE%A2%E6%9C%8D"
+        },
+        {
+            "name": "淘宝客服",
+            "code": "%E6%B7%98%E5%AE%9D%E5%AE%A2%E6%9C%8D"
+        },
+        {
+            "name": "客服经理",
+            "code": "%E5%AE%A2%E6%9C%8D%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "主编",
+            "code": "%E4%B8%BB%E7%BC%96"
+        },
+        {
+            "name": "客服总监",
+            "code": "%E5%AE%A2%E6%9C%8D%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "市场顾问",
+            "code": "%E5%B8%82%E5%9C%BA%E9%A1%BE%E9%97%AE"
+        },
+        {
+            "name": "商务渠道",
+            "code": "%E5%95%86%E5%8A%A1%E6%B8%A0%E9%81%93"
+        },
+        {
+            "name": "商业数据分析",
+            "code": "%E5%95%86%E4%B8%9A%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90"
+        },
+        {
+            "name": "活动策划",
+            "code": "%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "网络营销",
+            "code": "%E7%BD%91%E7%BB%9C%E8%90%A5%E9%94%80"
+        },
+        {
+            "name": "海外市场",
+            "code": "%E6%B5%B7%E5%A4%96%E5%B8%82%E5%9C%BA"
+        },
+        {
+            "name": "商务专员",
+            "code": "%E5%95%86%E5%8A%A1%E4%B8%93%E5%91%98"
+        },
+        {
+            "name": "品牌公关",
+            "code": "%E5%93%81%E7%89%8C%E5%85%AC%E5%85%B3"
+        },
+        {
+            "name": "广告协调",
+            "code": "%E5%B9%BF%E5%91%8A%E5%8D%8F%E8%B0%83"
+        },
+        {
+            "name": "媒介投放",
+            "code": "%E5%AA%92%E4%BB%8B%E6%8A%95%E6%94%BE"
+        },
+        {
+            "name": "媒介合作",
+            "code": "%E5%AA%92%E4%BB%8B%E5%90%88%E4%BD%9C"
+        },
+        {
+            "name": "媒介顾问",
+            "code": "%E5%AA%92%E4%BB%8B%E9%A1%BE%E9%97%AE"
+        },
+        {
+            "name": "广告创意",
+            "code": "%E5%B9%BF%E5%91%8A%E5%88%9B%E6%84%8F"
+        },
+        {
+            "name": "广告制作",
+            "code": "%E5%B9%BF%E5%91%8A%E5%88%B6%E4%BD%9C"
+        },
+        {
+            "name": "广告定价",
+            "code": "%E5%B9%BF%E5%91%8A%E5%AE%9A%E4%BB%B7"
+        },
+        {
+            "name": "广告专员",
+            "code": "%E5%B9%BF%E5%91%8A%E4%B8%93%E5%91%98"
+        },
+        {
+            "name": "品牌合作",
+            "code": "%E5%93%81%E7%89%8C%E5%90%88%E4%BD%9C"
+        },
+        {
+            "name": "品牌策划",
+            "code": "%E5%93%81%E7%89%8C%E7%AD%96%E5%88%92"
+        },
+        {
+            "name": "品牌专员",
+            "code": "%E5%93%81%E7%89%8C%E4%B8%93%E5%91%98"
+        },
+        {
+            "name": "美术指导",
+            "code": "%E7%BE%8E%E6%9C%AF%E6%8C%87%E5%AF%BC"
+        },
+        {
+            "name": "渠道推广",
+            "code": "%E6%B8%A0%E9%81%93%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "策划经理",
+            "code": "%E7%AD%96%E5%88%92%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "媒介经理",
+            "code": "%E5%AA%92%E4%BB%8B%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "市场总监",
+            "code": "%E5%B8%82%E5%9C%BA%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "公关总监",
+            "code": "%E5%85%AC%E5%85%B3%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "媒介总监",
+            "code": "%E5%AA%92%E4%BB%8B%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "创意总监",
+            "code": "%E5%88%9B%E6%84%8F%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "销售顾问",
+            "code": "%E9%94%80%E5%94%AE%E9%A1%BE%E9%97%AE"
+        },
+        {
+            "name": "客户代表",
+            "code": "%E5%AE%A2%E6%88%B7%E4%BB%A3%E8%A1%A8"
+        },
+        {
+            "name": "商务拓展",
+            "code": "%E5%95%86%E5%8A%A1%E6%8B%93%E5%B1%95"
+        },
+        {
+            "name": "渠道销售",
+            "code": "%E6%B8%A0%E9%81%93%E9%94%80%E5%94%AE%20"
+        },
+        {
+            "name": "代理商销售",
+            "code": "%E4%BB%A3%E7%90%86%E5%95%86%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "广告销售",
+            "code": "%E5%B9%BF%E5%91%8A%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "信用卡销售",
+            "code": "%E4%BF%A1%E7%94%A8%E5%8D%A1%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "保险销售",
+            "code": "%E4%BF%9D%E9%99%A9%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "销售工程师",
+            "code": "%E9%94%80%E5%94%AE%E5%B7%A5%E7%A8%8B%E5%B8%88"
+        },
+        {
+            "name": "其他销售",
+            "code": "%E5%85%B6%E4%BB%96%E9%94%80%E5%94%AE"
+        },
+        {
+            "name": "商务总监",
+            "code": "%E5%95%86%E5%8A%A1%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "区域总监",
+            "code": "%E5%8C%BA%E5%9F%9F%E6%80%BB%E7%9B%91"
+        },
+        {
+            "name": "城市经理",
+            "code": "%E5%9F%8E%E5%B8%82%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "团队经理",
+            "code": "%E5%9B%A2%E9%98%9F%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "销售VP",
+            "code": "%E9%94%80%E5%94%AEVP"
+        },
+        {
+            "name": "商务主管",
+            "code": "%E5%95%86%E5%8A%A1%E4%B8%BB%E7%AE%A1"
+        },
+        {
+            "name": "其他销售管理职位",
+            "code": "%E5%85%B6%E4%BB%96%E9%94%80%E5%94%AE%E7%AE%A1%E7%90%86%E8%81%8C%E4%BD%8D"
+        },
+        {
+            "name": "人力资源",
+            "code": "%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90"
+        },
+        {
+            "name": "招聘",
+            "code": "%E6%8B%9B%E8%81%98"
+        },
+        {
+            "name": "HRBP",
+            "code": "HRBP"
+        },
+        {
+            "name": "人事/HR",
+            "code": "%E4%BA%BA%E4%BA%8B%2FHR"
+        },
+        {
+            "name": "培训经理",
+            "code": "%E5%9F%B9%E8%AE%AD%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "薪资福利经理",
+            "code": "%E8%96%AA%E8%B5%84%E7%A6%8F%E5%88%A9%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "绩效考核经理",
+            "code": "%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "员工关系",
+            "code": "%E5%91%98%E5%B7%A5%E5%85%B3%E7%B3%BB"
+        },
+        {
+            "name": "助理",
+            "code": "%E5%8A%A9%E7%90%86"
+        },
+        {
+            "name": "前台",
+            "code": "%E5%89%8D%E5%8F%B0"
+        },
+        {
+            "name": "总助",
+            "code": "%E6%80%BB%E5%8A%A9"
+        },
+        {
+            "name": "文秘",
+            "code": "%E6%96%87%E7%A7%98"
+        },
+        {
+            "name": "会计",
+            "code": "%E4%BC%9A%E8%AE%A1"
+        },
+        {
+            "name": "出纳",
+            "code": "%E5%87%BA%E7%BA%B3"
+        },
+        {
+            "name": "结算",
+            "code": "%E7%BB%93%E7%AE%97"
+        },
+        {
+            "name": "税务",
+            "code": "%E7%A8%8E%E5%8A%A1"
+        },
+        {
+            "name": "风控",
+            "code": "%E9%A3%8E%E6%8E%A7"
+        },
+        {
+            "name": "法务",
+            "code": "%E6%B3%95%E5%8A%A1"
+        },
+        {
+            "name": "律师",
+            "code": "%E5%BE%8B%E5%B8%88"
+        },
+        {
+            "name": "专利",
+            "code": "%E4%B8%93%E5%88%A9"
+        },
+        {
+            "name": "行政总监/经理",
+            "code": "%E8%A1%8C%E6%94%BF%E6%80%BB%E7%9B%91%2F%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "财务总监/经理",
+            "code": "%E8%B4%A2%E5%8A%A1%E6%80%BB%E7%9B%91%2F%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "HRD/HRM",
+            "code": "HRD%2FHRM"
+        },
+        {
+            "name": "CFO",
+            "code": "CFO"
+        },
+        {
+            "name": "CEO",
+            "code": "CEO"
+        },
+        {
+            "name": "H5游戏开发",
+            "code": "H5%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "游戏后端开发",
+            "code": "%E6%B8%B8%E6%88%8F%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "C++游戏开发",
+            "code": "C%2B%2B%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91"
+        },
+        {
+            "name": "FLASH",
+            "code": "FLASH"
+        },
+        {
+            "name": "游戏产品经理",
+            "code": "%E6%B8%B8%E6%88%8F%E4%BA%A7%E5%93%81%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "游戏项目经理",
+            "code": "%E6%B8%B8%E6%88%8F%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86"
+        },
+        {
+            "name": "游戏文案",
+            "code": "%E6%B8%B8%E6%88%8F%E6%96%87%E6%A1%88"
+        },
+        {
+            "name": "游戏界面",
+            "code": "%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2"
+        },
+        {
+            "name": "游戏动效",
+            "code": "%E6%B8%B8%E6%88%8F%E5%8A%A8%E6%95%88"
+        },
+        {
+            "name": "游戏美工",
+            "code": "%E6%B8%B8%E6%88%8F%E7%BE%8E%E5%B7%A5"
+        },
+        {
+            "name": "游戏编辑",
+            "code": "%E6%B8%B8%E6%88%8F%E7%BC%96%E8%BE%91"
+        },
+        {
+            "name": "游戏推广",
+            "code": "%E6%B8%B8%E6%88%8F%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "页游推广",
+            "code": "%E9%A1%B5%E6%B8%B8%E6%8E%A8%E5%B9%BF"
+        },
+        {
+            "name": "游戏体验",
+            "code": "%E6%B8%B8%E6%88%8F%E4%BD%93%E9%AA%8C"
+        },
+        {
+            "name": "电竞主持",
+            "code": "%E7%94%B5%E7%AB%9E%E4%B8%BB%E6%8C%81"
+        },
+        {
+            "name": "电竞讲师",
+            "code": "%E7%94%B5%E7%AB%9E%E8%AE%B2%E5%B8%88"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      # 构建、部署并同步 vocational_edu_api 项目
+      - name: 构建 vocational_edu_api 项目
+        run: npm run build
+
+      - name: 同步 vocational_edu_api 到服务器
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: dist/
+          remote_path: /app/vocational_edu/vocational_edu_api/dist/
+          remote_host: 210.14.140.54
+          remote_port: 41135
+          remote_user: root
+          remote_key: ${{ secrets.DEPLOY_TO_54_PK }}
+
+      - name: 重启 vocational_edu_api 项目
+        uses: appleboy/ssh-action@master
+        with:
+          host: 210.14.140.54
+          port: 41135
+          username: root
+          key: ${{ secrets.DEPLOY_TO_54_PK }}
+          script: |
+            pm2 restart zhijiao_api

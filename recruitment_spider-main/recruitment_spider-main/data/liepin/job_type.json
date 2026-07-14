@@ -1,0 +1,4156 @@
+{
+  "IT/互联网": {
+    "后端开发": [
+      {
+        "name": "Java",
+        "href": "https://www.liepin.com/career/java/"
+      },
+      {
+        "name": "C++",
+        "href": "https://www.liepin.com/career/c2/"
+      },
+      {
+        "name": "PHP",
+        "href": "https://www.liepin.com/career/php/"
+      },
+      {
+        "name": "Python",
+        "href": "https://www.liepin.com/career/python/"
+      },
+      {
+        "name": "C",
+        "href": "https://www.liepin.com/career/c/"
+      },
+      {
+        "name": ".NET",
+        "href": "https://www.liepin.com/career/.net/"
+      },
+      {
+        "name": "C#",
+        "href": "https://www.liepin.com/career/c3/"
+      },
+      {
+        "name": "Golang",
+        "href": "https://www.liepin.com/career/golang/"
+      },
+      {
+        "name": "Node.js",
+        "href": "https://www.liepin.com/career/node.js/"
+      },
+      {
+        "name": "Ruby",
+        "href": "https://www.liepin.com/career/ruby/"
+      },
+      {
+        "name": "GIS工程师",
+        "href": "https://www.liepin.com/career/gis/"
+      },
+      {
+        "name": "ERP技术开发",
+        "href": "https://www.liepin.com/career/erpjishukaifa/"
+      },
+      {
+        "name": "游戏开发工程师",
+        "href": "https://www.liepin.com/career/youxishiji/"
+      },
+      {
+        "name": "音视频/图形开发",
+        "href": "https://www.liepin.com/career/yuyinshipin/"
+      },
+      {
+        "name": "全栈",
+        "href": "https://www.liepin.com/career/quanzhan/"
+      },
+      {
+        "name": "UE4",
+        "href": "https://www.liepin.com/career/UE4/"
+      },
+      {
+        "name": "编译器开发",
+        "href": "https://www.liepin.com/career/bianyiqi/"
+      },
+      {
+        "name": "Erlang",
+        "href": "https://www.liepin.com/career/erlang/"
+      },
+      {
+        "name": "Delphi",
+        "href": "https://www.liepin.com/career/delphi/"
+      },
+      {
+        "name": "VB",
+        "href": "https://www.liepin.com/career/vb/"
+      },
+      {
+        "name": "Perl",
+        "href": "https://www.liepin.com/career/perl/"
+      },
+      {
+        "name": "ASP",
+        "href": "https://www.liepin.com/career/asp/"
+      }
+    ],
+    "前端开发": [
+      {
+        "name": "WEB前端开发",
+        "href": "https://www.liepin.com/career/360300/"
+      },
+      {
+        "name": "HTML5",
+        "href": "https://www.liepin.com/career/html5/"
+      },
+      {
+        "name": "其他前端开发",
+        "href": "https://www.liepin.com/career/flashkaifa/"
+      },
+      {
+        "name": "移动前端开发工程师",
+        "href": "https://www.liepin.com/career/yidongqianduankaifa/"
+      }
+    ],
+    "移动开发": [
+      {
+        "name": "Android",
+        "href": "https://www.liepin.com/career/android/"
+      },
+      {
+        "name": "iOS",
+        "href": "https://www.liepin.com/career/ios/"
+      },
+      {
+        "name": "U3D",
+        "href": "https://www.liepin.com/career/u3d/"
+      },
+      {
+        "name": "Cocos2d-x",
+        "href": "https://www.liepin.com/career/cocos2dx/"
+      },
+      {
+        "name": "Windows Phone",
+        "href": "https://www.liepin.com/career/wp/"
+      },
+      {
+        "name": "移动开发工程师",
+        "href": "https://www.liepin.com/career/360310/"
+      }
+    ],
+    "硬件": [
+      {
+        "name": "PCB工程师",
+        "href": "https://www.liepin.com/career/PCB/"
+      },
+      {
+        "name": "射频工程师",
+        "href": "https://www.liepin.com/career/shepingcs/"
+      },
+      {
+        "name": "FPGA工程师",
+        "href": "https://www.liepin.com/career/fpga/"
+      },
+      {
+        "name": "单片机工程师",
+        "href": "https://www.liepin.com/career/danpianji/"
+      },
+      {
+        "name": "DSP工程师",
+        "href": "https://www.liepin.com/career/dspkaifa/"
+      },
+      {
+        "name": "驱动开发",
+        "href": "https://www.liepin.com/career/qudongkaifa/"
+      },
+      {
+        "name": "嵌入式软件开发",
+        "href": "https://www.liepin.com/career/dianziruanjian/"
+      },
+      {
+        "name": "嵌入式硬件开发",
+        "href": "https://www.liepin.com/career/qianrushi/"
+      },
+      {
+        "name": "信号完整性工程师",
+        "href": "https://www.liepin.com/career/xinhaowanzheng/"
+      },
+      {
+        "name": "硬件工程师",
+        "href": "https://www.liepin.com/career/yingjiankaifa/"
+      },
+      {
+        "name": "硬件测试工程师",
+        "href": "https://www.liepin.com/career/yingjianceshi/"
+      },
+      {
+        "name": "硬件产品经理",
+        "href": "https://www.liepin.com/career/yingjianchanpingjinglidf/"
+      },
+      {
+        "name": "ARM",
+        "href": "https://www.liepin.com/career/arm/"
+      }
+    ],
+    "测试": [
+      {
+        "name": "自动化测试",
+        "href": "https://www.liepin.com/career/360324/"
+      },
+      {
+        "name": "功能测试",
+        "href": "https://www.liepin.com/career/360325/"
+      },
+      {
+        "name": "性能测试",
+        "href": "https://www.liepin.com/career/360326/"
+      },
+      {
+        "name": "游戏测试",
+        "href": "https://www.liepin.com/career/youxiceshi/"
+      },
+      {
+        "name": "软件测试",
+        "href": "https://www.liepin.com/career/ruanjianceshi/"
+      },
+      {
+        "name": "移动端测试",
+        "href": "https://www.liepin.com/career/yidongdongceshi/"
+      },
+      {
+        "name": "测试开发",
+        "href": "https://www.liepin.com/career/360327/"
+      },
+      {
+        "name": "测试工程师",
+        "href": "https://www.liepin.com/career/360323/"
+      },
+      {
+        "name": "测试经理/主管",
+        "href": "https://www.liepin.com/career/360322/"
+      }
+    ],
+    "数据": [
+      {
+        "name": "爬虫",
+        "href": "https://www.liepin.com/career/pachong/"
+      },
+      {
+        "name": "数据挖掘工程师",
+        "href": "https://www.liepin.com/career/shujuwajue/"
+      },
+      {
+        "name": "数据分析师",
+        "href": "https://www.liepin.com/career/shujufenxi/"
+      },
+      {
+        "name": "数据建模",
+        "href": "https://www.liepin.com/career/jianmo/"
+      },
+      {
+        "name": "数据库开发工程师",
+        "href": "https://www.liepin.com/career/shujukukaifa/"
+      },
+      {
+        "name": "数据仓库工程师",
+        "href": "https://www.liepin.com/career/shujucangku/"
+      },
+      {
+        "name": "数据治理",
+        "href": "https://www.liepin.com/career/shujuzhili/"
+      },
+      {
+        "name": "BI工程师",
+        "href": "https://www.liepin.com/career/360320/"
+      },
+      {
+        "name": "ETL工程师",
+        "href": "https://www.liepin.com/career/etl/"
+      },
+      {
+        "name": "大数据开发工程师",
+        "href": "https://www.liepin.com/career/hadoophivespark/"
+      },
+      {
+        "name": "数据开发",
+        "href": "https://www.liepin.com/career/shujukaifa/"
+      },
+      {
+        "name": "数据采集",
+        "href": "https://www.liepin.com/career/shujucaiji/"
+      }
+    ],
+    "人工智能": [
+      {
+        "name": "推荐算法",
+        "href": "https://www.liepin.com/career/tuijiansuanfa/"
+      },
+      {
+        "name": "搜索算法",
+        "href": "https://www.liepin.com/career/sousuosuanfa/"
+      },
+      {
+        "name": "自然语言处理(NLP)",
+        "href": "https://www.liepin.com/career/ziranyuyanchulinlp/"
+      },
+      {
+        "name": "机器视觉",
+        "href": "https://www.liepin.com/career/jiqishijue/"
+      },
+      {
+        "name": "图像算法",
+        "href": "https://www.liepin.com/career/tuxiangsuanfa/"
+      },
+      {
+        "name": "语音识别",
+        "href": "https://www.liepin.com/career/yuyinshibie/"
+      },
+      {
+        "name": "深度学习",
+        "href": "https://www.liepin.com/career/shendongxuexi/"
+      },
+      {
+        "name": "机器学习",
+        "href": "https://www.liepin.com/career/jiqixuexi/"
+      },
+      {
+        "name": "算法工程师",
+        "href": "https://www.liepin.com/career/suanfakaifa/"
+      }
+    ],
+    "运维/技术支持": [
+      {
+        "name": "运维经理/主管",
+        "href": "https://www.liepin.com/career/yunweijl/"
+      },
+      {
+        "name": "运维开发",
+        "href": "https://www.liepin.com/career/360330/"
+      },
+      {
+        "name": "运维工程师",
+        "href": "https://www.liepin.com/career/wangzhanweihugcs/"
+      },
+      {
+        "name": "DBA",
+        "href": "https://www.liepin.com/career/shujukuanguanliyuan/"
+      },
+      {
+        "name": "网络/信息安全",
+        "href": "https://www.liepin.com/career/wangluoanquan/"
+      },
+      {
+        "name": "网络工程师",
+        "href": "https://www.liepin.com/career/wanluogcs/"
+      },
+      {
+        "name": "系统管理员",
+        "href": "https://www.liepin.com/career/xitongguanliyuan/"
+      },
+      {
+        "name": "系统工程师",
+        "href": "https://www.liepin.com/career/360331/"
+      },
+      {
+        "name": "IT支持工程师",
+        "href": "https://www.liepin.com/career/360328/"
+      },
+      {
+        "name": "桌面支持",
+        "href": "https://www.liepin.com/career/zhuomianzhichi/"
+      },
+      {
+        "name": "IT总监/经理/主管",
+        "href": "https://www.liepin.com/career/ITjingli/"
+      },
+      {
+        "name": "配置管理工程师",
+        "href": "https://www.liepin.com/career/peizhigcs/"
+      },
+      {
+        "name": "硬件维护工程师",
+        "href": "https://www.liepin.com/career/390001/"
+      },
+      {
+        "name": "系统集成工程师",
+        "href": "https://www.liepin.com/career/xitongjicheng/"
+      },
+      {
+        "name": "文档工程师",
+        "href": "https://www.liepin.com/career/wendanggcs/"
+      }
+    ],
+    "通信": [
+      {
+        "name": "通信标准化工程师",
+        "href": "https://www.liepin.com/career/tongxinbiaozhunhua/"
+      },
+      {
+        "name": "核心网工程师",
+        "href": "https://www.liepin.com/career/hexinwanggcs/"
+      },
+      {
+        "name": "数通工程师",
+        "href": "https://www.liepin.com/career/shutong/"
+      },
+      {
+        "name": "无线通信工程师",
+        "href": "https://www.liepin.com/career/wuxiantongxin/"
+      },
+      {
+        "name": "无线网络优化",
+        "href": "https://www.liepin.com/career/wxwangluoyh/"
+      },
+      {
+        "name": "通信传输工程师",
+        "href": "https://www.liepin.com/career/tongxinchuanshu/"
+      },
+      {
+        "name": "通信电源工程师",
+        "href": "https://www.liepin.com/career/tongxindianyuan/"
+      },
+      {
+        "name": "通信软件工程师",
+        "href": "https://www.liepin.com/career/tongxinruanjian/"
+      },
+      {
+        "name": "通信技术工程师",
+        "href": "https://www.liepin.com/career/tongxinjishugcs/"
+      },
+      {
+        "name": "通信项目管理",
+        "href": "https://www.liepin.com/career/tongxinxiangmu/"
+      },
+      {
+        "name": "增值产品开发工程师",
+        "href": "https://www.liepin.com/career/zengzhichanpin/"
+      },
+      {
+        "name": "通信设备工程师",
+        "href": "https://www.liepin.com/career/tongxinshebeigcs/"
+      },
+      {
+        "name": "通信测试工程师",
+        "href": "https://www.liepin.com/career/tongxinceshigcs/"
+      },
+      {
+        "name": "电信网络工程师",
+        "href": "https://www.liepin.com/career/dianxinwangluo/"
+      },
+      {
+        "name": "电信交换工程师",
+        "href": "https://www.liepin.com/career/dianxinjiaohuan/"
+      },
+      {
+        "name": "电信/通讯工程师",
+        "href": "https://www.liepin.com/career/tongxugcs/"
+      }
+    ],
+    "高端技术职位": [
+      {
+        "name": "CTO/CIO/技术VP",
+        "href": "https://www.liepin.com/career/cto/"
+      },
+      {
+        "name": "数据科学家",
+        "href": "https://www.liepin.com/career/shujukexuejia/"
+      },
+      {
+        "name": "大数据架构师",
+        "href": "https://www.liepin.com/career/dashujujiagou/"
+      },
+      {
+        "name": "大数据总监",
+        "href": "https://www.liepin.com/career/dashujuzongjian/"
+      },
+      {
+        "name": "架构师",
+        "href": "https://www.liepin.com/career/360321/"
+      },
+      {
+        "name": "安全专家",
+        "href": "https://www.liepin.com/career/anquanzhuanjia/"
+      },
+      {
+        "name": "运维总监",
+        "href": "https://www.liepin.com/career/360329/"
+      },
+      {
+        "name": "技术合伙人",
+        "href": "https://www.liepin.com/career/jishuhehuoren/"
+      },
+      {
+        "name": "技术/研发总监",
+        "href": "https://www.liepin.com/career/jishuzongjian/"
+      },
+      {
+        "name": "技术/研发经理",
+        "href": "https://www.liepin.com/career/yanfajl/"
+      }
+    ],
+    "其他IT互联网技术": [
+      {
+        "name": "其他IT互联网技术职位",
+        "href": "https://www.liepin.com/career/qtjishuzw/"
+      }
+    ],
+    "IT互联网产品": [
+      {
+        "name": "互联网金融产品经理",
+        "href": "https://www.liepin.com/career/hulianwangjinrongpm/"
+      },
+      {
+        "name": "电商产品经理",
+        "href": "https://www.liepin.com/career/dianshangpm/"
+      },
+      {
+        "name": "数据产品经理",
+        "href": "https://www.liepin.com/career/shujupm/"
+      },
+      {
+        "name": "移动产品经理",
+        "href": "https://www.liepin.com/career/yidongpm/"
+      },
+      {
+        "name": "商业产品经理",
+        "href": "https://www.liepin.com/career/shangyepm/"
+      },
+      {
+        "name": "硬件产品经理",
+        "href": "https://www.liepin.com/career/yingjianpm/"
+      },
+      {
+        "name": "策略产品经理",
+        "href": "https://www.liepin.com/career/celuepm/"
+      },
+      {
+        "name": "用户产品经理",
+        "href": "https://www.liepin.com/career/yhcpjlyhzc/"
+      },
+      {
+        "name": "游戏策划师",
+        "href": "https://www.liepin.com/career/youxichs/"
+      },
+      {
+        "name": "游戏制作人",
+        "href": "https://www.liepin.com/career/youxizhizuoren/"
+      },
+      {
+        "name": "产品专员/助理",
+        "href": "https://www.liepin.com/career/60204/"
+      },
+      {
+        "name": "产品经理",
+        "href": "https://www.liepin.com/career/pinpaijl/"
+      },
+      {
+        "name": "产品总监",
+        "href": "https://www.liepin.com/career/chanpinzongjian/"
+      },
+      {
+        "name": "产品VP/CPO",
+        "href": "https://www.liepin.com/career/chanpinvp/"
+      }
+    ],
+    "消费品/其他产品": [
+      {
+        "name": "快消品产品经理",
+        "href": "https://www.liepin.com/career/kuaixiaopincp/"
+      },
+      {
+        "name": "旅游产品经理",
+        "href": "https://www.liepin.com/career/lvyouchanpindf/"
+      },
+      {
+        "name": "教育产品开发",
+        "href": "https://www.liepin.com/career/jiaoyuchanpinkaifadf/"
+      },
+      {
+        "name": "保险产品开发/项目策划",
+        "href": "https://www.liepin.com/career/baoxianchanpinkaifadf/"
+      },
+      {
+        "name": "金融产品经理",
+        "href": "https://www.liepin.com/career/jinrongchanpinjinglidf/"
+      },
+      {
+        "name": "汽车产品规划",
+        "href": "https://www.liepin.com/career/qichechanpinguihuadf/"
+      },
+      {
+        "name": "机械产品规划",
+        "href": "https://www.liepin.com/career/jixiechanpinguihuadf/"
+      },
+      {
+        "name": "其他产品职位",
+        "href": "https://www.liepin.com/career/qtchanpinzw/"
+      }
+    ],
+    "互联网运营": [
+      {
+        "name": "数据标注",
+        "href": "https://www.liepin.com/career/shujubiaozhu/"
+      },
+      {
+        "name": "直播运营",
+        "href": "https://www.liepin.com/career/zhiboyunying/"
+      },
+      {
+        "name": "产品运营",
+        "href": "https://www.liepin.com/career/chanpinyy/"
+      },
+      {
+        "name": "用户运营",
+        "href": "https://www.liepin.com/career/yonghuyy/"
+      },
+      {
+        "name": "数据运营",
+        "href": "https://www.liepin.com/career/shujuyy/"
+      },
+      {
+        "name": "内容审核",
+        "href": "https://www.liepin.com/career/neirongshenhe/"
+      },
+      {
+        "name": "内容运营",
+        "href": "https://www.liepin.com/career/neirongyy/"
+      },
+      {
+        "name": "活动运营",
+        "href": "https://www.liepin.com/career/huodongyy/"
+      },
+      {
+        "name": "游戏运营",
+        "href": "https://www.liepin.com/career/youxiyy/"
+      },
+      {
+        "name": "策略运营",
+        "href": "https://www.liepin.com/career/celueyy/"
+      },
+      {
+        "name": "新媒体运营",
+        "href": "https://www.liepin.com/career/xinmeitiyy/"
+      },
+      {
+        "name": "社区/社群运营",
+        "href": "https://www.liepin.com/career/shequyy/"
+      },
+      {
+        "name": "海外运营",
+        "href": "https://www.liepin.com/career/haiwaiyy/"
+      },
+      {
+        "name": "网站编辑",
+        "href": "https://www.liepin.com/career/wangzhanbianji/"
+      },
+      {
+        "name": "网站运营",
+        "href": "https://www.liepin.com/career/wangzhanyy/"
+      },
+      {
+        "name": "运营专员",
+        "href": "https://www.liepin.com/career/yyzhuanyan/"
+      },
+      {
+        "name": "运营经理/主管",
+        "href": "https://www.liepin.com/career/yyjlzhuguan/"
+      },
+      {
+        "name": "运营总监",
+        "href": "https://www.liepin.com/career/yyzongjian/"
+      },
+      {
+        "name": "线下拓展运营",
+        "href": "https://www.liepin.com/career/xianxiatuozhanyy/"
+      },
+      {
+        "name": "网站营运管理",
+        "href": "https://www.liepin.com/career/wangzhanyingyun/"
+      },
+      {
+        "name": "网店运营",
+        "href": "https://www.liepin.com/career/wangdianyy/"
+      },
+      {
+        "name": "网站策划",
+        "href": "https://www.liepin.com/career/wangzhancehua/"
+      }
+    ],
+    "业务运营/其他运营": [
+      {
+        "name": "门店运营",
+        "href": "https://www.liepin.com/career/mendianyunying/"
+      },
+      {
+        "name": "销售运营",
+        "href": "https://www.liepin.com/career/xiaoshouyunyingdf/"
+      },
+      {
+        "name": "房地产运营",
+        "href": "https://www.liepin.com/career/fdcyuyingdf/"
+      },
+      {
+        "name": "其他运营职位",
+        "href": "https://www.liepin.com/career/qtyyzw/"
+      }
+    ],
+    "UE/视觉/平面设计": [
+      {
+        "name": "UI设计",
+        "href": "https://www.liepin.com/career/uishejishi/"
+      },
+      {
+        "name": "交互设计",
+        "href": "https://www.liepin.com/career/jiaohushi/"
+      },
+      {
+        "name": "用户研究",
+        "href": "https://www.liepin.com/career/360280/"
+      },
+      {
+        "name": "用户体验设计",
+        "href": "https://www.liepin.com/career/YongHuTiYanSheJi/"
+      },
+      {
+        "name": "视觉设计",
+        "href": "https://www.liepin.com/career/shijuesjs/"
+      },
+      {
+        "name": "动效设计",
+        "href": "https://www.liepin.com/career/DongXiaoSheJi/"
+      },
+      {
+        "name": "网页设计",
+        "href": "https://www.liepin.com/career/wangyeshejishi/"
+      },
+      {
+        "name": "品牌设计",
+        "href": "https://www.liepin.com/career/PinPaiSheJi/"
+      },
+      {
+        "name": "平面广告设计",
+        "href": "https://www.liepin.com/career/meitiguanggao/"
+      },
+      {
+        "name": "平面设计",
+        "href": "https://www.liepin.com/career/pingmiansheiji/"
+      },
+      {
+        "name": "设计经理/主管",
+        "href": "https://www.liepin.com/career/shejijl|zhuguan/"
+      },
+      {
+        "name": "美术/图形设计",
+        "href": "https://www.liepin.com/career/meishutuxiengsheji/"
+      },
+      {
+        "name": "设计总监",
+        "href": "https://www.liepin.com/career/shejizongjian/"
+      }
+    ],
+    "工业/家居设计": [
+      {
+        "name": "家具设计",
+        "href": "https://www.liepin.com/career/JiaJsheji/"
+      },
+      {
+        "name": "家居设计",
+        "href": "https://www.liepin.com/career/jiajusheji/"
+      },
+      {
+        "name": "玩具设计",
+        "href": "https://www.liepin.com/career/240155/"
+      },
+      {
+        "name": "计算机辅助设计工程师",
+        "href": "https://www.liepin.com/career/fuzhusheji/"
+      },
+      {
+        "name": "工艺品/珠宝设计",
+        "href": "https://www.liepin.com/career/zhubaosheji/"
+      },
+      {
+        "name": "包装设计",
+        "href": "https://www.liepin.com/career/baozhuangshiji/"
+      },
+      {
+        "name": "工业/产品设计",
+        "href": "https://www.liepin.com/career/gongyechanpin/"
+      }
+    ],
+    "游戏美术设计": [
+      {
+        "name": "游戏UI设计",
+        "href": "https://www.liepin.com/career/youxijmsjs/"
+      },
+      {
+        "name": "游戏原画设计",
+        "href": "https://www.liepin.com/career/240157/"
+      },
+      {
+        "name": "游戏3D角色/场景",
+        "href": "https://www.liepin.com/career/youxichangjing/"
+      },
+      {
+        "name": "游戏动作设计",
+        "href": "https://www.liepin.com/career/youxidong作/"
+      },
+      {
+        "name": "游戏特效设计",
+        "href": "https://www.liepin.com/career/youxitexiao/"
+      },
+      {
+        "name": "技术美术TA",
+        "href": "https://www.liepin.com/career/jishumeishu/"
+      },
+      {
+        "name": "游戏主美",
+        "href": "https://www.liepin.com/career/YouXiZhuMei/"
+      }
+    ]
+  },
+  "市场/媒体/广告": {
+    "市场营销": [
+      {
+        "name": "选址开发",
+        "href": "https://www.liepin.com/career/60208/"
+      },
+      {
+        "name": "市场策划",
+        "href": "https://www.liepin.com/career/shichangjl/"
+      },
+      {
+        "name": "市场推广",
+        "href": "https://www.liepin.com/career/shichangtuiguang/"
+      },
+      {
+        "name": "APP推广",
+        "href": "https://www.liepin.com/career/apptuiguang/"
+      },
+      {
+        "name": "SEO",
+        "href": "https://www.liepin.com/career/seoyouhua/"
+      },
+      {
+        "name": "SEM",
+        "href": "https://www.liepin.com/career/sem/"
+      },
+      {
+        "name": "商务渠道",
+        "href": "https://www.liepin.com/career/shangwuqudao/"
+      },
+      {
+        "name": "商业数据分析",
+        "href": "https://www.liepin.com/career/shangyesjfx/"
+      },
+      {
+        "name": "海外市场",
+        "href": "https://www.liepin.com/career/haiwaishichang/"
+      },
+      {
+        "name": "活动策划",
+        "href": "https://www.liepin.com/career/460005/"
+      },
+      {
+        "name": "活动执行",
+        "href": "https://www.liepin.com/career/460006/"
+      },
+      {
+        "name": "市场通路",
+        "href": "https://www.liepin.com/career/60205/"
+      },
+      {
+        "name": "市场调研与分析",
+        "href": "https://www.liepin.com/career/shichangdiaoyan/"
+      },
+      {
+        "name": "市场专员",
+        "href": "https://www.liepin.com/career/shichangzhuanyuan/"
+      },
+      {
+        "name": "市场经理/主管",
+        "href": "https://www.liepin.com/career/shichangyingxiaojl/"
+      },
+      {
+        "name": "促销经理/主管",
+        "href": "https://www.liepin.com/career/cuxiaojl/"
+      },
+      {
+        "name": "市场总监",
+        "href": "https://www.liepin.com/career/cmo/"
+      },
+      {
+        "name": "市场拓展经理/主管",
+        "href": "https://www.liepin.com/career/60201/"
+      },
+      {
+        "name": "市场拓展专员/助理",
+        "href": "https://www.liepin.com/career/60202/"
+      },
+      {
+        "name": "市场产品经理/主管",
+        "href": "https://www.liepin.com/career/shichangpmzhuguan/"
+      },
+      {
+        "name": "市场产品专员/助理",
+        "href": "https://www.liepin.com/career/shichangchanpinzhuanyuanzhuli/"
+      }
+    ],
+    "公关/媒介/政府关系": [
+      {
+        "name": "政府关系",
+        "href": "https://www.liepin.com/career/290100/"
+      },
+      {
+        "name": "政策研究",
+        "href": "https://www.liepin.com/career/ZhengCeYanJiu/"
+      },
+      {
+        "name": "舆情分析师",
+        "href": "https://www.liepin.com/career/YuQingFenXiShiD/"
+      },
+      {
+        "name": "媒介顾问",
+        "href": "https://www.liepin.com/career/meijieguwen/"
+      },
+      {
+        "name": "媒介策划",
+        "href": "https://www.liepin.com/career/meijiecehua/"
+      },
+      {
+        "name": "媒介专员/助理",
+        "href": "https://www.liepin.com/career/460004/"
+      },
+      {
+        "name": "媒介经理/主管",
+        "href": "https://www.liepin.com/career/460003/"
+      },
+      {
+        "name": "公关专员/助理",
+        "href": "https://www.liepin.com/career/460002/"
+      },
+      {
+        "name": "公关经理/主管",
+        "href": "https://www.liepin.com/career/meijiezhuguan/"
+      },
+      {
+        "name": "公关总监",
+        "href": "https://www.liepin.com/career/460001/"
+      }
+    ],
+    "品牌": [
+      {
+        "name": "品牌总监",
+        "href": "https://www.liepin.com/career/pinpaizj/"
+      },
+      {
+        "name": "品牌经理/主管",
+        "href": "https://www.liepin.com/career/60203/"
+      },
+      {
+        "name": "品牌专员/助理",
+        "href": "https://www.liepin.com/career/pinpaizhuanyuan/"
+      }
+    ],
+    "广告": [
+      {
+        "name": "广告/会展业务拓展",
+        "href": "https://www.liepin.com/career/470006/"
+      },
+      {
+        "name": "媒体/广告销售",
+        "href": "https://www.liepin.com/career/460007/"
+      },
+      {
+        "name": "品牌设计",
+        "href": "https://www.liepin.com/career/PinPaiSheJiD/"
+      },
+      {
+        "name": "平面广告设计",
+        "href": "https://www.liepin.com/career/PingMianGuangGaoSheJi/"
+      },
+      {
+        "name": "文案/策划",
+        "href": "https://www.liepin.com/career/470005/"
+      },
+      {
+        "name": "广告创意总监",
+        "href": "https://www.liepin.com/career/470003/"
+      },
+      {
+        "name": "广告创意经理/主管",
+        "href": "https://www.liepin.com/career/cehua/"
+      },
+      {
+        "name": "广告创意师",
+        "href": "https://www.liepin.com/career/470004/"
+      },
+      {
+        "name": "美术指导",
+        "href": "https://www.liepin.com/career/470008/"
+      },
+      {
+        "name": "广告客户总监",
+        "href": "https://www.liepin.com/career/470001/"
+      },
+      {
+        "name": "广告客户经理AM",
+        "href": "https://www.liepin.com/career/guanggaokehujl/"
+      },
+      {
+        "name": "广告客户执行AE",
+        "href": "https://www.liepin.com/career/470002/"
+      },
+      {
+        "name": "广告制作执行",
+        "href": "https://www.liepin.com/career/guanggaozhizuo/"
+      },
+      {
+        "name": "媒介投放",
+        "href": "https://www.liepin.com/career/meijietoufang/"
+      },
+      {
+        "name": "广告审核",
+        "href": "https://www.liepin.com/career/guanggaoshenhe/"
+      }
+    ],
+    "会务/会展": [
+      {
+        "name": "会展活动策划",
+        "href": "https://www.liepin.com/career/470010/"
+      },
+      {
+        "name": "会务/会展执行",
+        "href": "https://www.liepin.com/career/470012/"
+      },
+      {
+        "name": "会务/会展专员/助理",
+        "href": "https://www.liepin.com/career/470009/"
+      },
+      {
+        "name": "会务/会展经理/主管",
+        "href": "https://www.liepin.com/career/huiwujl/"
+      },
+      {
+        "name": "会展项目管理",
+        "href": "https://www.liepin.com/career/guanggaohuizhanxiangmu/"
+      }
+    ],
+    "其他市场/公关/广告/会展": [
+      {
+        "name": "其他市场/公关/广告/会展职位",
+        "href": "https://www.liepin.com/career/qtshichanggongguan/"
+      }
+    ],
+    "印刷/包装": [
+      {
+        "name": "印刷排版/制版",
+        "href": "https://www.liepin.com/career/250210/"
+      },
+      {
+        "name": "印刷机械机长",
+        "href": "https://www.liepin.com/career/250240/"
+      },
+      {
+        "name": "调墨技师",
+        "href": "https://www.liepin.com/career/250230/"
+      },
+      {
+        "name": "包装工程师",
+        "href": "https://www.liepin.com/career/210250/"
+      },
+      {
+        "name": "印刷/包装工",
+        "href": "https://www.liepin.com/career/yinshuabaozhuanggong/"
+      },
+      {
+        "name": "其他印刷/包装职位",
+        "href": "https://www.liepin.com/career/qtyinshua/"
+      }
+    ],
+    "编辑/记者": [
+      {
+        "name": "总编/副总编",
+        "href": "https://www.liepin.com/career/zongbian/"
+      },
+      {
+        "name": "主编/副主编",
+        "href": "https://www.liepin.com/career/ZhuBianFuZhuBian/"
+      },
+      {
+        "name": "编辑/组稿",
+        "href": "https://www.liepin.com/career/wenzbj/"
+      },
+      {
+        "name": "美术编辑",
+        "href": "https://www.liepin.com/career/meishubianji/"
+      },
+      {
+        "name": "出版/发行",
+        "href": "https://www.liepin.com/career/faxingzongjian/"
+      },
+      {
+        "name": "校对/录入",
+        "href": "https://www.liepin.com/career/xiaoduiluru/"
+      },
+      {
+        "name": "排版设计",
+        "href": "https://www.liepin.com/career/paibansheji/"
+      },
+      {
+        "name": "记者/采编",
+        "href": "https://www.liepin.com/career/jizhe/"
+      },
+      {
+        "name": "作家/撰稿人",
+        "href": "https://www.liepin.com/career/zuojia/"
+      }
+    ],
+    "影视制作": [
+      {
+        "name": "影视策划/宣传发行",
+        "href": "https://www.liepin.com/career/yinshicehua/"
+      },
+      {
+        "name": "导演/编导",
+        "href": "https://www.liepin.com/career/daoyan/"
+      },
+      {
+        "name": "摄影/摄像",
+        "href": "https://www.liepin.com/career/sheyingshexiang/"
+      },
+      {
+        "name": "录音/调音/音响师",
+        "href": "https://www.liepin.com/career/luyinshi/"
+      },
+      {
+        "name": "音效设计",
+        "href": "https://www.liepin.com/career/yinxiaosjs/"
+      },
+      {
+        "name": "音乐制作",
+        "href": "https://www.liepin.com/career/YinLeZhiZuo/"
+      },
+      {
+        "name": "后期/剪辑",
+        "href": "https://www.liepin.com/career/480001/"
+      },
+      {
+        "name": "制片人",
+        "href": "https://www.liepin.com/career/zhipianren/"
+      },
+      {
+        "name": "视频编辑",
+        "href": "https://www.liepin.com/career/shipinbianji/"
+      },
+      {
+        "name": "编剧",
+        "href": "https://www.liepin.com/career/bianju/"
+      },
+      {
+        "name": "放映管理",
+        "href": "https://www.liepin.com/career/480002/"
+      },
+      {
+        "name": "音频编辑",
+        "href": "https://www.liepin.com/career/yinpinbianji/"
+      }
+    ]
+  },
+  "人事行政": {
+    "人力资源": [
+      {
+        "name": "HRVP/CHO",
+        "href": "https://www.liepin.com/career/10121/"
+      },
+      {
+        "name": "人力资源总监",
+        "href": "https://www.liepin.com/career/renlizongjian/"
+      },
+      {
+        "name": "人力资源经理/主管",
+        "href": "https://www.liepin.com/career/renliziyuanjl/"
+      },
+      {
+        "name": "人力资源专员/助理",
+        "href": "https://www.liepin.com/career/renshizhuguan/"
+      },
+      {
+        "name": "HRBP",
+        "href": "https://www.liepin.com/career/70142/"
+      },
+      {
+        "name": "猎头顾问/助理",
+        "href": "https://www.liepin.com/career/lietou/"
+      },
+      {
+        "name": "招聘总监",
+        "href": "https://www.liepin.com/career/zhaopinzongjian/"
+      },
+      {
+        "name": "招聘经理/主管",
+        "href": "https://www.liepin.com/career/zhaopinjl/"
+      },
+      {
+        "name": "招聘专员/助理",
+        "href": "https://www.liepin.com/career/70051/"
+      },
+      {
+        "name": "培训/TD总监",
+        "href": "https://www.liepin.com/career/peixunzongjian/"
+      },
+      {
+        "name": "培训经理/主管",
+        "href": "https://www.liepin.com/career/peixunjl/"
+      },
+      {
+        "name": "培训专员/助理",
+        "href": "https://www.liepin.com/career/peixunzhuanyuan/"
+      },
+      {
+        "name": "薪酬绩效总监",
+        "href": "https://www.liepin.com/career/xinchoujixiaozongjian/"
+      },
+      {
+        "name": "薪酬绩效经理/主管",
+        "href": "https://www.liepin.com/career/xinchoufuli/"
+      },
+      {
+        "name": "薪酬绩效专员/助理",
+        "href": "https://www.liepin.com/career/70101/"
+      },
+      {
+        "name": "组织发展OD",
+        "href": "https://www.liepin.com/career/70143/"
+      },
+      {
+        "name": "员工关系",
+        "href": "https://www.liepin.com/career/yuangongguanxi/"
+      },
+      {
+        "name": "企业文化",
+        "href": "https://www.liepin.com/career/QiYeWenHua/"
+      },
+      {
+        "name": "人力信息系统HRIS",
+        "href": "https://www.liepin.com/career/70141/"
+      },
+      {
+        "name": "其他人力资源职位",
+        "href": "https://www.liepin.com/career/ohr/"
+      }
+    ],
+    "行政/后勤/秘书": [
+      {
+        "name": "行政总监",
+        "href": "https://www.liepin.com/career/xingzhengzongjian/"
+      },
+      {
+        "name": "行政经理/主管/办公室主任",
+        "href": "https://www.liepin.com/career/xingzhengjl/"
+      },
+      {
+        "name": "行政专员/助理",
+        "href": "https://www.liepin.com/career/80021/"
+      },
+      {
+        "name": "行政前台/接待",
+        "href": "https://www.liepin.com/career/80062/"
+      },
+      {
+        "name": "行政后勤/总务",
+        "href": "https://www.liepin.com/career/80065/"
+      },
+      {
+        "name": "秘书/助理",
+        "href": "https://www.liepin.com/career/80061/"
+      },
+      {
+        "name": "商务司机",
+        "href": "https://www.liepin.com/career/shangwusiji/"
+      },
+      {
+        "name": "档案管理",
+        "href": "https://www.liepin.com/career/tushuqingbao/"
+      },
+      {
+        "name": "电脑操作/打字/录入员",
+        "href": "https://www.liepin.com/career/80063/"
+      },
+      {
+        "name": "其他行政职位",
+        "href": "https://www.liepin.com/career/qtxingzhenghouqinwenmizw/"
+      }
+    ],
+    "法务/风控/合规": [
+      {
+        "name": "法务总监",
+        "href": "https://www.liepin.com/career/fawuzongjian/"
+      },
+      {
+        "name": "法务经理/主管",
+        "href": "https://www.liepin.com/career/fawurenyuan/"
+      },
+      {
+        "name": "法务专员/助理",
+        "href": "https://www.liepin.com/career/270041/"
+      },
+      {
+        "name": "律师",
+        "href": "https://www.liepin.com/career/lvshi/"
+      },
+      {
+        "name": "实习律师",
+        "href": "https://www.liepin.com/career/ShiXiLvShi/"
+      },
+      {
+        "name": "律师助理",
+        "href": "https://www.liepin.com/career/lvshizhuli/"
+      },
+      {
+        "name": "法律顾问",
+        "href": "https://www.liepin.com/career/falvguwen/"
+      },
+      {
+        "name": "知识产权代理",
+        "href": "https://www.liepin.com/career/270042/"
+      },
+      {
+        "name": "合规经理/主管",
+        "href": "https://www.liepin.com/career/270043/"
+      },
+      {
+        "name": "合规专员/助理",
+        "href": "https://www.liepin.com/career/270044/"
+      },
+      {
+        "name": "风控",
+        "href": "https://www.liepin.com/career/fengkong/"
+      },
+      {
+        "name": "其他法务职位",
+        "href": "https://www.liepin.com/career/qtfawuzw/"
+      }
+    ]
+  },
+  "高级管理": {
+    "高级管理": [
+      {
+        "name": "首席执行官CEO/总裁/总经理",
+        "href": "https://www.liepin.com/career/ceo/"
+      },
+      {
+        "name": "运营VP/首席运营官COO",
+        "href": "https://www.liepin.com/career/coo/"
+      },
+      {
+        "name": "CMO",
+        "href": "https://www.liepin.com/career/cmonew/"
+      },
+      {
+        "name": "副总裁/副总经理",
+        "href": "https://www.liepin.com/career/vp/"
+      },
+      {
+        "name": "合伙人",
+        "href": "https://www.liepin.com/career/partner/"
+      },
+      {
+        "name": "部门/事业部管理",
+        "href": "https://www.liepin.com/career/director/"
+      },
+      {
+        "name": "分公司/代表处负责人",
+        "href": "https://www.liepin.com/career/10102/"
+      },
+      {
+        "name": "助理总经理/总助(高管级)",
+        "href": "https://www.liepin.com/career/zongcaizhuli/"
+      },
+      {
+        "name": "董事会秘书",
+        "href": "https://www.liepin.com/career/10103/"
+      },
+      {
+        "name": "其他高级管理",
+        "href": "https://www.liepin.com/career/qtgaojiguanli/"
+      }
+    ],
+    "项目管理": [
+      {
+        "name": "IT项目管理",
+        "href": "https://www.liepin.com/career/ITXiangMuGuanLi/"
+      },
+      {
+        "name": "通信项目管理",
+        "href": "https://www.liepin.com/career/TongXinXiangMuGuanLi/"
+      },
+      {
+        "name": "工程与项目实施",
+        "href": "https://www.liepin.com/career/gongchengshishi/"
+      },
+      {
+        "name": "房地产项目总经理",
+        "href": "https://www.liepin.com/career/FangDiChanXiangMuZongJingLiD/"
+      },
+      {
+        "name": "建筑工程管理/项目经理",
+        "href": "https://www.liepin.com/career/JianZhuGongChengGuanLiXiangMuJingLi/"
+      },
+      {
+        "name": "物业项目经理",
+        "href": "https://www.liepin.com/career/WuYeXiangMuJingLiD/"
+      },
+      {
+        "name": "生产项目管理",
+        "href": "https://www.liepin.com/career/ShengChanXiangMuGuanLi/"
+      },
+      {
+        "name": "汽车研发/项目管理",
+        "href": "https://www.liepin.com/career/QiCheYanFaXiangMuGuanLi/"
+      },
+      {
+        "name": "会展项目管理",
+        "href": "https://www.liepin.com/career/HuiZhanXiangMuGuanLi/"
+      },
+      {
+        "name": "临床项目管理",
+        "href": "https://www.liepin.com/career/LinChuangXiangMuGuanLi/"
+      },
+      {
+        "name": "能源项目管理",
+        "href": "https://www.liepin.com/career/NenYuanXiangMuGuanLi/"
+      },
+      {
+        "name": "咨询项目经理",
+        "href": "https://www.liepin.com/career/ZiXunXiangMuJingLi/"
+      },
+      {
+        "name": "物流/仓储项目经理",
+        "href": "https://www.liepin.com/career/WuLiuCangChuXiangMuJingLi/"
+      },
+      {
+        "name": "系统分析师",
+        "href": "https://www.liepin.com/career/xitongfenxiyuan/"
+      },
+      {
+        "name": "需求分析师",
+        "href": "https://www.liepin.com/career/xuqiugcs/"
+      },
+      {
+        "name": "流程管理",
+        "href": "https://www.liepin.com/career/liuchengguanli/"
+      },
+      {
+        "name": "PMO",
+        "href": "https://www.liepin.com/career/pmo/"
+      },
+      {
+        "name": "标准化工程师",
+        "href": "https://www.liepin.com/career/jilianggcs/"
+      },
+      {
+        "name": "ERP实施顾问",
+        "href": "https://www.liepin.com/career/erpyingyong/"
+      },
+      {
+        "name": "实施顾问",
+        "href": "https://www.liepin.com/career/shishiguwen/"
+      },
+      {
+        "name": "实施工程师",
+        "href": "https://www.liepin.com/career/shishigcs/"
+      },
+      {
+        "name": "项目执行",
+        "href": "https://www.liepin.com/career/xiangmuzhixing/"
+      },
+      {
+        "name": "项目专员/助理",
+        "href": "https://www.liepin.com/career/xiangmuzhuanyuan/"
+      },
+      {
+        "name": "项目经理/主管",
+        "href": "https://www.liepin.com/career/xiangmujl/"
+      },
+      {
+        "name": "项目总监",
+        "href": "https://www.liepin.com/career/xiangmuzongjian/"
+      }
+    ],
+    "其他项目管理": [
+      {
+        "name": "其他项目管理职位",
+        "href": "https://www.liepin.com/career/qtxiangmuguanlizw/"
+      }
+    ]
+  },
+  "销售/客服": {
+    "销售人员": [
+      {
+        "name": "销售代表",
+        "href": "https://www.liepin.com/career/370001/"
+      },
+      {
+        "name": "客户代表",
+        "href": "https://www.liepin.com/career/370003/"
+      },
+      {
+        "name": "大客户销售",
+        "href": "https://www.liepin.com/career/370007/"
+      },
+      {
+        "name": "BD经理",
+        "href": "https://www.liepin.com/career/bdjingli/"
+      },
+      {
+        "name": "渠道经理",
+        "href": "https://www.liepin.com/career/qudaojl/"
+      },
+      {
+        "name": "电话销售",
+        "href": "https://www.liepin.com/career/370005/"
+      },
+      {
+        "name": "销售顾问",
+        "href": "https://www.liepin.com/career/xiaoshouguwen/"
+      },
+      {
+        "name": "网络/在线销售",
+        "href": "https://www.liepin.com/career/wangluoxiaoshou/"
+      },
+      {
+        "name": "销售工程师",
+        "href": "https://www.liepin.com/career/xiaoshougongchengshi/"
+      },
+      {
+        "name": "客户经理",
+        "href": "https://www.liepin.com/career/20122/"
+      },
+      {
+        "name": "业务拓展专员/助理",
+        "href": "https://www.liepin.com/career/bdzhuanyuan/"
+      },
+      {
+        "name": "渠道/分销专员",
+        "href": "https://www.liepin.com/career/370002/"
+      },
+      {
+        "name": "经销商",
+        "href": "https://www.liepin.com/career/370006/"
+      },
+      {
+        "name": "区域销售专员/助理",
+        "href": "https://www.liepin.com/career/quyuxiaoshou/"
+      },
+      {
+        "name": "团购业务员",
+        "href": "https://www.liepin.com/career/tuangouyewuyuan/"
+      },
+      {
+        "name": "海外销售",
+        "href": "https://www.liepin.com/career/haiwaixiaoshou/"
+      }
+    ],
+    "销售管理": [
+      {
+        "name": "销售经理/主管",
+        "href": "https://www.liepin.com/career/xiaoshoujl/"
+      },
+      {
+        "name": "销售总监",
+        "href": "https://www.liepin.com/career/xiaoshouzongjian/"
+      },
+      {
+        "name": "区域销售经理/主管",
+        "href": "https://www.liepin.com/career/quyuxiaoshoujl/"
+      },
+      {
+        "name": "区域销售总监",
+        "href": "https://www.liepin.com/career/quyuxiaoshouzongjian/"
+      },
+      {
+        "name": "大客户销售管理",
+        "href": "https://www.liepin.com/career/20121/"
+      },
+      {
+        "name": "渠道总监",
+        "href": "https://www.liepin.com/career/qudaozongjian/"
+      },
+      {
+        "name": "客户总监",
+        "href": "https://www.liepin.com/career/kehuzongjian/"
+      },
+      {
+        "name": "城市经理",
+        "href": "https://www.liepin.com/career/chengshijingli/"
+      },
+      {
+        "name": "销售总经理/销售副总裁",
+        "href": "https://www.liepin.com/career/20125/"
+      },
+      {
+        "name": "业务拓展经理/主管",
+        "href": "https://www.liepin.com/career/tuozhanjl/"
+      },
+      {
+        "name": "团购经理/主管",
+        "href": "https://www.liepin.com/career/tuangoujl/"
+      }
+    ],
+    "销售行政/商务": [
+      {
+        "name": "销售行政/内勤",
+        "href": "https://www.liepin.com/career/380001/"
+      },
+      {
+        "name": "销售业务分析",
+        "href": "https://www.liepin.com/career/380008/"
+      },
+      {
+        "name": "销售运营",
+        "href": "https://www.liepin.com/career/380005/"
+      },
+      {
+        "name": "销售培训讲师",
+        "href": "https://www.liepin.com/career/380007/"
+      },
+      {
+        "name": "商务专员/助理",
+        "href": "https://www.liepin.com/career/380003/"
+      },
+      {
+        "name": "商务经理/主管",
+        "href": "https://www.liepin.com/career/shangwuzhuguan/"
+      },
+      {
+        "name": "商务总监",
+        "href": "https://www.liepin.com/career/ShangWuZongJian/"
+      }
+    ],
+    "销售技术支持": [
+      {
+        "name": "售前技术支持",
+        "href": "https://www.liepin.com/career/shouqianjl/"
+      },
+      {
+        "name": "售后技术支持",
+        "href": "https://www.liepin.com/career/shaohouzhichijl/"
+      },
+      {
+        "name": "解决方案",
+        "href": "https://www.liepin.com/career/JieJueFangAnGongChengShi/"
+      },
+      {
+        "name": "客户成功",
+        "href": "https://www.liepin.com/career/kehuchenggong/"
+      }
+    ],
+    "客服": [
+      {
+        "name": "售前客服",
+        "href": "https://www.liepin.com/career/shouqianzixun/"
+      },
+      {
+        "name": "售后客服",
+        "href": "https://www.liepin.com/career/shouhouzixun/"
+      },
+      {
+        "name": "咨询热线客服",
+        "href": "https://www.liepin.com/career/ZiXunReXianKeFu/"
+      },
+      {
+        "name": "电话客服",
+        "href": "https://www.liepin.com/career/ogs/"
+      },
+      {
+        "name": "网络/在线客服",
+        "href": "https://www.liepin.com/career/wangluokefu/"
+      },
+      {
+        "name": "会员/VIP管理",
+        "href": "https://www.liepin.com/career/30084/"
+      },
+      {
+        "name": "客服专员",
+        "href": "https://www.liepin.com/career/30081/"
+      },
+      {
+        "name": "客服经理/主管",
+        "href": "https://www.liepin.com/career/30085/"
+      },
+      {
+        "name": "客服总监",
+        "href": "https://www.liepin.com/career/kehufuwu/"
+      }
+    ],
+    "其他销售/客服": [
+      {
+        "name": "其他销售/客服职位",
+        "href": "https://www.liepin.com/career/qtxiaoshoukefuzw/"
+      }
+    ]
+  },
+  "金融": {
+    "银行": [
+      {
+        "name": "行长/副行长",
+        "href": "https://www.liepin.com/career/hangzhang/"
+      },
+      {
+        "name": "银行公司业务",
+        "href": "https://www.liepin.com/career/410004/"
+      },
+      {
+        "name": "银行零售业务",
+        "href": "https://www.liepin.com/career/410006/"
+      },
+      {
+        "name": "私人银行家",
+        "href": "https://www.liepin.com/career/sirenyinhangjia/"
+      },
+      {
+        "name": "理财经理",
+        "href": "https://www.liepin.com/career/licaijli/"
+      },
+      {
+        "name": "金融同业客户经理",
+        "href": "https://www.liepin.com/career/410017/"
+      },
+      {
+        "name": "信用卡销售",
+        "href": "https://www.liepin.com/career/410020/"
+      },
+      {
+        "name": "信贷管理",
+        "href": "https://www.liepin.com/career/xindaiguanli/"
+      },
+      {
+        "name": "国际结算/外汇交易",
+        "href": "https://www.liepin.com/career/guojijiesuan/"
+      },
+      {
+        "name": "银行资产托管",
+        "href": "https://www.liepin.com/career/410019/"
+      },
+      {
+        "name": "资金管理/FTP/资产负债",
+        "href": "https://www.liepin.com/career/410014/"
+      },
+      {
+        "name": "银行资产管理",
+        "href": "https://www.liepin.com/career/zichanguanliyinxing/"
+      },
+      {
+        "name": "支付/清算",
+        "href": "https://www.liepin.com/career/zhifuqingsuan/"
+      },
+      {
+        "name": "银行大堂经理",
+        "href": "https://www.liepin.com/career/410009/"
+      },
+      {
+        "name": "柜员/银行会计",
+        "href": "https://www.liepin.com/career/licaizixun/"
+      },
+      {
+        "name": "银行经理/主任",
+        "href": "https://www.liepin.com/career/410001/"
+      },
+      {
+        "name": "银行综合业务经理",
+        "href": "https://www.liepin.com/career/410007/"
+      },
+      {
+        "name": "银行综合业务专员/助理",
+        "href": "https://www.liepin.com/career/410008/"
+      },
+      {
+        "name": "银行卡/电子银行/新业务开拓",
+        "href": "https://www.liepin.com/career/yinhangka/"
+      }
+    ],
+    "保险": [
+      {
+        "name": "保险精算师",
+        "href": "https://www.liepin.com/career/150070/"
+      },
+      {
+        "name": "保险产品开发/项目策划",
+        "href": "https://www.liepin.com/career/150090/"
+      },
+      {
+        "name": "保险企划",
+        "href": "https://www.liepin.com/career/baoxianqihua/"
+      },
+      {
+        "name": "保险销售",
+        "href": "https://www.liepin.com/career/baoxiandaili/"
+      },
+      {
+        "name": "保险业务经理",
+        "href": "https://www.liepin.com/career/150080/"
+      },
+      {
+        "name": "核保/理赔",
+        "href": "https://www.liepin.com/career/hebaolipei/"
+      },
+      {
+        "name": "保险培训师",
+        "href": "https://www.liepin.com/career/zuxunpeixun/"
+      },
+      {
+        "name": "保险续约管理/服务",
+        "href": "https://www.liepin.com/career/baoxianxuyueguanlifuwu/"
+      },
+      {
+        "name": "保险契约管理",
+        "href": "https://www.liepin.com/career/150130/"
+      },
+      {
+        "name": "保险内勤",
+        "href": "https://www.liepin.com/career/150110/"
+      },
+      {
+        "name": "再保险",
+        "href": "https://www.liepin.com/career/150131/"
+      }
+    ],
+    "证券/基金/期货": [
+      {
+        "name": "固定收益业务",
+        "href": "https://www.liepin.com/career/140148/"
+      },
+      {
+        "name": "机构客户经理",
+        "href": "https://www.liepin.com/career/140153/"
+      },
+      {
+        "name": "投资银行业务",
+        "href": "https://www.liepin.com/career/touziyinhang/"
+      },
+      {
+        "name": "投资/理财顾问",
+        "href": "https://www.liepin.com/career/140144/"
+      },
+      {
+        "name": "期货分析师",
+        "href": "https://www.liepin.com/career/qihuofenxishi/"
+      },
+      {
+        "name": "证券分析师",
+        "href": "https://www.liepin.com/career/zhengquanfenxishi/"
+      },
+      {
+        "name": "股票/期货操盘手",
+        "href": "https://www.liepin.com/career/gupiaoqihuocaopanshou/"
+      },
+      {
+        "name": "资产证券化/ABS",
+        "href": "https://www.liepin.com/career/zichanzhengquanhua/"
+      },
+      {
+        "name": "证券交易员",
+        "href": "https://www.liepin.com/career/140143/"
+      },
+      {
+        "name": "证券经纪人",
+        "href": "https://www.liepin.com/career/zhengquanjingjiren/"
+      },
+      {
+        "name": "基金/证券资产管理",
+        "href": "https://www.liepin.com/career/jijinzhengquanzichanguanli/"
+      },
+      {
+        "name": "期货客户经理",
+        "href": "https://www.liepin.com/career/qihuokehujingli/"
+      },
+      {
+        "name": "基金运营",
+        "href": "https://www.liepin.com/career/140146/"
+      },
+      {
+        "name": "基金经理",
+        "href": "https://www.liepin.com/career/jijinjingli/"
+      },
+      {
+        "name": "量化交易",
+        "href": "https://www.liepin.com/career/lianghuajiaoyi/"
+      },
+      {
+        "name": "证券事务代表",
+        "href": "https://www.liepin.com/career/zhengquanshiwudaibiao/"
+      },
+      {
+        "name": "投资者关系",
+        "href": "https://www.liepin.com/career/10101/"
+      },
+      {
+        "name": "外汇经纪人",
+        "href": "https://www.liepin.com/career/waihuijingjiren/"
+      }
+    ],
+    "信托/担保/拍卖/典当": [
+      {
+        "name": "信托经理",
+        "href": "https://www.liepin.com/career/xintuojl/"
+      },
+      {
+        "name": "担保业务经理",
+        "href": "https://www.liepin.com/career/danbaoyewujingli/"
+      },
+      {
+        "name": "拍卖师",
+        "href": "https://www.liepin.com/career/paimaishi/"
+      },
+      {
+        "name": "典当业务/鉴定",
+        "href": "https://www.liepin.com/career/diandangyewujianding/"
+      }
+    ],
+    "金融风控/产品/研究": [
+      {
+        "name": "风险管理/控制",
+        "href": "https://www.liepin.com/career/fengxianguanli/"
+      },
+      {
+        "name": "合规稽查",
+        "href": "https://www.liepin.com/career/140150/"
+      },
+      {
+        "name": "资产保全/催收",
+        "href": "https://www.liepin.com/career/zichanbaoquancuishou/"
+      },
+      {
+        "name": "行业研究",
+        "href": "https://www.liepin.com/career/140147/"
+      },
+      {
+        "name": "量化研究",
+        "href": "https://www.liepin.com/career/lianghuayanjiu/"
+      },
+      {
+        "name": "金融研究",
+        "href": "https://www.liepin.com/career/zhengquanjijin/"
+      },
+      {
+        "name": "资产评估",
+        "href": "https://www.liepin.com/career/jichanguanli/"
+      },
+      {
+        "name": "金融产品经理",
+        "href": "https://www.liepin.com/career/140145/"
+      },
+      {
+        "name": "互联网金融产品经理",
+        "href": "https://www.liepin.com/career/hulianwngjinrongchanpingjinglidf/"
+      }
+    ],
+    "财务/审计/税务": [
+      {
+        "name": "CFO/财务VP",
+        "href": "https://www.liepin.com/career/cfo/"
+      },
+      {
+        "name": "财务总监",
+        "href": "https://www.liepin.com/career/caiwuzongjian/"
+      },
+      {
+        "name": "财务经理/主管",
+        "href": "https://www.liepin.com/career/caiwujl/"
+      },
+      {
+        "name": "财务专员/助理",
+        "href": "https://www.liepin.com/career/caiwuzhuli/"
+      },
+      {
+        "name": "税务总监",
+        "href": "https://www.liepin.com/career/ShuiWuZongJian/"
+      },
+      {
+        "name": "税务经理/主管",
+        "href": "https://www.liepin.com/career/shuiwujl/"
+      },
+      {
+        "name": "税务专员/助理",
+        "href": "https://www.liepin.com/career/shuiwuzhuanyuan/"
+      },
+      {
+        "name": "出纳员",
+        "href": "https://www.liepin.com/career/90202/"
+      },
+      {
+        "name": "会计经理/主管",
+        "href": "https://www.liepin.com/career/kuaijijl/"
+      },
+      {
+        "name": "会计",
+        "href": "https://www.liepin.com/career/kuaiji/"
+      },
+      {
+        "name": "财务BP",
+        "href": "https://www.liepin.com/career/CaiWuBP/"
+      },
+      {
+        "name": "审计管理",
+        "href": "https://www.liepin.com/career/shenjijl/"
+      },
+      {
+        "name": "审计专员/助理",
+        "href": "https://www.liepin.com/career/shenjizhuanyuan/"
+      },
+      {
+        "name": "财务分析经理/主管",
+        "href": "https://www.liepin.com/career/caiwufenxijl/"
+      },
+      {
+        "name": "财务分析员",
+        "href": "https://www.liepin.com/career/caiwufenxiyuan/"
+      },
+      {
+        "name": "成本经理/主管",
+        "href": "https://www.liepin.com/career/chengbenjl/"
+      },
+      {
+        "name": "成本管理员",
+        "href": "https://www.liepin.com/career/chengbenguanli/"
+      },
+      {
+        "name": "财务顾问",
+        "href": "https://www.liepin.com/career/90200/"
+      },
+      {
+        "name": "结算",
+        "href": "https://www.liepin.com/career/jiesuan/"
+      },
+      {
+        "name": "企业资产/资金管理",
+        "href": "https://www.liepin.com/career/90203/"
+      },
+      {
+        "name": "统计员",
+        "href": "https://www.liepin.com/career/tongji/"
+      },
+      {
+        "name": "其他财务/审计/税务职位",
+        "href": "https://www.liepin.com/career/qtcaiwushenjishuiwuzw/"
+      }
+    ]
+  },
+  "教育培训": {
+    "教务/教学管理": [
+      {
+        "name": "园长",
+        "href": "https://www.liepin.com/career/YuanChang/"
+      },
+      {
+        "name": "校长",
+        "href": "https://www.liepin.com/career/260009/"
+      },
+      {
+        "name": "教学管理",
+        "href": "https://www.liepin.com/career/JiaoXueGuanLi/"
+      },
+      {
+        "name": "教务管理",
+        "href": "https://www.liepin.com/career/jiaowu/"
+      },
+      {
+        "name": "班主任/辅导员",
+        "href": "https://www.liepin.com/career/banzhuren/"
+      },
+      {
+        "name": "助教",
+        "href": "https://www.liepin.com/career/260073/"
+      }
+    ],
+    "教师": [
+      {
+        "name": "语文教师",
+        "href": "https://www.liepin.com/career/YuWenJiaoShi/"
+      },
+      {
+        "name": "数学教师",
+        "href": "https://www.liepin.com/career/ShuXueJiaoShi/"
+      },
+      {
+        "name": "英语教师",
+        "href": "https://www.liepin.com/career/YingYuJiaoShi/"
+      },
+      {
+        "name": "外语教师",
+        "href": "https://www.liepin.com/career/260059/"
+      },
+      {
+        "name": "理科教师",
+        "href": "https://www.liepin.com/career/260057/"
+      },
+      {
+        "name": "文科教师",
+        "href": "https://www.liepin.com/career/260058/"
+      },
+      {
+        "name": "早教老师",
+        "href": "https://www.liepin.com/career/ZaoJiaoLaoShi/"
+      },
+      {
+        "name": "幼教",
+        "href": "https://www.liepin.com/career/youerjiaoyu/"
+      },
+      {
+        "name": "大学教师/教授",
+        "href": "https://www.liepin.com/career/jiaoshi/"
+      },
+      {
+        "name": "特教老师",
+        "href": "https://www.liepin.com/career/TeJiaoLaoShi/"
+      },
+      {
+        "name": "教师",
+        "href": "https://www.liepin.com/career/laoshi/"
+      },
+      {
+        "name": "兼职教师",
+        "href": "https://www.liepin.com/career/jianzhijiaoshi/"
+      }
+    ],
+    "职业培训讲师": [
+      {
+        "name": "培训师/讲师",
+        "href": "https://www.liepin.com/career/260071/"
+      },
+      {
+        "name": "IT培训师",
+        "href": "https://www.liepin.com/career/ITpeixun/"
+      },
+      {
+        "name": "就业老师",
+        "href": "https://www.liepin.com/career/jiuyelaoshi/"
+      },
+      {
+        "name": "拓展培训",
+        "href": "https://www.liepin.com/career/tuozhanpeixun/"
+      }
+    ],
+    "教育产品研发": [
+      {
+        "name": "教育产品开发",
+        "href": "https://www.liepin.com/career/260077/"
+      },
+      {
+        "name": "课程设计",
+        "href": "https://www.liepin.com/career/kechengsheji/"
+      },
+      {
+        "name": "培训策划",
+        "href": "https://www.liepin.com/career/260075/"
+      }
+    ],
+    "其他教育/培训": [
+      {
+        "name": "其他教育/培训职位",
+        "href": "https://www.liepin.com/career/peixunzhiwei/"
+      }
+    ]
+  },
+  "制药/医疗": {
+    "医生/医技/护士": [
+      {
+        "name": "医院管理人员",
+        "href": "https://www.liepin.com/career/yiyuanguanli/"
+      },
+      {
+        "name": "医疗技术人员",
+        "href": "https://www.liepin.com/career/yiliaojishu/"
+      },
+      {
+        "name": "放射科医生",
+        "href": "https://www.liepin.com/career/yixueyingxiang/"
+      },
+      {
+        "name": "超声科医生",
+        "href": "https://www.liepin.com/career/bchaoyisheng/"
+      },
+      {
+        "name": "检验科医师",
+        "href": "https://www.liepin.com/career/jianyankeyishi/"
+      },
+      {
+        "name": "药库主任/药剂师",
+        "href": "https://www.liepin.com/career/yaokuzhuren/"
+      },
+      {
+        "name": "护士/护理人员",
+        "href": "https://www.liepin.com/career/280162/"
+      },
+      {
+        "name": "护理主任/护士长",
+        "href": "https://www.liepin.com/career/280171/"
+      },
+      {
+        "name": "导医",
+        "href": "https://www.liepin.com/career/daoyi/"
+      },
+      {
+        "name": "内科医生",
+        "href": "https://www.liepin.com/career/280161/"
+      },
+      {
+        "name": "外科医生",
+        "href": "https://www.liepin.com/career/280166/"
+      },
+      {
+        "name": "麻醉医生",
+        "href": "https://www.liepin.com/career/280163/"
+      },
+      {
+        "name": "儿科医生",
+        "href": "https://www.liepin.com/career/280172/"
+      },
+      {
+        "name": "心理医生",
+        "href": "https://www.liepin.com/career/280164/"
+      },
+      {
+        "name": "口腔科医生",
+        "href": "https://www.liepin.com/career/280168/"
+      },
+      {
+        "name": "中医科医生",
+        "href": "https://www.liepin.com/career/280169/"
+      },
+      {
+        "name": "综合门诊/全科医生",
+        "href": "https://www.liepin.com/career/quankeyisheng/"
+      },
+      {
+        "name": "医生助理",
+        "href": "https://www.liepin.com/career/yishengzhuli/"
+      },
+      {
+        "name": "验光师",
+        "href": "https://www.liepin.com/career/280173/"
+      },
+      {
+        "name": "专科医生",
+        "href": "https://www.liepin.com/career/280167/"
+      },
+      {
+        "name": "疾病控制/公共卫生",
+        "href": "https://www.liepin.com/career/jibingkongzhi/"
+      }
+    ],
+    "康复/整形": [
+      {
+        "name": "医美/整形师",
+        "href": "https://www.liepin.com/career/zhengxingshi/"
+      },
+      {
+        "name": "营养师",
+        "href": "https://www.liepin.com/career/yingyangshi/"
+      },
+      {
+        "name": "针灸推拿",
+        "href": "https://www.liepin.com/career/zhenjiutuina/"
+      },
+      {
+        "name": "理疗师",
+        "href": "https://www.liepin.com/career/yisheng/"
+      },
+      {
+        "name": "康复治疗师",
+        "href": "https://www.liepin.com/career/kangfuzhiliaoshi/"
+      }
+    ],
+    "医药研发/生产": [
+      {
+        "name": "医药研发管理",
+        "href": "https://www.liepin.com/career/yiyaoyanfaguanli/"
+      },
+      {
+        "name": "药物合成",
+        "href": "https://www.liepin.com/career/yaowuhecheng/"
+      },
+      {
+        "name": "药理毒理研究",
+        "href": "https://www.liepin.com/career/yaoliduliyanjiu/"
+      },
+      {
+        "name": "药物分析",
+        "href": "https://www.liepin.com/career/yaowufenxi/"
+      },
+      {
+        "name": "制剂研究",
+        "href": "https://www.liepin.com/career/yaowuzhijiyanfa/"
+      },
+      {
+        "name": "药品研发",
+        "href": "https://www.liepin.com/career/yiyuanyanfa/"
+      },
+      {
+        "name": "中药研发",
+        "href": "https://www.liepin.com/career/zhongyaoyanfa/"
+      },
+      {
+        "name": "生物制药/工程",
+        "href": "https://www.liepin.com/career/shengwuzhiyao/"
+      },
+      {
+        "name": "生物信息工程师",
+        "href": "https://www.liepin.com/career/shengwuxinxi/"
+      },
+      {
+        "name": "药品生产/质量管理",
+        "href": "https://www.liepin.com/career/yaopinshengchan/"
+      },
+      {
+        "name": "药品生产工艺/技术员",
+        "href": "https://www.liepin.com/career/yaowuscjishu/"
+      }
+    ],
+    "临床试验": [
+      {
+        "name": "临床运营管理",
+        "href": "https://www.liepin.com/career/lcyunying/"
+      },
+      {
+        "name": "临床项目管理",
+        "href": "https://www.liepin.com/career/linchuangshiyanxiangmujl/"
+      },
+      {
+        "name": "临床质量管理",
+        "href": "https://www.liepin.com/career/linchuangshiyanjichayuan/"
+      },
+      {
+        "name": "临床监查员CRA",
+        "href": "https://www.liepin.com/career/linchuangjianchayuancra/"
+      },
+      {
+        "name": "临床协调员CRC",
+        "href": "https://www.liepin.com/career/linchuangyanjiuxiediaoyuancrc/"
+      },
+      {
+        "name": "临床数据分析",
+        "href": "https://www.liepin.com/career/290090/"
+      },
+      {
+        "name": "药物警戒PV",
+        "href": "https://www.liepin.com/career/yaowujingjie/"
+      },
+      {
+        "name": "药品注册",
+        "href": "https://www.liepin.com/career/yaopinzhuce/"
+      }
+    ],
+    "医疗市场/销售/政府事务": [
+      {
+        "name": "医美咨询",
+        "href": "https://www.liepin.com/career/yimeizixun/"
+      },
+      {
+        "name": "健康顾问",
+        "href": "https://www.liepin.com/career/jiankangguwen/"
+      },
+      {
+        "name": "医学编辑",
+        "href": "https://www.liepin.com/career/yixuebianji/"
+      },
+      {
+        "name": "医药招投标管理",
+        "href": "https://www.liepin.com/career/290101/"
+      },
+      {
+        "name": "医药政府事务管理",
+        "href": "https://www.liepin.com/career/yiyaozhengfushiwu/"
+      },
+      {
+        "name": "医药产品经理",
+        "href": "https://www.liepin.com/career/290091/"
+      },
+      {
+        "name": "医药招商",
+        "href": "https://www.liepin.com/career/290102/"
+      },
+      {
+        "name": "医药代表",
+        "href": "https://www.liepin.com/career/yiyaodaibiao/"
+      },
+      {
+        "name": "医药销售管理",
+        "href": "https://www.liepin.com/career/290093/"
+      },
+      {
+        "name": "器械市场推广",
+        "href": "https://www.liepin.com/career/yiliaoqixiesctg/"
+      },
+      {
+        "name": "器械销售代表",
+        "href": "https://www.liepin.com/career/290098/"
+      },
+      {
+        "name": "器械销售管理",
+        "href": "https://www.liepin.com/career/qixiexiaoshougl/"
+      },
+      {
+        "name": "GMP/FDA/GSP/体系认证",
+        "href": "https://www.liepin.com/career/tixirenzheng/"
+      }
+    ],
+    "医疗器械研发/生产": [
+      {
+        "name": "器械研发工程师",
+        "href": "https://www.liepin.com/career/290094/"
+      },
+      {
+        "name": "器械研发管理",
+        "href": "https://www.liepin.com/career/qixieyfgl/"
+      },
+      {
+        "name": "器械注册",
+        "href": "https://www.liepin.com/career/290095/"
+      },
+      {
+        "name": "试剂/IVD研发",
+        "href": "https://www.liepin.com/career/shijiyanfa/"
+      },
+      {
+        "name": "器械生产/质量管理",
+        "href": "https://www.liepin.com/career/290097/"
+      },
+      {
+        "name": "器械售后/维修",
+        "href": "https://www.liepin.com/career/qixieshouhou/"
+      }
+    ],
+    "药店": [
+      {
+        "name": "执业药师/驻店药师",
+        "href": "https://www.liepin.com/career/zhiyeyaoshi/"
+      },
+      {
+        "name": "药店店长",
+        "href": "https://www.liepin.com/career/yaodiandianchang/"
+      },
+      {
+        "name": "药店店员/营业员",
+        "href": "https://www.liepin.com/career/yaodiandianyuan/"
+      }
+    ],
+    "医学事务": [
+      {
+        "name": "医学总监",
+        "href": "https://www.liepin.com/career/yixuezongjian/"
+      },
+      {
+        "name": "医学经理/专员",
+        "href": "https://www.liepin.com/career/yixuejingli/"
+      },
+      {
+        "name": "医学联络官/MSL",
+        "href": "https://www.liepin.com/career/yixuelianluo/"
+      }
+    ],
+    "其他制药/医疗器械/医疗护理": [
+      {
+        "name": "其他制药/医疗器械/医疗护理职位",
+        "href": "https://www.liepin.com/career/qtyiliaohuli/"
+      }
+    ]
+  },
+  "贸易/物流": {
+    "采购": [
+      {
+        "name": "采购总监",
+        "href": "https://www.liepin.com/career/450001/"
+      },
+      {
+        "name": "采购经理/主管",
+        "href": "https://www.liepin.com/career/caigouzongjian/"
+      },
+      {
+        "name": "采购专员/助理",
+        "href": "https://www.liepin.com/career/450002/"
+      },
+      {
+        "name": "供应商开发",
+        "href": "https://www.liepin.com/career/450004/"
+      },
+      {
+        "name": "供应商质量管理",
+        "href": "https://www.liepin.com/career/GongYingShangZhiLiangGuanLi/"
+      },
+      {
+        "name": "商品管理",
+        "href": "https://www.liepin.com/career/ShangPinGuanLi/"
+      },
+      {
+        "name": "买手",
+        "href": "https://www.liepin.com/career/450003/"
+      }
+    ],
+    "贸易/关务": [
+      {
+        "name": "外贸经理/主管",
+        "href": "https://www.liepin.com/career/waimaojl/"
+      },
+      {
+        "name": "外贸专员/助理",
+        "href": "https://www.liepin.com/career/450005/"
+      },
+      {
+        "name": "关务管理",
+        "href": "https://www.liepin.com/career/baoguanyuan/"
+      },
+      {
+        "name": "国内贸易经理/主管",
+        "href": "https://www.liepin.com/career/maoyijl/"
+      },
+      {
+        "name": "贸易跟单",
+        "href": "https://www.liepin.com/career/450009/"
+      },
+      {
+        "name": "国内贸易专员/助理",
+        "href": "https://www.liepin.com/career/450006/"
+      },
+      {
+        "name": "单证员",
+        "href": "https://www.liepin.com/career/160260/"
+      }
+    ],
+    "物流": [
+      {
+        "name": "物流总监",
+        "href": "https://www.liepin.com/career/160190/"
+      },
+      {
+        "name": "物流经理/主管",
+        "href": "https://www.liepin.com/career/wuliuzongjian/"
+      },
+      {
+        "name": "物流专员/助理",
+        "href": "https://www.liepin.com/career/160200/"
+      },
+      {
+        "name": "物流规划",
+        "href": "https://www.liepin.com/career/WuLiuGuiHua/"
+      },
+      {
+        "name": "运输管理",
+        "href": "https://www.liepin.com/career/YunShuGuanLi/"
+      },
+      {
+        "name": "运力管理",
+        "href": "https://www.liepin.com/career/YunLiGuanLi/"
+      },
+      {
+        "name": "物流运营",
+        "href": "https://www.liepin.com/career/wuliuyy/"
+      },
+      {
+        "name": "物流网管",
+        "href": "https://www.liepin.com/career/WuLiuWangGuan/"
+      },
+      {
+        "name": "物流跟单",
+        "href": "https://www.liepin.com/career/wuliugendan/"
+      },
+      {
+        "name": "物流/仓储调度",
+        "href": "https://www.liepin.com/career/diaoduyuan/"
+      },
+      {
+        "name": "物流/仓储项目经理",
+        "href": "https://www.liepin.com/career/wuliuxiangmu/"
+      },
+      {
+        "name": "货代销售",
+        "href": "https://www.liepin.com/career/huoyundaili/"
+      },
+      {
+        "name": "水空陆运操作",
+        "href": "https://www.liepin.com/career/haikongyun/"
+      },
+      {
+        "name": "集装箱业务",
+        "href": "https://www.liepin.com/career/160240/"
+      }
+    ],
+    "交通/运输": [
+      {
+        "name": "快递/配送员",
+        "href": "https://www.liepin.com/career/kuaidi/"
+      },
+      {
+        "name": "货运司机",
+        "href": "https://www.liepin.com/career/qichesiji/"
+      },
+      {
+        "name": "客运/通勤司机",
+        "href": "https://www.liepin.com/career/KeYunTongQinSiJi/"
+      },
+      {
+        "name": "出租车司机",
+        "href": "https://www.liepin.com/career/WangYueCheChuZuCheSiJi/"
+      },
+      {
+        "name": "驾校教练",
+        "href": "https://www.liepin.com/career/jiaxiaojiaolian/"
+      },
+      {
+        "name": "船长/副船长",
+        "href": "https://www.liepin.com/career/292030/"
+      },
+      {
+        "name": "船员/水手",
+        "href": "https://www.liepin.com/career/chuanyuan/"
+      },
+      {
+        "name": "船舶乘务",
+        "href": "https://www.liepin.com/career/chuanbochengwu/"
+      },
+      {
+        "name": "列车长/司机",
+        "href": "https://www.liepin.com/career/chezhang/"
+      },
+      {
+        "name": "列车乘务",
+        "href": "https://www.liepin.com/career/liechechengwu/"
+      },
+      {
+        "name": "机长/副机长",
+        "href": "https://www.liepin.com/career/feijijizhang/"
+      },
+      {
+        "name": "航空乘务",
+        "href": "https://www.liepin.com/career/292010/"
+      },
+      {
+        "name": "地勤",
+        "href": "https://www.liepin.com/career/292020/"
+      }
+    ],
+    "供应链": [
+      {
+        "name": "供应链总监",
+        "href": "https://www.liepin.com/career/160210/"
+      },
+      {
+        "name": "供应链经理/主管",
+        "href": "https://www.liepin.com/career/gongyinglianjl/"
+      },
+      {
+        "name": "供应链专员/助理",
+        "href": "https://www.liepin.com/career/160220/"
+      },
+      {
+        "name": "生产计划/物料管理(PMC)",
+        "href": "https://www.liepin.com/career/ShengChanJiHuaWuLiaoGuanLi(PMC)/"
+      }
+    ],
+    "其他供应链/物流/采购/贸易": [
+      {
+        "name": "其他供应链/物流/采购/贸易职位",
+        "href": "https://www.liepin.com/career/qtgongyinglianwuliuyunshuzw/"
+      }
+    ]
+  },
+  "咨询/法律/翻译": {
+    "咨询/调研": [
+      {
+        "name": "咨询总监",
+        "href": "https://www.liepin.com/career/zixunzongjian/"
+      },
+      {
+        "name": "咨询项目经理",
+        "href": "https://www.liepin.com/career/zixunxiangmu/"
+      },
+      {
+        "name": "咨询顾问",
+        "href": "https://www.liepin.com/career/zixunyuan/"
+      },
+      {
+        "name": "战略规划/管理",
+        "href": "https://www.liepin.com/career/zhanlueguwen/"
+      },
+      {
+        "name": "财务咨询顾问",
+        "href": "https://www.liepin.com/career/caiwuzixunguwen/"
+      },
+      {
+        "name": "人力资源顾问",
+        "href": "https://www.liepin.com/career/renliziyuanguwen/"
+      },
+      {
+        "name": "IT咨询顾问",
+        "href": "https://www.liepin.com/career/itzixunguwen/"
+      },
+      {
+        "name": "猎头顾问/助理",
+        "href": "https://www.liepin.com/career/LieTouGuWenZhuLi/"
+      },
+      {
+        "name": "知识产权代理",
+        "href": "https://www.liepin.com/career/ZhiShiChanQuanDaiLi/"
+      },
+      {
+        "name": "心理咨询师",
+        "href": "https://www.liepin.com/career/xinlizxun/"
+      },
+      {
+        "name": "情报信息分析师",
+        "href": "https://www.liepin.com/career/130071/"
+      },
+      {
+        "name": "涉外咨询师",
+        "href": "https://www.liepin.com/career/shewaizixun/"
+      },
+      {
+        "name": "舆情分析师",
+        "href": "https://www.liepin.com/career/YuQingFenXiShi/"
+      },
+      {
+        "name": "行业研究",
+        "href": "https://www.liepin.com/career/XingYeYanJiu/"
+      },
+      {
+        "name": "调研员",
+        "href": "https://www.liepin.com/career/daoyanyuan/"
+      },
+      {
+        "name": "政策研究",
+        "href": "https://www.liepin.com/career/ZhengCeYanJiuD/"
+      },
+      {
+        "name": "市场调研与分析",
+        "href": "https://www.liepin.com/career/ShiChangDiaoYanYuFenXi/"
+      },
+      {
+        "name": "其他咨询/调研职位",
+        "href": "https://www.liepin.com/career/qtzixundiaoyanzw/"
+      }
+    ],
+    "翻译": [
+      {
+        "name": "英语翻译",
+        "href": "https://www.liepin.com/career/yingyu/"
+      },
+      {
+        "name": "日语翻译",
+        "href": "https://www.liepin.com/career/riyu/"
+      },
+      {
+        "name": "法语翻译",
+        "href": "https://www.liepin.com/career/fayu/"
+      },
+      {
+        "name": "德语翻译",
+        "href": "https://www.liepin.com/career/deyu/"
+      },
+      {
+        "name": "俄语翻译",
+        "href": "https://www.liepin.com/career/eryu/"
+      },
+      {
+        "name": "西班牙语翻译",
+        "href": "https://www.liepin.com/career/xibanyayu/"
+      },
+      {
+        "name": "韩语/朝鲜语翻译",
+        "href": "https://www.liepin.com/career/chaoxianyu/"
+      },
+      {
+        "name": "阿拉伯语翻译",
+        "href": "https://www.liepin.com/career/180071/"
+      },
+      {
+        "name": "意大利语翻译",
+        "href": "https://www.liepin.com/career/180072/"
+      },
+      {
+        "name": "葡萄牙语翻译",
+        "href": "https://www.liepin.com/career/180073/"
+      },
+      {
+        "name": "泰语翻译",
+        "href": "https://www.liepin.com/career/180074/"
+      },
+      {
+        "name": "其他语种翻译",
+        "href": "https://www.liepin.com/career/qtyuzhongfanyi/"
+      }
+    ]
+  },
+  "生活服务/零售": {
+    "运动健身": [
+      {
+        "name": "健身顾问",
+        "href": "https://www.liepin.com/career/JianShenGuWen/"
+      },
+      {
+        "name": "健身教练",
+        "href": "https://www.liepin.com/career/jianshenjiaolian/"
+      },
+      {
+        "name": "舞蹈老师",
+        "href": "https://www.liepin.com/career/wudaojiaolian/"
+      },
+      {
+        "name": "瑜伽教练",
+        "href": "https://www.liepin.com/career/yujiajiaolian/"
+      },
+      {
+        "name": "游泳教练",
+        "href": "https://www.liepin.com/career/youyongjiaolian/"
+      },
+      {
+        "name": "救生员",
+        "href": "https://www.liepin.com/career/jiushengyuan/"
+      },
+      {
+        "name": "篮球教练",
+        "href": "https://www.liepin.com/career/yumaoqiujiaolian/"
+      },
+      {
+        "name": "羽毛球教练",
+        "href": "https://www.liepin.com/career/yumaoqiujl/"
+      },
+      {
+        "name": "跆拳道教练",
+        "href": "https://www.liepin.com/career/taiquandaojiaolian/"
+      }
+    ],
+    "餐饮服务": [
+      {
+        "name": "餐饮店长",
+        "href": "https://www.liepin.com/career/canyinguanli/"
+      },
+      {
+        "name": "酒店/餐厅大堂经理",
+        "href": "https://www.liepin.com/career/datangjl/"
+      },
+      {
+        "name": "领班",
+        "href": "https://www.liepin.com/career/lingban/"
+      },
+      {
+        "name": "收银",
+        "href": "https://www.liepin.com/career/shouyin/"
+      },
+      {
+        "name": "行政总厨/厨师长",
+        "href": "https://www.liepin.com/career/xingzhengzhuchu/"
+      },
+      {
+        "name": "厨师",
+        "href": "https://www.liepin.com/career/chushi/"
+      },
+      {
+        "name": "中餐厨师",
+        "href": "https://www.liepin.com/career/ZhongCanChuShi/"
+      },
+      {
+        "name": "西餐厨师",
+        "href": "https://www.liepin.com/career/XiCanChuShi/"
+      },
+      {
+        "name": "配菜打荷",
+        "href": "https://www.liepin.com/career/peicaidahe/"
+      },
+      {
+        "name": "西点师",
+        "href": "https://www.liepin.com/career/xidianshi/"
+      },
+      {
+        "name": "面点师",
+        "href": "https://www.liepin.com/career/miandianshi/"
+      },
+      {
+        "name": "调酒师",
+        "href": "https://www.liepin.com/career/DiaoJiuShi/"
+      },
+      {
+        "name": "咖啡师",
+        "href": "https://www.liepin.com/career/kafeishi/"
+      },
+      {
+        "name": "茶艺师",
+        "href": "https://www.liepin.com/career/ChaYiShi/"
+      },
+      {
+        "name": "传菜员",
+        "href": "https://www.liepin.com/career/chuancaiyuan/"
+      },
+      {
+        "name": "外卖送餐员",
+        "href": "https://www.liepin.com/career/songcanyuan/"
+      },
+      {
+        "name": "服务员",
+        "href": "https://www.liepin.com/career/fuwuyuan/"
+      },
+      {
+        "name": "厨工/帮厨",
+        "href": "https://www.liepin.com/career/ChuGongBangChu/"
+      },
+      {
+        "name": "管家部经理/主管",
+        "href": "https://www.liepin.com/career/190220/"
+      },
+      {
+        "name": "话务员",
+        "href": "https://www.liepin.com/career/huawuyuan/"
+      }
+    ],
+    "旅游服务": [
+      {
+        "name": "景区运营",
+        "href": "https://www.liepin.com/career/JingQuYunYing/"
+      },
+      {
+        "name": "旅游产品经理",
+        "href": "https://www.liepin.com/career/lvyoupm/"
+      },
+      {
+        "name": "旅游策划师",
+        "href": "https://www.liepin.com/career/lvyoucehuashi/"
+      },
+      {
+        "name": "票务服务",
+        "href": "https://www.liepin.com/career/190190/"
+      },
+      {
+        "name": "行程管理/计调",
+        "href": "https://www.liepin.com/career/190270/"
+      },
+      {
+        "name": "签证专员",
+        "href": "https://www.liepin.com/career/190280/"
+      },
+      {
+        "name": "机场代表",
+        "href": "https://www.liepin.com/career/190210/"
+      },
+      {
+        "name": "旅游顾问",
+        "href": "https://www.liepin.com/career/190260/"
+      },
+      {
+        "name": "导游",
+        "href": "https://www.liepin.com/career/daoyou/"
+      }
+    ],
+    "百货零售服务": [
+      {
+        "name": "店长/卖场管理",
+        "href": "https://www.liepin.com/career/dianzhang/"
+      },
+      {
+        "name": "督导巡店",
+        "href": "https://www.liepin.com/career/dongdaoxundian/"
+      },
+      {
+        "name": "品类管理",
+        "href": "https://www.liepin.com/career/291040/"
+      },
+      {
+        "name": "生鲜食品加工/处理",
+        "href": "https://www.liepin.com/career/shengxianshipinjiagong/"
+      },
+      {
+        "name": "陈列员",
+        "href": "https://www.liepin.com/career/chenlieyuan/"
+      },
+      {
+        "name": "理货员",
+        "href": "https://www.liepin.com/career/lihuoyuan/"
+      },
+      {
+        "name": "熟食加工",
+        "href": "https://www.liepin.com/career/shushijiagong/"
+      },
+      {
+        "name": "防损员",
+        "href": "https://www.liepin.com/career/fangsunyuan/"
+      },
+      {
+        "name": "店员/营业员",
+        "href": "https://www.liepin.com/career/dianyuan/"
+      },
+      {
+        "name": "导购",
+        "href": "https://www.liepin.com/career/DaoGou/"
+      },
+      {
+        "name": "收银",
+        "href": "https://www.liepin.com/career/ShouYinD/"
+      }
+    ],
+    "其他生活服务/零售": [
+      {
+        "name": "其他生活服务/零售职位",
+        "href": "https://www.liepin.com/career/qtshenghuofuwuzw/"
+      }
+    ]
+  },
+  "房地产/建筑业": {
+    "投资/开发报建/成本": [
+      {
+        "name": "房地产投资拓展",
+        "href": "https://www.liepin.com/career/510004/"
+      },
+      {
+        "name": "开发报建管理",
+        "href": "https://www.liepin.com/career/170198/"
+      },
+      {
+        "name": "房地产运营",
+        "href": "https://www.liepin.com/career/fangdichanyunying/"
+      },
+      {
+        "name": "房地产项目总经理",
+        "href": "https://www.liepin.com/career/fangdichanxiangmuzongjingli/"
+      },
+      {
+        "name": "房地产招投标",
+        "href": "https://www.liepin.com/career/510003/"
+      },
+      {
+        "name": "房地产成本管理",
+        "href": "https://www.liepin.com/career/510014/"
+      },
+      {
+        "name": "工程造价/预结算",
+        "href": "https://www.liepin.com/career/gongchengzaojia/"
+      },
+      {
+        "name": "土建造价工程师",
+        "href": "https://www.liepin.com/career/tujianzaojia/"
+      },
+      {
+        "name": "安装造价工程师",
+        "href": "https://www.liepin.com/career/anzhuangzaojia/"
+      },
+      {
+        "name": "房地产资产管理",
+        "href": "https://www.liepin.com/career/510005/"
+      }
+    ],
+    "房地产营销/中介": [
+      {
+        "name": "房地产营销总监/负责人",
+        "href": "https://www.liepin.com/career/fdcyingxiaozongjianfuzeren/"
+      },
+      {
+        "name": "房地产策划",
+        "href": "https://www.liepin.com/career/fangdichancehua/"
+      },
+      {
+        "name": "房地产销售管理",
+        "href": "https://www.liepin.com/career/fdcxiaoshouguanli/"
+      },
+      {
+        "name": "房地产销售人员",
+        "href": "https://www.liepin.com/career/510007/"
+      },
+      {
+        "name": "房地产评估",
+        "href": "https://www.liepin.com/career/fdcgpinggu/"
+      },
+      {
+        "name": "房地产中介",
+        "href": "https://www.liepin.com/career/fangdchanzhongjie/"
+      },
+      {
+        "name": "房地产客服",
+        "href": "https://www.liepin.com/career/fangdichankefu/"
+      },
+      {
+        "name": "房地产招商",
+        "href": "https://www.liepin.com/career/510008/"
+      }
+    ],
+    "商业运营/物业管理": [
+      {
+        "name": "商业地产招商运营",
+        "href": "https://www.liepin.com/career/shangyedichanzhaoshangyunying/"
+      },
+      {
+        "name": "产业/园区招商运营",
+        "href": "https://www.liepin.com/career/chanyeyuanquzhaoshangyunying/"
+      },
+      {
+        "name": "物业经营拓展",
+        "href": "https://www.liepin.com/career/wuyejingyingtuozhan/"
+      },
+      {
+        "name": "物业项目经理",
+        "href": "https://www.liepin.com/career/wuyexiangmujingli/"
+      },
+      {
+        "name": "物业品质管理",
+        "href": "https://www.liepin.com/career/wuyepinzhiguanli/"
+      },
+      {
+        "name": "物业工程管理",
+        "href": "https://www.liepin.com/career/520004/"
+      },
+      {
+        "name": "物业环境/安全管理",
+        "href": "https://www.liepin.com/career/wuyehuanjinganquanguanli/"
+      },
+      {
+        "name": "物业管理专员/助理",
+        "href": "https://www.liepin.com/career/520001/"
+      },
+      {
+        "name": "高级物业顾问/物业顾问",
+        "href": "https://www.liepin.com/career/520002/"
+      },
+      {
+        "name": "物业招商/租赁/租售",
+        "href": "https://www.liepin.com/career/520003/"
+      }
+    ],
+    "建筑/规划设计": [
+      {
+        "name": "建筑设计",
+        "href": "https://www.liepin.com/career/jianzhusheji/"
+      },
+      {
+        "name": "城市规划与设计",
+        "href": "https://www.liepin.com/career/chengshiguihua/"
+      },
+      {
+        "name": "规划设计师",
+        "href": "https://www.liepin.com/career/510012/"
+      },
+      {
+        "name": "建筑机电设计",
+        "href": "https://www.liepin.com/career/jianzhujidiansheji/"
+      },
+      {
+        "name": "建筑电气设计",
+        "href": "https://www.liepin.com/career/jianzhudianqisheji/"
+      },
+      {
+        "name": "弱电/智能化设计",
+        "href": "https://www.liepin.com/career/ruodianzhinenghuasheji/"
+      },
+      {
+        "name": "给排水设计",
+        "href": "https://www.liepin.com/career/geipaishuisheji/"
+      },
+      {
+        "name": "暖通设计",
+        "href": "https://www.liepin.com/career/nuantongsheji/"
+      },
+      {
+        "name": "园林/景观设计",
+        "href": "https://www.liepin.com/career/yuanlinjingguansheji/"
+      },
+      {
+        "name": "建筑结构设计",
+        "href": "https://www.liepin.com/career/jianzhujiegousheji/"
+      },
+      {
+        "name": "BIM工程师",
+        "href": "https://www.liepin.com/career/BIM/"
+      },
+      {
+        "name": "建筑制图/绘图师",
+        "href": "https://www.liepin.com/career/170197/"
+      },
+      {
+        "name": "室内设计",
+        "href": "https://www.liepin.com/career/shineisheji/"
+      },
+      {
+        "name": "深化设计",
+        "href": "https://www.liepin.com/career/shenhuasheji/"
+      },
+      {
+        "name": "软装设计",
+        "href": "https://www.liepin.com/career/ruanzhuangsheji/"
+      },
+      {
+        "name": "幕墙工程师",
+        "href": "https://www.liepin.com/career/170196/"
+      },
+      {
+        "name": "精装设计",
+        "href": "https://www.liepin.com/career/jingzhuangsheji/"
+      },
+      {
+        "name": "架线和管道工程技术",
+        "href": "https://www.liepin.com/career/jiaxianguandao/"
+      },
+      {
+        "name": "水利/港口工程技术",
+        "href": "https://www.liepin.com/career/shuilijishu/"
+      }
+    ],
+    "建筑工程": [
+      {
+        "name": "建筑工程管理/项目经理",
+        "href": "https://www.liepin.com/career/jianzhugongcheng/"
+      },
+      {
+        "name": "高级建筑工程师/总工",
+        "href": "https://www.liepin.com/career/170191/"
+      },
+      {
+        "name": "建筑工程师",
+        "href": "https://www.liepin.com/career/jianzhushi/"
+      },
+      {
+        "name": "测绘/测量",
+        "href": "https://www.liepin.com/career/cehui/"
+      },
+      {
+        "name": "市政工程师",
+        "href": "https://www.liepin.com/career/170199/"
+      },
+      {
+        "name": "土木/土建工程师",
+        "href": "https://www.liepin.com/career/tumutujian/"
+      },
+      {
+        "name": "钢结构工程师",
+        "href": "https://www.liepin.com/career/170206/"
+      },
+      {
+        "name": "建筑机电工程师",
+        "href": "https://www.liepin.com/career/170195/"
+      },
+      {
+        "name": "给排水工程师",
+        "href": "https://www.liepin.com/career/ruodianqiangdian/"
+      },
+      {
+        "name": "建筑电气工程师",
+        "href": "https://www.liepin.com/career/jianzhudianqigongchengshi/"
+      },
+      {
+        "name": "弱电/智能化工程师",
+        "href": "https://www.liepin.com/career/170202/"
+      },
+      {
+        "name": "暖通工程师",
+        "href": "https://www.liepin.com/career/170208/"
+      },
+      {
+        "name": "道桥/隧道/港口工程师",
+        "href": "https://www.liepin.com/career/suidaogongcheng/"
+      },
+      {
+        "name": "水利工程师",
+        "href": "https://www.liepin.com/career/shuidian/"
+      },
+      {
+        "name": "景观工程师",
+        "href": "https://www.liepin.com/career/jingguan/"
+      },
+      {
+        "name": "岩土工程师",
+        "href": "https://www.liepin.com/career/170193/"
+      },
+      {
+        "name": "建筑质检/质量管理",
+        "href": "https://www.liepin.com/career/170192/"
+      },
+      {
+        "name": "消防工程师",
+        "href": "https://www.liepin.com/career/xiaofanggongchengshi/"
+      },
+      {
+        "name": "建筑工程安全管理",
+        "href": "https://www.liepin.com/career/170201/"
+      },
+      {
+        "name": "建筑材料员",
+        "href": "https://www.liepin.com/career/jianzhucailiaoyuan/"
+      },
+      {
+        "name": "建筑资料员",
+        "href": "https://www.liepin.com/career/170203/"
+      },
+      {
+        "name": "施工员",
+        "href": "https://www.liepin.com/career/shigongyuan/"
+      },
+      {
+        "name": "工程监理",
+        "href": "https://www.liepin.com/career/gongchengjianli/"
+      },
+      {
+        "name": "工程合同管理",
+        "href": "https://www.liepin.com/career/170200/"
+      },
+      {
+        "name": "现场施工管理",
+        "href": "https://www.liepin.com/career/170205/"
+      },
+      {
+        "name": "房修工程师",
+        "href": "https://www.liepin.com/career/fangxiugongchengshi/"
+      },
+      {
+        "name": "精装修工程师",
+        "href": "https://www.liepin.com/career/jingzhuangxiugongchengshi/"
+      },
+      {
+        "name": "爆破工程师",
+        "href": "https://www.liepin.com/career/170207/"
+      }
+    ],
+    "其他房地产/建筑/物业": [
+      {
+        "name": "其他房地产/建筑/物业职位",
+        "href": "https://www.liepin.com/career/qtfdcjianzhuwuyezw/"
+      }
+    ]
+  },
+  "生产/制造/研发": {
+    "电子/仪器/自动化": [
+      {
+        "name": "PLC工程师",
+        "href": "https://www.liepin.com/career/plc/"
+      },
+      {
+        "name": "自动化工程师",
+        "href": "https://www.liepin.com/career/110403/"
+      },
+      {
+        "name": "电气工程师",
+        "href": "https://www.liepin.com/career/dianqigcs/"
+      },
+      {
+        "name": "激光工程师",
+        "href": "https://www.liepin.com/career/jiguang/"
+      },
+      {
+        "name": "光学工程师",
+        "href": "https://www.liepin.com/career/guangxue/"
+      },
+      {
+        "name": "电源工程师",
+        "href": "https://www.liepin.com/career/dianyuangongchengshi/"
+      },
+      {
+        "name": "机器人工程师",
+        "href": "https://www.liepin.com/career/jiqiren/"
+      },
+      {
+        "name": "热设计工程师",
+        "href": "https://www.liepin.com/career/reshejigongchnegshi/"
+      },
+      {
+        "name": "电子/电器工程师",
+        "href": "https://www.liepin.com/career/diqigcss/"
+      },
+      {
+        "name": "电子元器件工程师",
+        "href": "https://www.liepin.com/career/dianziyuanqijian/"
+      },
+      {
+        "name": "SMT工程师",
+        "href": "https://www.liepin.com/career/SMTgongchengshi/"
+      },
+      {
+        "name": "电子技术研发工程师",
+        "href": "https://www.liepin.com/career/yanfagcs/"
+      },
+      {
+        "name": "变压器与磁电工程师",
+        "href": "https://www.liepin.com/career/bianyaqi/"
+      },
+      {
+        "name": "电声/音响工程师/技术员",
+        "href": "https://www.liepin.com/career/diansheng/"
+      },
+      {
+        "name": "仪器/仪表工程师",
+        "href": "https://www.liepin.com/career/110406/"
+      },
+      {
+        "name": "计量工程师",
+        "href": "https://www.liepin.com/career/JiLiangGongChengShi/"
+      },
+      {
+        "name": "线路结构设计",
+        "href": "https://www.liepin.com/career/110401/"
+      },
+      {
+        "name": "安防系统工程师",
+        "href": "https://www.liepin.com/career/110407/"
+      },
+      {
+        "name": "空调工程/设计",
+        "href": "https://www.liepin.com/career/110405/"
+      },
+      {
+        "name": "集成电路IC设计/应用工程师",
+        "href": "https://www.liepin.com/career/xinpiankaifa/"
+      },
+      {
+        "name": "家电/数码产品研发",
+        "href": "https://www.liepin.com/career/shumakaifa/"
+      }
+    ],
+    "食品/化工": [
+      {
+        "name": "化工研发",
+        "href": "https://www.liepin.com/career/huagonggongchengshi/"
+      },
+      {
+        "name": "化学分析员",
+        "href": "https://www.liepin.com/career/huaxuefenxi/"
+      },
+      {
+        "name": "化工实验室研究员/技术员",
+        "href": "https://www.liepin.com/career/490001/"
+      },
+      {
+        "name": "化工工艺工程师",
+        "href": "https://www.liepin.com/career/huagonggongyigongchengshi/"
+      },
+      {
+        "name": "保健品研发",
+        "href": "https://www.liepin.com/career/baojianpinyanfa/"
+      },
+      {
+        "name": "食品/饮料研发",
+        "href": "https://www.liepin.com/career/490006/"
+      },
+      {
+        "name": "化妆品研发",
+        "href": "https://www.liepin.com/career/490005/"
+      },
+      {
+        "name": "涂料研发",
+        "href": "https://www.liepin.com/career/490002/"
+      },
+      {
+        "name": "配色技术员",
+        "href": "https://www.liepin.com/career/490003/"
+      },
+      {
+        "name": "造纸研发",
+        "href": "https://www.liepin.com/career/490007/"
+      },
+      {
+        "name": "塑料工程师",
+        "href": "https://www.liepin.com/career/490004/"
+      }
+    ],
+    "服装/纺织/皮革": [
+      {
+        "name": "服装技术/设计管理",
+        "href": "https://www.liepin.com/career/440001/"
+      },
+      {
+        "name": "服装/纺织设计",
+        "href": "https://www.liepin.com/career/fangzhipin/"
+      },
+      {
+        "name": "图案/花型设计",
+        "href": "https://www.liepin.com/career/tuanhuaxingsheji/"
+      },
+      {
+        "name": "服装/纺织工艺师",
+        "href": "https://www.liepin.com/career/440006/"
+      },
+      {
+        "name": "服装打版/制版",
+        "href": "https://www.liepin.com/career/fuzhuangdaban/"
+      },
+      {
+        "name": "样衣工",
+        "href": "https://www.liepin.com/career/yangyigong/"
+      },
+      {
+        "name": "缝纫工",
+        "href": "https://www.liepin.com/career/fengrengong/"
+      },
+      {
+        "name": "面料辅料开发/采购",
+        "href": "https://www.liepin.com/career/440004/"
+      },
+      {
+        "name": "服装/纺织跟单",
+        "href": "https://www.liepin.com/career/440005/"
+      },
+      {
+        "name": "服装质量管理",
+        "href": "https://www.liepin.com/career/440009/"
+      }
+    ],
+    "生产管理/营运": [
+      {
+        "name": "工厂厂长",
+        "href": "https://www.liepin.com/career/210210/"
+      },
+      {
+        "name": "生产总工程师/副总工程师",
+        "href": "https://www.liepin.com/career/shengchanzonggongchengshi/"
+      },
+      {
+        "name": "生产总监/经理",
+        "href": "https://www.liepin.com/career/210240/"
+      },
+      {
+        "name": "智能制造管理",
+        "href": "https://www.liepin.com/career/zhinengzhizaoguanli/"
+      },
+      {
+        "name": "车间主任",
+        "href": "https://www.liepin.com/career/chejianzhuren/"
+      },
+      {
+        "name": "生产组长/拉长",
+        "href": "https://www.liepin.com/career/shengchanzuzhang/"
+      },
+      {
+        "name": "生产项目管理",
+        "href": "https://www.liepin.com/career/210220/"
+      },
+      {
+        "name": "生产运营管理",
+        "href": "https://www.liepin.com/career/shengchanyunyingguanli/"
+      },
+      {
+        "name": "生产计划/物料管理(PMC)",
+        "href": "https://www.liepin.com/career/PMC/"
+      },
+      {
+        "name": "环境/健康/安全管理",
+        "href": "https://www.liepin.com/career/huanjingguanli/"
+      },
+      {
+        "name": "生产设备管理",
+        "href": "https://www.liepin.com/career/shebeiguanli/"
+      },
+      {
+        "name": "厂务",
+        "href": "https://www.liepin.com/career/changwu/"
+      },
+      {
+        "name": "生产跟单",
+        "href": "https://www.liepin.com/career/shengchangendan/"
+      },
+      {
+        "name": "生产文员",
+        "href": "https://www.liepin.com/career/shengchanwenyuan/"
+      }
+    ],
+    "生产工艺": [
+      {
+        "name": "产品管理",
+        "href": "https://www.liepin.com/career/chanpinkaifa/"
+      }
+    ],
+    "机械设计/制造": [
+      {
+        "name": "机械研发管理",
+        "href": "https://www.liepin.com/career/jixieyanfaguanli/"
+      },
+      {
+        "name": "机械产品规划",
+        "href": "https://www.liepin.com/career/jixiechanpinguihua/"
+      },
+      {
+        "name": "机械结构工程师",
+        "href": "https://www.liepin.com/career/220240/"
+      },
+      {
+        "name": "气动工程师",
+        "href": "https://www.liepin.com/career/qidonggongcheng/"
+      },
+      {
+        "name": "液压工程师",
+        "href": "https://www.liepin.com/career/yeyagongchengshi/"
+      },
+      {
+        "name": "电机工程师",
+        "href": "https://www.liepin.com/career/dianjigongchengshidf/"
+      },
+      {
+        "name": "仿真工程师",
+        "href": "https://www.liepin.com/career/fanzhenyingyong/"
+      },
+      {
+        "name": "机械制图员",
+        "href": "https://www.liepin.com/career/jixiezhitu/"
+      },
+      {
+        "name": "机械设计师",
+        "href": "https://www.liepin.com/career/jixiesheji/"
+      },
+      {
+        "name": "机械工程师",
+        "href": "https://www.liepin.com/career/jiexiegcs/"
+      },
+      {
+        "name": "材料工程师",
+        "href": "https://www.liepin.com/career/220280/"
+      },
+      {
+        "name": "CNC工程师",
+        "href": "https://www.liepin.com/career/cnc/"
+      },
+      {
+        "name": "机电工程师",
+        "href": "https://www.liepin.com/career/110402/"
+      },
+      {
+        "name": "机械设备工程师",
+        "href": "https://www.liepin.com/career/jixieshebei/"
+      },
+      {
+        "name": "机械维修/保养",
+        "href": "https://www.liepin.com/career/jixieweixiubaoyang/"
+      },
+      {
+        "name": "工艺/制程工程师(PE)",
+        "href": "https://www.liepin.com/career/gongyigcs/"
+      },
+      {
+        "name": "精益管理",
+        "href": "https://www.liepin.com/career/jingyigcs/"
+      },
+      {
+        "name": "工业工程师(IE)",
+        "href": "https://www.liepin.com/career/ie/"
+      },
+      {
+        "name": "模具工程师",
+        "href": "https://www.liepin.com/career/mojugcs/"
+      },
+      {
+        "name": "冲压工程师/技师",
+        "href": "https://www.liepin.com/career/chongya/"
+      },
+      {
+        "name": "夹具工程师/技师",
+        "href": "https://www.liepin.com/career/jiajugcs/"
+      },
+      {
+        "name": "焊接工程师/技师",
+        "href": "https://www.liepin.com/career/hanjiegcs/"
+      },
+      {
+        "name": "注塑工程师/技师",
+        "href": "https://www.liepin.com/career/zhusu/"
+      },
+      {
+        "name": "铸造/锻造工程师/技师",
+        "href": "https://www.liepin.com/career/duanzao/"
+      },
+      {
+        "name": "锅炉工程师/技师",
+        "href": "https://www.liepin.com/career/guolugcs/"
+      },
+      {
+        "name": "装配工程师",
+        "href": "https://www.liepin.com/career/zhuangpeigcs/"
+      }
+    ],
+    "质量管理": [
+      {
+        "name": "计量工程师",
+        "href": "https://www.liepin.com/career/JiLiangGongChengShiD/"
+      },
+      {
+        "name": "质量管理总监/经理/主管",
+        "href": "https://www.liepin.com/career/zhiliangguanlijingli/"
+      },
+      {
+        "name": "质量管理工程师",
+        "href": "https://www.liepin.com/career/zhiliangguanligongchengshi/"
+      },
+      {
+        "name": "品质管理",
+        "href": "https://www.liepin.com/career/pinzhiguanli/"
+      },
+      {
+        "name": "供应商质量管理",
+        "href": "https://www.liepin.com/career/gongyingshangzhiliang/"
+      },
+      {
+        "name": "质量检测员/测试员",
+        "href": "https://www.liepin.com/career/chanpinceshi/"
+      },
+      {
+        "name": "可靠度工程师",
+        "href": "https://www.liepin.com/career/50090/"
+      },
+      {
+        "name": "故障分析工程师",
+        "href": "https://www.liepin.com/career/50100/"
+      },
+      {
+        "name": "体系工程师",
+        "href": "https://www.liepin.com/career/50080/"
+      },
+      {
+        "name": "产品认证工程师",
+        "href": "https://www.liepin.com/career/chanpinrenzheng/"
+      },
+      {
+        "name": "审核员",
+        "href": "https://www.liepin.com/career/shenheyuan/"
+      },
+      {
+        "name": "实验室负责人/工程师",
+        "href": "https://www.liepin.com/career/shiyanshifuzeren/"
+      },
+      {
+        "name": "认证工程师/审核员",
+        "href": "https://www.liepin.com/career/50070/"
+      }
+    ],
+    "飞机/船舶/轨道交通": [
+      {
+        "name": "飞行器设计与制造",
+        "href": "https://www.liepin.com/career/feixingqishejiyuzhizao/"
+      },
+      {
+        "name": "飞行器维修/保养",
+        "href": "https://www.liepin.com/career/220250/"
+      },
+      {
+        "name": "轨道交通工程师/技术员",
+        "href": "https://www.liepin.com/career/220270/"
+      },
+      {
+        "name": "船舶设计与制造",
+        "href": "https://www.liepin.com/career/chuanbo/"
+      }
+    ],
+    "技工/普工": [
+      {
+        "name": "叉车/吊车司机",
+        "href": "https://www.liepin.com/career/chachediaochesiji/"
+      },
+      {
+        "name": "铲车/挖掘机司机",
+        "href": "https://www.liepin.com/career/chanchewajuejisiji/"
+      },
+      {
+        "name": "电工",
+        "href": "https://www.liepin.com/career/diangong/"
+      },
+      {
+        "name": "焊工",
+        "href": "https://www.liepin.com/career/hangong/"
+      },
+      {
+        "name": "木工",
+        "href": "https://www.liepin.com/career/mugong/"
+      },
+      {
+        "name": "漆工",
+        "href": "https://www.liepin.com/career/qigong/"
+      },
+      {
+        "name": "钳工",
+        "href": "https://www.liepin.com/career/qiangong/"
+      },
+      {
+        "name": "车工",
+        "href": "https://www.liepin.com/career/chegong/"
+      },
+      {
+        "name": "铣工",
+        "href": "https://www.liepin.com/career/xigong/"
+      },
+      {
+        "name": "磨工",
+        "href": "https://www.liepin.com/career/mogong/"
+      },
+      {
+        "name": "钻工",
+        "href": "https://www.liepin.com/career/zuangong/"
+      },
+      {
+        "name": "钣金工",
+        "href": "https://www.liepin.com/career/banjingong/"
+      },
+      {
+        "name": "抛光工",
+        "href": "https://www.liepin.com/career/paoguanggong/"
+      },
+      {
+        "name": "铆工",
+        "href": "https://www.liepin.com/career/maogong/"
+      },
+      {
+        "name": "机修工",
+        "href": "https://www.liepin.com/career/jixiugong/"
+      },
+      {
+        "name": "折弯工",
+        "href": "https://www.liepin.com/career/zhewangong/"
+      },
+      {
+        "name": "组装工",
+        "href": "https://www.liepin.com/career/zuzhuanggong/"
+      },
+      {
+        "name": "电梯工",
+        "href": "https://www.liepin.com/career/diantigong/"
+      },
+      {
+        "name": "锅炉工",
+        "href": "https://www.liepin.com/career/guolugong/"
+      },
+      {
+        "name": "普工/操作工",
+        "href": "https://www.liepin.com/career/pugong/"
+      },
+      {
+        "name": "搬运工",
+        "href": "https://www.liepin.com/career/banyungong/"
+      }
+    ],
+    "其他生产/制造/研发": [
+      {
+        "name": "其他生产/制造/研发职位",
+        "href": "https://www.liepin.com/career/qtzhizao/"
+      }
+    ],
+    "汽车设计与研发": [
+      {
+        "name": "汽车产品规划",
+        "href": "https://www.liepin.com/career/qichechanpinguihua/"
+      },
+      {
+        "name": "汽车研发/项目管理",
+        "href": "https://www.liepin.com/career/420001/"
+      },
+      {
+        "name": "汽车造型设计",
+        "href": "https://www.liepin.com/career/qichezaoxingsheji/"
+      },
+      {
+        "name": "总布置工程师",
+        "href": "https://www.liepin.com/career/zongbuzhigongchengshi/"
+      },
+      {
+        "name": "汽车热管理工程师",
+        "href": "https://www.liepin.com/career/qichereguanligongchengshi/"
+      },
+      {
+        "name": "汽车主被动安全工程师",
+        "href": "https://www.liepin.com/career/420006/"
+      },
+      {
+        "name": "汽车CAE/CFD工程师",
+        "href": "https://www.liepin.com/career/qicheCAECFDgongchengshi/"
+      },
+      {
+        "name": "NVH工程师",
+        "href": "https://www.liepin.com/career/NVHgongchengshi/"
+      },
+      {
+        "name": "汽车动力系统工程师",
+        "href": "https://www.liepin.com/career/qichegongli/"
+      },
+      {
+        "name": "标定工程师",
+        "href": "https://www.liepin.com/career/biaodinggongchengshi/"
+      },
+      {
+        "name": "车身工程师",
+        "href": "https://www.liepin.com/career/cheshengongchengshi/"
+      },
+      {
+        "name": "汽车底盘工程师",
+        "href": "https://www.liepin.com/career/qichedipangongchengshi/"
+      },
+      {
+        "name": "汽车内外饰工程师",
+        "href": "https://www.liepin.com/career/qicheneiwaishigongchengshi/"
+      },
+      {
+        "name": "汽车电子/电器工程师",
+        "href": "https://www.liepin.com/career/qichedianzidinaqigongchnegshi/"
+      },
+      {
+        "name": "智能网联工程师",
+        "href": "https://www.liepin.com/career/zhinengwangliangongchengshi/"
+      },
+      {
+        "name": "汽车试制/试验工程师",
+        "href": "https://www.liepin.com/career/qicheshizhishiyangongchengshi/"
+      },
+      {
+        "name": "汽车设计工程师",
+        "href": "https://www.liepin.com/career/420003/"
+      },
+      {
+        "name": "零部件设计",
+        "href": "https://www.liepin.com/career/lingbujiansheji/"
+      }
+    ],
+    "汽车制造": [
+      {
+        "name": "汽车总装工程师",
+        "href": "https://www.liepin.com/career/420008/"
+      },
+      {
+        "name": "汽车冲压工程师",
+        "href": "https://www.liepin.com/career/qichechongyagongchengshi/"
+      },
+      {
+        "name": "汽车焊装工程师",
+        "href": "https://www.liepin.com/career/qichehuanzhuanggongchengshi/"
+      },
+      {
+        "name": "汽车涂装工程师",
+        "href": "https://www.liepin.com/career/qichetuzhuanggongchengshi/"
+      },
+      {
+        "name": "汽车零部件装配工程师",
+        "href": "https://www.liepin.com/career/420007/"
+      },
+      {
+        "name": "汽车质量管理",
+        "href": "https://www.liepin.com/career/430006/"
+      }
+    ],
+    "汽车销售与服务": [
+      {
+        "name": "4S店总经理",
+        "href": "https://www.liepin.com/career/430003/"
+      },
+      {
+        "name": "汽车销售",
+        "href": "https://www.liepin.com/career/430001/"
+      },
+      {
+        "name": "汽车零配件销售",
+        "href": "https://www.liepin.com/career/430004/"
+      },
+      {
+        "name": "二手车评估师",
+        "href": "https://www.liepin.com/career/430008/"
+      },
+      {
+        "name": "汽车售后服务/技术支持",
+        "href": "https://www.liepin.com/career/430002/"
+      },
+      {
+        "name": "汽车定损/车险理赔",
+        "href": "https://www.liepin.com/career/chenxianlipei/"
+      },
+      {
+        "name": "汽车维修/保养",
+        "href": "https://www.liepin.com/career/qicheweixiubaoyang/"
+      },
+      {
+        "name": "汽车美容/改装",
+        "href": "https://www.liepin.com/career/zhuangshimeirong/"
+      }
+    ],
+    "其他汽车": [
+      {
+        "name": "其他汽车职位",
+        "href": "https://www.liepin.com/career/qtqichezw/"
+      }
+    ],
+    "能源/矿产/地质勘查": [
+      {
+        "name": "能源项目管理",
+        "href": "https://www.liepin.com/career/120150/"
+      },
+      {
+        "name": "核力/火力工程师",
+        "href": "https://www.liepin.com/career/houli/"
+      },
+      {
+        "name": "石油/天然气技术",
+        "href": "https://www.liepin.com/career/shiyoutianranqi/"
+      },
+      {
+        "name": "光伏技术工程师",
+        "href": "https://www.liepin.com/career/guangfujishu/"
+      },
+      {
+        "name": "电池工程师",
+        "href": "https://www.liepin.com/career/DianChiGongChengShiD/"
+      },
+      {
+        "name": "地质勘查/选矿/采矿",
+        "href": "https://www.liepin.com/career/kuangchan/"
+      },
+      {
+        "name": "充电桩工程师",
+        "href": "https://www.liepin.com/career/ChongDianZhuangGongChengShiD/"
+      },
+      {
+        "name": "风力发电工程师",
+        "href": "https://www.liepin.com/career/FengLiFaDianGongChengShi/"
+      },
+      {
+        "name": "地质勘查",
+        "href": "https://www.liepin.com/career/DiZhiKanCha/"
+      },
+      {
+        "name": "采矿工程师",
+        "href": "https://www.liepin.com/career/CaiKuangGongChengShi/"
+      },
+      {
+        "name": "选矿工程师",
+        "href": "https://www.liepin.com/career/XuanKuangGongChengShi/"
+      },
+      {
+        "name": "冶金工程师",
+        "href": "https://www.liepin.com/career/yejingcs/"
+      },
+      {
+        "name": "热能工程师",
+        "href": "https://www.liepin.com/career/reneng/"
+      },
+      {
+        "name": "输电线路工程师",
+        "href": "https://www.liepin.com/career/dianlugcs/"
+      },
+      {
+        "name": "电工",
+        "href": "https://www.liepin.com/career/DianGongD/"
+      },
+      {
+        "name": "电力工程师",
+        "href": "https://www.liepin.com/career/dianli/"
+      }
+    ],
+    "环保": [
+      {
+        "name": "水处理工程师",
+        "href": "https://www.liepin.com/career/500001/"
+      },
+      {
+        "name": "固废处理工程师",
+        "href": "https://www.liepin.com/career/500005/"
+      },
+      {
+        "name": "废气处理工程师",
+        "href": "https://www.liepin.com/career/500006/"
+      },
+      {
+        "name": "土壤修复工程师",
+        "href": "https://www.liepin.com/career/TuRangXiuFuGongChengShi/"
+      },
+      {
+        "name": "环境检测",
+        "href": "https://www.liepin.com/career/500003/"
+      },
+      {
+        "name": "环境评价工程师",
+        "href": "https://www.liepin.com/career/500002/"
+      },
+      {
+        "name": "节能/碳排放",
+        "href": "https://www.liepin.com/career/JieNenTanPaiFang/"
+      },
+      {
+        "name": "环境/健康/安全管理",
+        "href": "https://www.liepin.com/career/HuanJingJianKangAnQuanGuanLi/"
+      },
+      {
+        "name": "环保工程师",
+        "href": "https://www.liepin.com/career/huanbaojishu/"
+      }
+    ],
+    "其他能源/环保/农业": [
+      {
+        "name": "其他能源/环保/农业职位",
+        "href": "https://www.liepin.com/career/qtnengyuan/"
+      }
+    ]
+  },
+  "公务员/农林牧渔/其他": {
+    "公务员/社工/志愿者": [
+      {
+        "name": "公务员/事业单位人员",
+        "href": "https://www.liepin.com/career/300021/"
+      },
+      {
+        "name": "志愿者",
+        "href": "https://www.liepin.com/career/310010/"
+      },
+      {
+        "name": "公益事业/社工",
+        "href": "https://www.liepin.com/career/shegong/"
+      },
+      {
+        "name": "辅警",
+        "href": "https://www.liepin.com/career/FuJing/"
+      }
+    ],
+    "管培生/储备干部": [
+      {
+        "name": "实习生",
+        "href": "https://www.liepin.com/career/310020/"
+      },
+      {
+        "name": "管培生",
+        "href": "https://www.liepin.com/career/310040/"
+      },
+      {
+        "name": "储备干部",
+        "href": "https://www.liepin.com/career/310050/"
+      }
+    ],
+    "农/林/牧/渔": [
+      {
+        "name": "畜牧师",
+        "href": "https://www.liepin.com/career/320020/"
+      },
+      {
+        "name": "农艺师",
+        "href": "https://www.liepin.com/career/320040/"
+      },
+      {
+        "name": "园艺师",
+        "href": "https://www.liepin.com/career/nonglinwuyu/"
+      },
+      {
+        "name": "水产养殖技术员",
+        "href": "https://www.liepin.com/career/ShuiChanYangZhiJiShuYuan/"
+      },
+      {
+        "name": "驯兽师",
+        "href": "https://www.liepin.com/career/xunshoushi/"
+      },
+      {
+        "name": "林业技术员",
+        "href": "https://www.liepin.com/career/LinYeJiShuYuan/"
+      },
+      {
+        "name": "饲料研发",
+        "href": "https://www.liepin.com/career/320030/"
+      },
+      {
+        "name": "养殖部主管",
+        "href": "https://www.liepin.com/career/yangzhibuzhuguan/"
+      },
+      {
+        "name": "兽医",
+        "href": "https://www.liepin.com/career/ShouYi/"
+      },
+      {
+        "name": "场长(农/林/牧/渔业)",
+        "href": "https://www.liepin.com/career/changchang/"
+      }
+    ],
+    "其他": [
+      {
+        "name": "兼职",
+        "href": "https://www.liepin.com/career/jianzhi/"
+      },
+      {
+        "name": "其他",
+        "href": "https://www.liepin.com/career/qt110/"
+      }
+    ]
+  }
+}

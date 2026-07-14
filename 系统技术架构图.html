@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>多源异构数据驱动岗位和能力图谱构建 — 系统技术架构图</title>
+<style>
+:root { --primary: #2563eb; --bg: #f8fafc; --card-bg: #fff; --text: #1e293b; --text-muted: #64748b; --border: #e2e8f0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 32px 100px; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 4px; }
+.subtitle { color: var(--text-muted); font-size: 15px; margin-bottom: 36px; border-bottom: 2px solid var(--primary); padding-bottom: 12px; }
+.mermaid-wrapper { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 28px 24px; margin: 24px 0; overflow-x: auto; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+h2 { font-size: 22px; font-weight: 600; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--primary); }
+h3 { font-size: 17px; font-weight: 600; margin: 32px 0 12px; color: #334155; }
+h4 { font-size: 14px; font-weight: 600; margin: 20px 0 6px; color: var(--primary); }
+p { margin-bottom: 14px; color: #334155; }
+.layer-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 18px 22px; margin: 14px 0; }
+.layer-card .tag { display: inline-block; background: var(--primary); color: #fff; font-size: 11px; font-weight: 600; padding: 2px 10px; border-radius: 10px; margin-bottom: 6px; }
+.callout { background: #eff6ff; border-left: 4px solid var(--primary); border-radius: 6px; padding: 14px 18px; margin: 16px 0; font-size: 14px; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin: 14px 0; }
+.feature-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
+.feature-card h4 { margin: 0 0 6px; font-size: 14px; color: var(--primary); }
+.feature-card p { margin: 0; font-size: 13px; color: var(--text-muted); }
+ul, ol { margin: 10px 0 10px 22px; }
+li { margin-bottom: 4px; }
+code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>系统技术架构图</h1>
+<p class="subtitle">多源异构数据驱动岗位和能力图谱构建与动态演化分析研究 — 整体架构设计</p>
+<div class="mermaid-wrapper">
+<pre class="mermaid">
+architecture-beta
+    group data_src["数据源层"] in top
+    group data_acq["数据采集层"] in top
+    group data_proc["数据处理层"] in top
+    group ai_agent["AI智能体分析层"] in top
+    group kg["知识图谱层"] in top
+    group ui["应用展示层"] in top
+
+    service zl("智联招聘") in data_src
+    service boss("BOSS直聘") in data_src
+    service lp("猎聘网") in data_src
+    service qcwy("前程无忧") in data_src
+    service wuba("58同城") in data_src
+    service lg("拉勾网") in data_src
+    service yjs("应届生") in data_src
+    service resume("简历上传") in data_src
+
+    service spider_z("智联爬虫") in data_acq
+    service spider_b("BOSS爬虫") in data_acq
+    service spider_l("猎聘爬虫") in data_acq
+    service spider_q("前程无忧") in data_acq
+    service spider_w("58爬虫") in data_acq
+    service spider_lg("拉勾爬虫") in data_acq
+    service spider_y("应届生爬虫") in data_acq
+    service bspider("BaseSpider") in data_acq
+    service rawdb("MongoDB\njobs_raw") in data_acq
+    service res_parse("简历解析器") in data_src
+
+    service clean("DataCleaner") in data_proc
+    service cross("多源交叉验证") in data_proc
+    service clean_db("MongoDB\njobs_clean") in data_proc
+
+    service agent1("Agent1:新岗位发现") in ai_agent
+    service agent2("Agent2:数据质量") in ai_agent
+    service agent3("Agent3:人岗匹配") in ai_agent
+    service agent_db("MongoDB\njobs_kg") in ai_agent
+
+    service kg_graph("Neo4j图数据库") in kg
+    service kg_evolve("动态演化引擎") in kg
+
+    service dash("全景图谱仪表盘") in ui
+    service match("人岗匹配诊断") in ui
+    service api("FastAPI后端") in ui
+
+    zl:R -- L:spider_z
+    boss:R -- L:spider_b
+    lp:R -- L:spider_l
+    qcwy:R -- L:spider_q
+    wuba:R -- L:spider_w
+    lg:R -- L:spider_lg
+    yjs:R -- L:spider_y
+    spider_z:R -- L:bspider
+    spider_b:R -- L:bspider
+    spider_l:R -- L:bspider
+    spider_q:R -- L:bspider
+    spider_w:R -- L:bspider
+    spider_lg:R -- L:bspider
+    spider_y:R -- L:bspider
+    bspider:R -- D:rawdb
+    resume:R -- L:res_parse
+    res_parse:R -- D:rawdb
+    rawdb:R -- D:clean
+    clean:R -- D:clean_db
+    clean:R -- D:cross
+    clean_db:R -- D:agent1
+    clean_db:R -- D:agent2
+    clean_db:R -- D:agent3
+    cross:R -- D:agent2
+    agent1:R -- D:agent_db
+    agent2:R -- D:agent_db
+    agent3:R -- D:agent_db
+    agent_db:R -- D:kg_graph
+    kg_graph:R -- L:kg_evolve
+    kg_graph:R -- D:dash
+    agent3:R -- D:match
+    agent_db:R -- D:api
+    api:R -- D:dash
+    api:R -- D:match
+</pre>
+</div>
+<div class="callout">
+<strong>整体架构概览：</strong>系统采用六层架构设计，从底层数据源到顶层应用展示逐层递进。数据源采集层已在 <a href="网站数据爬取.html">网站数据爬取.html</a> 中完成核心技术实现，后续层为本项目需要新开发的内容。
+</div>
+<h2>逐层拆解说明</h2>
+<h3>第一层：数据源层</h3>
+<div class="layer-card">
+<span class="tag">输入</span>
+<p>包含7大主流招聘平台（智联招聘、BOSS直聘、猎聘网、前程无忧、58同城、拉勾网、应届生求职网）以及用户上传的简历文件（PDF/Word格式）。后续还可扩展至技术博客、开源社区（GitHub）、行业报告等更多数据源。</p>
+</div>
+<h3>第二层：数据采集层</h3>
+<div class="layer-card">
+<span class="tag">已有实现</span>
+<p>基于 <strong>Playwright + MongoDB</strong> 的多平台招聘数据爬虫系统。</p>
+</div>
+<div class="feature-grid">
+<div class="feature-card"><h4>BaseSpider 基类</h4><p>统一封装浏览器管理、多标签页并发、反检测机制、Motor异步MongoDB批量写入。</p></div>
+<div class="feature-card"><h4>7平台爬虫子类</h4><p>各平台独立实现多步爬取流程（智联8步、BOSS 4步、猎聘6步等），分别处理Cookie验证、分页、详情提取。</p></div>
+<div class="feature-card"><h4>反爬机制</h4><p>UA轮换、代理轮换、请求延迟、鼠标轨迹模拟、动态Cookie管理、JS验证挑战处理。</p></div>
+<div class="feature-card"><h4>原始存储</h4><p>MongoDB jobs_raw 集合存储原始数据，包含job_id、title、company、salary、city、experience、education、source等字段。</p></div>
+</div>
+<h3>第三层：数据处理层</h3>
+<div class="layer-card">
+<span class="tag">核心能力</span>
+<p>对爬取后的原始数据进行标准化清洗与多源交叉验证，解决数据"时滞、噪声、抄袭"三大问题。</p>
+</div>
+<div class="feature-grid">
+<div class="feature-card"><h4>DataCleaner 清洗引擎</h4><p>薪资格式统一（k/万/元多格式→数值化）、技能关键词抽取、城市/经验/学历标准化、标题清洗。输出至 jobs_clean。</p></div>
+<div class="feature-card"><h4>多源交叉验证引擎</h4><p>跨平台职位合并去重；时滞检测：历史数据对比，标注过时要求；抄袭检测：JD文本相似度对比；噪声过滤：统计异常值+大模型语义一致性检查。</p></div>
+</div>
+<h3>第四层：AI 智能体分析层</h3>
+<div class="callout">
+<strong>本层是系统的核心创新所在</strong>，围绕赛题三大核心难题设计了三个专用智能体，协同完成从数据到知识的转化。
+</div>
+<h4>智能体1：新兴岗位发现与定义 + 既有岗位能力更新</h4>
+<div class="feature-grid">
+<div class="feature-card"><h4>新兴岗位挖掘</h4><p>对清洗后的JD文本进行主题建模（BERTopic/LDA）→ 关键词聚类 → 发现尚未被标准化分类的岗位 → 与已有岗位库对比识别新岗位候选。</p></div>
+<div class="feature-card"><h4>岗位定义生成</h4><p>使用大模型（LLM） + RAG 技术，基于相似JD片段生成岗位名称、核心职责、必备/加分技能、典型行业应用场景。支持人工审核。</p></div>
+<div class="feature-card"><h4>既有岗位能力更新</h4><p>对比同一岗位不同时间窗口的JD技能频率变化 → 识别新增/删除/修改的能力项 → 标注变化来源与置信度 → 输出diff更新日志。</p></div>
+<div class="feature-card"><h4>能力图谱构建</h4><p>将岗位-技能关系结构化，构建技能层级树，关联技能→岗位→行业，形成技能级粒度的全景图谱。</p></div>
+</div>
+<h4>智能体2：数据质量治理（时滞/噪声/抄袭 + 幻觉防控）</h4>
+<div class="feature-grid">
+<div class="feature-card"><h4>时滞处理</h4><p>建立时间序列模型追踪技能提及率变化，区分长期趋势与短期噪声。滞后JD中的能力要求通过近期高频技能进行修正。</p></div>
+<div class="feature-card"><h4>噪声与抄袭检测</h4><p>使用文本相似度（SBERT/BERTScore）计算JD间余弦相似度，超过阈值标记为模板化；统计方法识别异常薪资、不符实际的技能组合。</p></div>
+<div class="feature-card"><h4>幻觉防控</h4><p>多模型共识机制：同一能力由多个LLM独立推理，仅共识结果入图；结合知识库约束（已知技能树+技术栈依赖关系），输出置信度评分与数据溯源。</p></div>
+</div>
+<h4>智能体3：简历解析与人岗差距分析</h4>
+<div class="feature-grid">
+<div class="feature-card"><h4>简历解析</h4><p>基于NER（命名实体识别）+ LLM 提取简历中的技能项、工作经历、项目经验、教育背景。支持PDF/Word格式，准确率>=90%。</p></div>
+<div class="feature-card"><h4>人岗匹配诊断</h4><p>将简历技能向量与目标岗位技能图谱进行语义匹配，计算匹配度、覆盖度、缺失项、冗余项。精确到技能点级别。</p></div>
+<div class="feature-card"><h4>差距分析与学习路径</h4><p>基于缺失技能生成针对性改进建议与岗位学习路径（推荐课程→实践项目→认证考试），输出清晰差距报告。</p></div>
+</div>
+<h3>第五层：知识图谱层</h3>
+<div class="feature-grid">
+<div class="feature-card"><h4>图数据库 (Neo4j/Nebula)</h4><p>存储岗位-技能-行业-公司之间的复杂关系网络。节点：岗位、技能、行业、公司、工具栈；边：requires、depends_on、belongs_to、evolves_from等。</p></div>
+<div class="feature-card"><h4>动态演化引擎</h4><p>每个节点和关系带时间戳版本标记，支持按时间回溯历史图谱状态；定期自动增量更新；变更日志记录每次修改的来源数据与置信度。</p></div>
+</div>
+<h3>第六层：应用展示层</h3>
+<div class="feature-grid">
+<div class="feature-card"><h4>后端API层 (FastAPI)</h4><p>提供RESTful API：图谱查询、人岗匹配、简历上传解析、岗位搜索筛选。支持前端所有数据交互。</p></div>
+<div class="feature-card"><h4>全景图谱仪表盘</h4><p>基于D3.js/ECharts交互式可视化：按技术栈/级别切换视图；力导向图/树形图/桑基图多模式展示；下钻到技能点级详情。</p></div>
+<div class="feature-card"><h4>人岗匹配诊断界面</h4><p>用户输入技能或上传简历 → 展示匹配百分比 → 技能缺失雷达图 → 具体差距项 → 点击每一项查看学习路径推荐。</p></div>
+</div>
+<h2>数据流全景图</h2>
+<div class="mermaid-wrapper">
+<pre class="mermaid">
+flowchart LR
+    subgraph SRC["数据源"]
+        A1["7大招聘网站"]
+        A2["简历(PDF/Word)"]
+    end
+    subgraph ACQ["采集层"]
+        B1["Playwright爬虫"]
+        B2["简历解析器"]
+        B3["MongoDB jobs_raw"]
+    end
+    subgraph PROC["处理层"]
+        C1["DataCleaner\n薪资/技能/城市标准化"]
+        C2["交叉验证\n时滞·噪声·抄袭检测"]
+        C3["MongoDB jobs_clean"]
+    end
+    subgraph AGENT["AI智能体层"]
+        D1["Agent1:新岗位发现\n+能力更新"]
+        D2["Agent2:数据质量\n+幻觉防控"]
+        D3["Agent3:简历解析\n+人岗匹配"]
+        D4["MongoDB jobs_kg"]
+    end
+    subgraph KG2["知识图谱层"]
+        E1["Neo4j图数据库\n岗位⇄技能关系网络"]
+        E2["动态演化引擎\n版本追踪·时间戳"]
+    end
+    subgraph UI2["展示层"]
+        F1["全景图谱仪表盘\nD3.js/ECharts"]
+        F2["人岗匹配诊断\n差距分析·学习路径"]
+        F3["FastAPI后端"]
+    end
+    A1 --> B1 --> B3
+    A2 --> B2 --> B3
+    B3 --> C1 --> C3
+    B3 --> C2 --> C3
+    C3 --> D1 --> D4
+    C3 --> D2 --> D4
+    C3 --> D3 --> D4
+    C2 --> D2
+    D4 --> E1 --> E2
+    E1 --> F1
+    D3 --> F2
+    D4 --> F3 --> F1
+    F3 --> F2
+</pre>
+</div>
+<h2>技术路线总结</h2>
+<div class="feature-grid">
+<div class="feature-card"><h4>已实现（现有爬虫系统）</h4><p>7平台数据爬取（Playwright + MongoDB）；反爬机制（UA轮换、代理、指纹混淆）；原始数据存储 jobs_raw；基础数据清洗（薪资/技能/城市标准化）。</p></div>
+<div class="feature-card"><h4>待开发核心模块</h4><p>多源交叉验证引擎（时滞/噪声/抄袭检测）；三大AI智能体；图数据库与动态演化引擎；交互式全景图谱可视化仪表盘；人岗匹配诊断界面。</p></div>
+</div>
+<h2>关键技术选型建议</h2>
+<ul>
+<li><strong>大模型</strong>：推荐讯飞星火（主办方），备选 GPT-4 / DeepSeek / Qwen</li>
+<li><strong>RAG框架</strong>：LangChain / LlamaIndex + 向量数据库（ChromaDB / Milvus）</li>
+<li><strong>图数据库</strong>：Neo4j（社区版）或 NebulaGraph（分布式场景）</li>
+<li><strong>知识图谱可视化</strong>：D3.js（力导向图）/ ECharts（关系图）/ Vis.js</li>
+<li><strong>后端框架</strong>：FastAPI（轻量异步）</li>
+<li><strong>前端框架</strong>：React / Vue3 + TypeScript</li>
+<li><strong>语义匹配</strong>：SBERT / BERTScore 用于JD相似度计算和技能匹配</li>
+<li><strong>NER命名实体识别</strong>：基于LLM的实体抽取或微调BERT-CRF模型</li>
+</ul>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLive:true,theme:"neutral"});</script>
+</body>
+</html>

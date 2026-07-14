@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>招聘数据爬虫平台 - 项目讲解文档</title>
+<style>
+:root { --primary: #2563eb; --bg: #f8fafc; --card-bg: #fff; --text: #1e293b; --text-muted: #64748b; --border: #e2e8f0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+.sidebar { position: fixed; top: 0; left: 0; bottom: 0; width: 260px; background: var(--card-bg); border-right: 1px solid var(--border); overflow-y: auto; z-index: 100; padding: 24px 0; }
+.sidebar h2 { font-size: 14px; font-weight: 600; color: var(--primary); padding: 8px 20px; }
+.sidebar ul { list-style: none; padding: 0; margin: 0 0 16px 0; }
+.sidebar li a { display: block; padding: 6px 20px 6px 24px; font-size: 13px; color: var(--text-muted); text-decoration: none; border-left: 2px solid transparent; }
+.sidebar li a:hover, .sidebar li a.active { color: var(--primary); background: #eff6ff; border-left-color: var(--primary); }
+.main { margin-left: 260px; max-width: 960px; padding: 48px 56px 120px; }
+h1 { font-size: 32px; font-weight: 700; }
+.subtitle { color: var(--text-muted); font-size: 15px; margin-bottom: 40px; }
+h2 { font-size: 22px; font-weight: 600; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--primary); }
+h3 { font-size: 17px; font-weight: 600; margin: 28px 0 10px; color: #334155; }
+p { margin-bottom: 14px; color: #334155; }
+.highlight { background: linear-gradient(135deg, #eff6ff, #f0fdf4); border: 1px solid #bfdbfe; border-radius: 10px; padding: 20px 24px; margin: 20px 0; }
+.schema-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+.schema-table th { background: #f1f5f9; text-align: left; padding: 10px 12px; font-weight: 600; border: 1px solid var(--border); }
+.schema-table td { padding: 8px 12px; border: 1px solid var(--border); }
+.schema-table tr:nth-child(even) { background: #fafafa; }
+.mermaid-wrapper { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 24px; margin: 20px 0; overflow-x: auto; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin: 20px 0; }
+.feature-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; }
+.feature-card h4 { margin: 0 0 6px 0; font-size: 14px; color: var(--primary); }
+.feature-card p { margin: 0; font-size: 13px; color: var(--text-muted); }
+code { background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+pre { background: #0f172a; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; font-size: 13px; line-height: 1.6; margin: 16px 0; }
+ul, ol { margin: 10px 0 10px 22px; }
+li { margin-bottom: 4px; }
+</style>
+</head>
+<body><nav class="sidebar">
+<h2>目录</h2>
+<ul>
+<li><a href="#intro">1. 项目概述</a></li>
+<li><a href="#tech">2. 技术栈</a></li>
+<li><a href="#struct">3. 项目结构</a></li>
+<li><a href="#arch">4. 系统架构</a></li>
+<li><a href="#base-spider">5. BaseSpider 基类</a></li>
+<li><a href="#multi-step">6. 多步爬取流程</a></li>
+<li><a href="#platforms">7. 各平台实现</a></li>
+<li><a href="#db-schema">8. 数据库设计</a></li>
+<li><a href="#anti">9. 反爬与防御</a></li>
+<li><a href="#pipeline">10. 数据清洗</a></li>
+<li><a href="#utils">11. 工具模块</a></li>
+<li><a href="#api">12. API与运维</a></li>
+<li><a href="#run">13. 启动与使用</a></li>
+<li><a href="#extend">14. 扩展指南</a></li>
+<li><a href="#known-limits">15. 已知局限</a></li>
+</ul>
+</nav>
+<div class="main">
+<h2 id="intro">1. 项目概述</h2>
+<p>这是一个基于 <strong>Playwright 浏览器自动化 + MongoDB</strong> 的多平台招聘数据爬虫系统。通过模拟真实浏览器行为，从7大主流招聘网站自动采集职位信息, 经过标准化清洗后存入 MongoDB, 为后续的数据分析、职位推荐、市场洞察提供底层数据支撑。</p>
+<div class="highlight"><strong>目标：</strong> 搭建一个可扩展、稳定的多平台招聘数据中台。</div>
+<table class="schema-table">
+<tr><th>平台</th><th>目录名</th><th>爬取方式</th><th>特点</th></tr>
+<tr><td>智联招聘</td><td>zhilianzhaopin</td><td>Requests+Playwright</td><td>8步/Cookie/分part</td></tr>
+<tr><td>BOSS直聘</td><td>bosszhipin</td><td>Playwright</td><td>4步/多版本解析</td></tr>
+<tr><td>猎聘网</td><td>liepin</td><td>Playwright</td><td>6步/三维枚举</td></tr>
+<tr><td>前程无忧</td><td>qianchengwuyou</td><td>Playwright+Selenium</td><td>反爬极严</td></tr>
+<tr><td>58同城</td><td>58tongcheng</td><td>Playwright</td><td>7步/分类遍历</td></tr>
+<tr><td>拉勾网</td><td>lagou</td><td>Playwright</td><td>7步/Cookie依赖</td></tr>
+<tr><td>应届生求职网</td><td>yingjiesheng</td><td>Playwright</td><td>校园招聘</td></tr>
+</table><h2 id="tech">2. 技术栈</h2>
+<div class="feature-grid">
+<div class="feature-card"><h4>Python 3.11+</h4><p>async/await 异步编程</p></div>
+<div class="feature-card"><h4>Playwright 1.50</h4><p>浏览器自动化核心</p></div>
+<div class="feature-card"><h4>MongoDB + Motor</h4><p>异步文档存储</p></div>
+<div class="feature-card"><h4>Scrapy 2.12</h4><p>爬虫框架(部分模块)</p></div>
+<div class="feature-card"><h4>FastAPI</h4><p>Cookie验证API服务</p></div>
+<div class="feature-card"><h4>Pandas/NumPy</h4><p>数据分析辅助</p></div>
+<div class="feature-card"><h4>python-dotenv</h4><p>环境变量管理</p></div>
+<div class="feature-card"><h4>pytest/black</h4><p>测试与代码质量</p></div>
+</div><h2 id="struct">3. 项目结构</h2>
+<pre>
+recruitment_spider/
+|-- run_recruitment_spider.py   # 统一启动脚本
+|-- run.py                      # Scrapy启动
+|-- requirements.txt            # 依赖清单
+|-- spiders/                    # 爬虫核心
+|   |-- base_spider.py          #   基类
+|   |-- zhilianzhaopin/         #   智联招聘8步
+|   |-- bosszhipin/             #   BOSS直聘4步
+|   |-- liepin/                 #   猎聘网6步
+|   |-- lagou/                  #   拉勾网7步
+|   |-- qianchengwuyou/         #   前程无忧5步
+|   |-- 58tongcheng/            #   58同城7步
+|   |-- yingjiesheng/           #   应届生求职网
+|-- utils/                      # 工具模块
+|-- config/settings.py          # 全局配置
+|-- auth/zhilian/               # 智联认证
+|-- api/cookie_validator.py     # Cookie验证API
+|-- data/                       # 平台配置数据
+|-- scripts/                    # 分析脚本
+|-- docs/database_schema.md     # 数据库文档
+</pre><h2 id="arch">4. 系统架构</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart TB
+    subgraph Sources["Data Layer"]
+        ZL[Zhaopin]; BOSS[Boss]
+        LP[Liepin]; QCWY[51Job]
+        WUBA[58]; LG[Lagou]
+        YJS[Yingjiesheng]
+    end
+    subgraph Crawlers["Crawler Layer"]
+        BS[BaseSpider]
+        ZL_S[Zhaopin]; BOSS_S[Boss]
+        LP_S[Liepin]; QC_S[51Job]
+        WB_S[58]; LG_S[Lagou]
+    end
+    subgraph Storage["MongoDB"]
+        RAW[(jobs\_raw)]; CLEAN[(jobs\_clean)]
+    end
+    Sources --> Crawlers --> Storage
+    ZL --> ZL_S --> RAW
+    BOSS --> BOSS_S --> RAW
+    LP --> LP_S --> RAW
+    QCWY --> QC_S --> RAW
+    WUBA --> WB_S --> RAW
+    LG --> LG_S --> RAW
+    RAW -->|DataCleaner| CLEAN
+    RAW -->|Detail| DETAIL
+</pre></div><h2 id="base-spider">5. BaseSpider 基类</h2>
+<p>spiders/base_spider.py 是所有爬虫基类, 封装了浏览器管理、数据库管理和抽象接口：</p>
+<ul>
+<li><strong>多浏览器+多标签页</strong>：并发采集, 上下文随机化</li>
+<li><strong>反检测</strong>：隐藏webdriver, Canvas指纹混淆, 资源拦截(四级)</li>
+<li><strong>数据库</strong>：Motor异步MongoDB, 批量upsert, 索引{job_id, source}</li>
+</ul>
+<p>子类必须实现: process_job_type, get_job_list, get_job_detail, process_job_data</p><h2 id="multi-step">6. 多步爬取流程</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart LR
+    A[Step1 URL组合] --> B[Step2 URL验证]
+    B --> C[Step3 聚合分区]
+    C --> D[Step4 列表爬取]
+    D --> E[Step5 列表清洗]
+    E --> F[Step6 详情爬取]
+    F --> G[Step7 入库]
+    G --> H[Step8 清洗]
+</pre></div><h2 id="platforms">7. 各平台实现详解</h2>
+<h3>7.1 智联招聘 - 8步+Cookie认证</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th><th>中间数据(MongoDB)</th></tr>
+<tr><td>Step 1</td><td>从base_data.json加载行业和岗位代码, 笛卡尔积生成搜索URL组合</td><td>zhilian_step1_urls</td></tr>
+<tr><td>Step 2</td><td>Requests请求fe-api.zhaopin.com, 验证每个组合是否有职位(>15条标记success)</td><td>zhilian_step2_urls</td></tr>
+<tr><td>Step 3</td><td>验证通过URL拆为4个part(part1~4), 支持多实例并行消费</td><td>zhilian_step2_urls_part{1~4}</td></tr>
+<tr><td>Step 4</td><td>Playwright打开每个URL, 翻页爬取列表(标题/薪资/公司/链接)</td><td>zhilian_step3_urls</td></tr>
+<tr><td>Step 5</td><td>列表数据去重合并, 去除重复记录</td><td>-</td></tr>
+<tr><td>Step 6</td><td>根据职位类型生成详情页爬取URL组合</td><td>zhilian_step4_urls</td></tr>
+<tr><td>Step 7</td><td>Playwright打开详情页, 提取描述/职责/要求/福利</td><td>zhilian_step5_detail</td></tr>
+<tr><td>Step 8</td><td>清洗数据写入MongoDB jobs_raw集合</td><td>jobs_raw</td></tr>
+</table>
+<p>智联请求需动态API签名(auth/zhilian/auth_helper.py生成client_id/at/rt), Cookie约几小时过期, 通过Cookie验证API(:10330/api/validate/zhilian)检查有效性。</p>
+
+<h3>7.2 BOSS直聘 - 4步+Playwright</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th><th>中间数据</th></tr>
+<tr><td>Step 1</td><td>加载城市/行业/职位类型JSON</td><td>本地JSON</td></tr>
+<tr><td>Step 2</td><td>生成搜索URL组合, Playwright打开验证</td><td>boss_step1_urls</td></tr>
+<tr><td>Step 3</td><td>翻爬列表页, 解析标题/薪资/公司/标签/链接</td><td>boss_step2_list</td></tr>
+<tr><td>Step 4</td><td>打开详情页提取完整信息(多版本解析器), 写入MongoDB</td><td>jobs_raw</td></tr>
+</table>
+<p>BOSS页面规整, 反爬压力小, 4步覆盖全部流程。</p>
+
+<h3>7.3 猎聘网 - 6步+三维枚举</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th></tr>
+<tr><td>Step 1</td><td>加载省份/行业/职位类型代码, 三维笛卡积生成搜索URL</td></tr>
+<tr><td>Step 2</td><td>Playwright验证每个URL是否有数据</td></tr>
+<tr><td>Step 3</td><td>有效URL聚合分区, 拆多part并行</td></tr>
+<tr><td>Step 4</td><td>翻爬列表页(每页40条), 解析基本信息</td></tr>
+<tr><td>Step 5</td><td>列表数据清洗去重</td></tr>
+<tr><td>Step 6</td><td>详情爬取完整数据, 写入jobs_raw</td></tr>
+</table>
+
+<h3>7.4 前程无忧 - 5步+Selenium备选</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th></tr>
+<tr><td>Step 1</td><td>加载城市代码, 生成搜索URL组合</td></tr>
+<tr><td>Step 2</td><td>Playwright打开搜索验证, 处理JS验证挑战</td></tr>
+<tr><td>Step 3</td><td>职位列表翻爬, 处理分页</td></tr>
+<tr><td>Step 4</td><td>详情页提取(主方案Playwright, 备选Selenium+humanMouse鼠标模拟)</td></tr>
+<tr><td>Step 5</td><td>数据清洗后写入MongoDB</td></tr>
+</table>
+<p>前程无忧反爬极严(JS验证+鼠标轨迹检测), 备用了Selenium方案自动降级。</p>
+
+<h3>7.5 58同城 - 7步+分类遍历</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th></tr>
+<tr><td>Step 1~3</td><td>加载城市/公司类型/职位类别数据, 三维遍历生成URL</td></tr>
+<tr><td>Step 4~5</td><td>Playwright翻爬列表页, 解析职位卡片</td></tr>
+<tr><td>Step 6</td><td>打开详情页提取描述/联系方式/公司信息</td></tr>
+<tr><td>Step 7</td><td>数据清洗后写入MongoDB jobs_raw</td></tr>
+</table>
+
+<h3>7.6 拉勾网 - 7步+Cookie依赖</h3>
+<table class="schema-table">
+<tr><th>步骤</th><th>操作</th></tr>
+<tr><td>Step 1</td><td>加载城市/行业/职位类型代码, 生成搜索URL并划分到多个part</td></tr>
+<tr><td>Step 2</td><td>Playwright验证URL可访问性(Cookie失效则重定向登录页)</td></tr>
+<tr><td>Step 3</td><td>筛选有效URL, 生成详情爬取URL</td></tr>
+<tr><td>Step 4</td><td>爬取职位详情数据</td></tr>
+<tr><td>Step 5~7</td><td>数据清洗/补充遗漏字段/最终入库</td></tr>
+</table>
+<p>拉勾对未登录限制严格, 无有效Cookie重定向到登录页, 需定期检验Cookie有效性(:10330/api/validate/lagou)。</p>
+
+<h3>7.7 应届生求职网</h3>
+<table class="schema-table">
+<tr><th>方式</th><th>说明</th></tr>
+<tr><td>单文件</td><td>一个爬虫文件完成列表+详情爬取, 无分步流程</td></tr>
+<tr><td>过滤条件</td><td>按城市(city_code.json)+职位类型(job_type.json)过滤</td></tr>
+<tr><td>特点</td><td>页面结构简单, 专注于校园招聘数据</td></tr>
+</table><h2 id="db-schema">8. 数据库设计(MongoDB)</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart LR
+    RAW[jobs_raw: title/company/salary/city/source] -->|DataCleaner| CLEAN[jobs_clean: unified_id/salary_minmax/skills/location]
+    RAW -->|详情爬取| DETAIL[jobs_detail: description/benefits/similar_jobs]
+</pre></div>
+<h3>8.1 jobs_raw 原始数据</h3>
+<table class="schema-table"><tr><th>字段</th><th>类型</th><th>说明</th><th>示例</th></tr>
+<tr><td>job_id</td><td>String</td><td>职位ID</td><td>12345678</td></tr>
+<tr><td>title</td><td>String</td><td>职位名称</td><td>Python开发</td></tr>
+<tr><td>company</td><td>String</td><td>公司</td><td>阿里巴巴</td></tr>
+<tr><td>salary</td><td>String</td><td>薪资</td><td>15k-25k</td></tr>
+<tr><td>city</td><td>String</td><td>城市</td><td>北京</td></tr>
+<tr><td>experience</td><td>String</td><td>经验</td><td>3-5年</td></tr>
+<tr><td>education</td><td>String</td><td>学历</td><td>本科</td></tr>
+<tr><td>source</td><td>String</td><td>来源</td><td>zhilian</td></tr>
+<tr><td>crawl_time</td><td>DateTime</td><td>爬取时间</td><td>2024-02-17</td></tr>
+</table>
+<p>索引: {job_id:1, source:1} 唯一</p>
+<h3>8.2 jobs_clean 清洗数据</h3>
+<table class="schema-table"><tr><th>字段</th><th>类型</th><th>说明</th></tr>
+<tr><td>unified_job_id</td><td>String</td><td>统一ID</td></tr>
+<tr><td>salary_min</td><td>Number</td><td>最低月薪(元)</td></tr>
+<tr><td>salary_max</td><td>Number</td><td>最高月薪(元)</td></tr>
+<tr><td>skills</td><td>Array</td><td>技能要求</td></tr>
+<tr><td>location</td><td>Object</td><td>GeoJSON位置</td></tr>
+<tr><td>status</td><td>String</td><td>active/expired</td></tr>
+</table>
+<p>索引: {unified_job_id:1}唯一; {title:1,city:1,salary_min:1,salary_max:1}查询</p>
+<h3>8.3 jobs_detail 明细</h3>
+<table class="schema-table"><tr><th>字段</th><th>类型</th><th>说明</th></tr>
+<tr><td>detail_id</td><td>String</td><td>明细ID</td></tr>
+<tr><td>unified_job_id</td><td>String</td><td>关联jobs_clean</td></tr>
+<tr><td>job_description</td><td>String</td><td>完整描述</td></tr>
+<tr><td>job_benefits</td><td>Array</td><td>福利</td></tr>
+<tr><td>similar_jobs</td><td>Array</td><td>相似职位</td></tr>
+</table>
+<p>索引: {detail_id:1}唯一; {unified_job_id:1}关联</p><h2 id="anti">9. 反爬与防御策略</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart TB
+    subgraph Strategy["Anti-Crawl Strategy"]
+        UA[UA Rotation]
+        FINGER[Fingerprint]
+        PROXY[Proxy Rotation]
+        DELAY[Request Delay]
+        COOKIE[Dynamic Cookie]
+        MOUSE[Mouse Simulation]
+    end
+    subgraph Detection["Detection"]
+        S[Status 403/429]
+        K[Keywords]
+        R[Redirect Check]
+    end
+    Strategy --> BaseSpider
+    BaseSpider --> Detection
+    Detection -->|Blocked| HANDLE[Wait / Proxy Switch / Screenshot]
+    Detection -->|OK| CONTINUE[Continue]
+</pre></div><h2 id="pipeline">10. 数据清洗</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart LR
+    RAW[(jobs\_raw)] --> DC[DataCleaner]
+    DC --> TITLE[Title Clean]
+    TITLE --> SALARY[Salary Parse]
+    SALARY --> SKILLS[Skill Extract]
+    SKILLS --> TIME[Time Normalize]
+    TIME --> VALID[Validate]
+    VALID --> CLEAN[(jobs\_clean)]
+</pre></div>
+<p>薪资: 15k-25k/1.5万-2万/10000-15000元/月多格式; 技能: 40+关键词匹配; 城市/经验/学历标准化</p><h2 id="utils">11. 工具模块</h2>
+<div class="feature-grid">
+<div class="feature-card"><h4>log_manager</h4><p>按时间戳生成独立日志, 双输出</p></div>
+<div class="feature-card"><h4>proxy_manager</h4><p>代理API获取IP, 缓存+测试</p></div>
+<div class="feature-card"><h4>data_cleaner</h4><p>数据标准化入口</p></div>
+<div class="feature-card"><h4>parser</h4><p>薪资/城市/学历/技能提取</p></div>
+<div class="feature-card"><h4>anti_spider</h4><p>反爬检测+截图</p></div>
+<div class="feature-card"><h4>split_url</h4><p>URL拆块并行</p></div>
+</div><h2 id="api">12. API与运维</h2>
+<h3>12.1 Cookie验证API</h3>
+<table class="schema-table"><tr><th>端点</th><th>说明</th></tr>
+<tr><td>/</td><td>根路由</td></tr>
+<tr><td>/api/validate/zhilian</td><td>验证智联Cookie</td></tr>
+<tr><td>/api/validate/lagou</td><td>验证拉勾Cookie</td></tr>
+</table>
+<p>运行: python api/cookie_validator.py (:10330)</p>
+<h3>12.2 数据分析脚本</h3>
+<p>analyze_zhilian_collections.py(集合差异), remove_duplicates.py(去重)</p>
+<h3>12.3 账号管理</h3>
+<p>智联: account_manager.py多账号池; 猎聘: data/liepin/account.json; 拉勾: data/lagou/lagou_cookie.json</p><h2 id="run">13. 启动与使用</h2>
+<pre>
+pip install -r requirements.txt
+playwright install
+cp .env.example .env  # 编辑MongoDB连接信息
+
+python run_recruitment_spider.py --platform all
+python run_recruitment_spider.py --platform zhilian
+
+--headless   无头模式
+--city "北京" 指定城市
+--browser-count 2
+--debug
+</pre>
+<p>逐步手动(cd spiders/zhilianzhaopin && python zhilian_main.py); API服务(cd api && python cookie_validator.py)</p>
+<p>MongoDB凭据从.env读取, 28个文件已迁移到os.getenv模式。</p><h2 id="extend">14. 扩展指南</h2>
+<div class="mermaid-wrapper"><pre class="mermaid">
+flowchart TB
+    A["1. Create spiders/new/"] --> B["2. Write Step1~N"]
+    B --> C["3. Implement BaseSpider"]
+    C --> D["4. Create Main Scheduler"]
+    D --> E["5. Add data/ config"]
+    E --> F["6. Register in run script"]
+</pre></div>
+<div class="highlight"><p>基类已处理浏览器/反爬/资源拦截, 子类只需聚焦页面解析; 数据清洗统一走DataCleaner</p></div><h2 id="known-limits">15. 已知局限与改进方向</h2>
+<div class="feature-grid">
+<div class="feature-card"><h4>步间失败恢复</h4><p>Step N失败后需人工介入, 无自动重试或步间协调器。</p></div>
+<div class="feature-card"><h4>跨平台去重</h4><p>各平台数据独立存储, 无跨平台职位合并。</p></div>
+<div class="feature-card"><h4>监控与告警</h4><p>无监控/告警机制。爬虫挂掉或OOM时无人知晓。</p></div>
+<div class="feature-card"><h4>薪资解析覆盖</h4><p>支持万/K/元/月格式, 但年薪/时薪暂未覆盖。</p></div>
+<div class="feature-card"><h4>凭据安全</h4><p>28个文件的硬编码MongoDB密码已迁移为os.getenv模式。</p></div>
+<div class="feature-card"><h4>资源消耗</h4><p>Playwright实例约200-300MB/个。峰值约2.8GB+内存。</p></div>
+</div><hr>
+<p style="color:#64748b;font-size:13px;">文档生成时间: 2025-07-13 | 项目版本: v1.0</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+mermaid.initialize({startOnLoad:true,theme:"neutral"});
+const l=document.querySelectorAll(".sidebar a"),s=document.querySelectorAll("h2[id]");
+window.addEventListener("scroll",()=>{let c="";s.forEach(e=>{window.scrollY>=e.offsetTop-80&&(c=e.id)});l.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+c))});
+</script>
+</body>
+</html>

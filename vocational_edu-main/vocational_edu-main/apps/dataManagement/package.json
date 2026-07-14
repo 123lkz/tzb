@@ -1,0 +1,31 @@
+{
+  "name": "dataManagement",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^2.0.0",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@popperjs/core": "^2.11.8",
+    "echarts": "^6.0.0",
+    "echarts-wordcloud": "^2.1.0",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.371",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/icon": "3.0.0-beta.16",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3",
+    "unplugin-icons": "^22.2.0"
+  }
+}

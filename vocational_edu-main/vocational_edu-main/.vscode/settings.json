@@ -1,0 +1,51 @@
+{
+  // 每次保存的时候自动格式化
+	"editor.formatOnSave": true,
+  // 编辑器开启 eslint
+  "eslint.enable": true,
+  // 使用 eslint 格式化代码
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // #每次保存的时候将代码按eslint格式进行修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // vetur config
+  "vetur.validation.script": false,
+  "css.validate": true,
+  "scss.validate": true,
+  "[scss]": {
+      "editor.quickSuggestions": {
+          "comments": false,
+          "strings": true,
+          "other": true
+      }
+  },
+  "files.associations": {
+      "*.vue": "vue"
+  },
+  "html.customData": [
+    "./node_modules/vidstack/vscode.html-data.json"
+  ],
+  "editor.fontSize": 16
+}

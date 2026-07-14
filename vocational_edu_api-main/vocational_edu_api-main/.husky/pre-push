@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🚀 运行pre-push检查..."
+
+# 运行完整的构建检查
+echo "🔨 运行TypeScript编译..."
+npm run build
+
+# 运行linting检查
+echo "🔍 运行代码规范检查..."
+npm run lint
+
+echo "✅ pre-push检查完成，可以安全推送代码"

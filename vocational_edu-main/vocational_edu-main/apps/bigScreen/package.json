@@ -1,0 +1,26 @@
+{
+  "name": "bigScreen",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "echarts": "^5.6.0",
+    "echarts-china-provinces-js": "^1.0.0",
+    "echarts-wordcloud": "^2.1.0",
+    "nuxt": "^3.0.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.0.0",
+    "@types/echarts": "^5.0.0",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
