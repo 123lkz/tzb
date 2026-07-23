@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="850" viewBox="0 0 1100 850">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6B7280"/>
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3B82F6"/>
+    </marker>
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF"/>
+      <stop offset="100%" style="stop-color:#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="menuGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A5F"/>
+      <stop offset="100%" style="stop-color:#1E293B"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1100" height="850" fill="#FFFFFF"/>
+  <text x="550" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1E3A5F">前端页面跳转与功能流程图</text>
+  <text x="550" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6B7280">岗位全景图谱 — 人岗匹配平台</text>
+
+  <!-- ===== LEFT: SideMenu Navigation ===== -->
+  <rect x="30" y="75" width="160" height="340" rx="8" fill="url(#menuGrad)" filter="url(#shadow)"/>
+  <text x="110" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">SideMenu 导航</text>
+  <line x1="45" y1="106" x2="175" y2="106" stroke="rgba(255,255,255,0.2)" stroke-width="0.5"/>
+  <rect x="45" y="118" width="130" height="32" rx="4" fill="rgba(255,255,255,0.1)"/>
+  <text x="110" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#FFFFFF">1. 首页总览 /</text>
+  <line x1="110" y1="150" x2="110" y2="158" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="45" y="160" width="130" height="32" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="110" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94A3B8">2. 岗位信息 /positions</text>
+  <line x1="110" y1="192" x2="110" y2="200" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="45" y="202" width="130" height="32" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="110" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94A3B8">3. 简历匹配 /matching</text>
+  <line x1="110" y1="234" x2="110" y2="242" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="45" y="244" width="130" height="32" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="110" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94A3B8">4. 能力洞察 /insights</text>
+  <line x1="110" y1="276" x2="110" y2="284" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <rect x="45" y="286" width="130" height="32" rx="4" fill="rgba(255,255,255,0.05)"/>
+  <text x="110" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#94A3B8">5. 知识图谱 /kg</text>
+
+  <!-- ===== Arrows from menu to pages ===== -->
+  <line x1="190" y1="134" x2="225" y2="134" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="190" y1="176" x2="225" y2="176" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="190" y1="218" x2="225" y2="218" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="190" y1="260" x2="225" y2="260" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+  <line x1="190" y1="302" x2="225" y2="302" stroke="#3B82F6" stroke-width="2" marker-end="url(#arrow-blue)"/>
+
+  <!-- ===== Page 1: 首页总览 ===== -->
+  <rect x="230" y="75" width="260" height="130" rx="6" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="230" y="75" width="260" height="26" rx="6" fill="#3B82F6"/>
+  <rect x="230" y="89" width="260" height="12" fill="#3B82F6"/>
+  <text x="360" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">首页总览 (/)</text>
+  <text x="245" y="118" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 8 张核心指标卡 (StatCard)</text>
+  <text x="245" y="133" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 6 个 ECharts 图表（行业/学历/经验等）</text>
+  <text x="245" y="148" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 热门技能标签云</text>
+  <text x="245" y="163" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 公司招聘排行</text>
+  <text x="245" y="178" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 数据来源：jobs_clean 前端计算</text>
+  <text x="245" y="195" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">-------------- 响应式 grid-cols-2 布局 --------------</text>
+
+  <!-- Arrow: 首页 -> 岗位 -->
+  <path d="M 360 205 Q 360 220 250 220 L 250 230" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <!-- Arrow: 首页 -> 能力洞察 -->
+  <path d="M 360 205 Q 360 220 520 220 L 520 230" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- ===== Page 2: 岗位信息 ===== -->
+  <rect x="230" y="235" width="260" height="145" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="230" y="235" width="260" height="26" rx="6" fill="#16A34A"/>
+  <rect x="230" y="249" width="260" height="12" fill="#16A34A"/>
+  <text x="360" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">岗位信息 (/positions)</text>
+  <text x="245" y="278" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 多字段过滤：关键词/行业/地点/学历</text>
+  <text x="245" y="293" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 经验/薪资 + 排序控制</text>
+  <text x="245" y="308" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 卡片网格展示 (12条/页 + 分页)</text>
+  <text x="245" y="323" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 统计卡片：数量/人数/平均薪资</text>
+  <text x="245" y="338" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 过滤选项从 jobs_clean 动态提取</text>
+  <text x="245" y="353" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 技术：computed 纯前端响应式</text>
+  <text x="245" y="370" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">-------------- 未来接入 useFetch + watch --------------</text>
+
+  <!-- Arrow: 岗位 -> 匹配 -->
+  <path d="M 360 380 Q 360 395 250 395 L 250 405" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <!-- Arrow: 岗位 -> 能力洞察 -->
+  <path d="M 360 380 Q 360 395 550 395 L 550 405" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- ===== Page 3: 简历匹配 ===== -->
+  <rect x="230" y="410" width="260" height="175" rx="6" fill="#FFF7ED" stroke="#FDBA74" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="230" y="410" width="260" height="26" rx="6" fill="#EA580C"/>
+  <rect x="230" y="424" width="260" height="12" fill="#EA580C"/>
+  <text x="360" y="427" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">简历匹配 (/matching)</text>
+  <text x="245" y="453" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 左侧：简历上传（拖拽/点击 .word/.pdf/.txt）</text>
+  <text x="245" y="468" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 左侧：简历解析结果展示</text>
+  <text x="245" y="483" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 右侧：指定岗位匹配（搜索岗位）</text>
+  <text x="245" y="498" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 右侧：全局匹配（系统推荐 Top-5）</text>
+  <text x="245" y="513" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 匹配结果：多维度得分 + 差距分析</text>
+  <text x="245" y="528" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 改进建议 + 学习路径规划</text>
+  <text x="245" y="543" font-family="Arial, sans-serif" font-size="9" fill="#374151">• API：/api/match-position + /api/match-all</text>
+  <text x="245" y="558" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 后端 match_reports 集合存储结果</text>
+  <text x="245" y="575" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">-------------- 左右两栏布局 --------------</text>
+
+  <!-- Arrow: 匹配 -> 能力洞察 -->
+  <path d="M 360 585 Q 360 600 550 600 L 550 610" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <!-- Arrow: 匹配 -> 知识图谱 -->
+  <path d="M 490 585 Q 750 595 750 610" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- ===== RIGHT COLUMN ===== -->
+
+  <!-- ===== Page 4: 能力洞察 ===== -->
+  <rect x="520" y="75" width="280" height="210" rx="6" fill="#FDF2F8" stroke="#F9A8D4" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="520" y="75" width="280" height="26" rx="6" fill="#DB2777"/>
+  <rect x="520" y="89" width="280" height="12" fill="#DB2777"/>
+  <text x="660" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">能力洞察 (/insights)</text>
+  <text x="535" y="118" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 5 张概览卡片（画像/技能/新发现/审核/质量）</text>
+  <text x="535" y="133" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 触发新岗位分析（Agent1 job_discovery）</text>
+  <text x="545" y="148" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">  → agent1_output 集合</text>
+  <text x="535" y="163" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 左侧：技能趋势分析（ECharts 折线图）</text>
+  <text x="545" y="178" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">  → 当前 mock，未来 Agent1 skill_evolution</text>
+  <text x="535" y="193" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 右侧：新发现岗位列表（确认/忽略）</text>
+  <text x="535" y="208" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 待审核弹窗（audit_queue 人工审核）</text>
+  <text x="545" y="223" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">  → 通过后写入 jobs_kg</text>
+  <text x="535" y="238" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 布局：上(卡片) + 下(左:趋势 右:新岗位)</text>
+  <text x="535" y="255" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 技术：ECharts 动态 import() + try/catch</text>
+  <text x="535" y="275" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">-------------- newPositions 可滚动容器 --------------</text>
+
+  <!-- Arrow: 能力洞察 -> 知识图谱 -->
+  <path d="M 660 285 Q 660 300 750 300 L 750 310" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+
+  <!-- ===== Page 5: 知识图谱 ===== -->
+  <rect x="520" y="315" width="280" height="120" rx="6" fill="#F5F3FF" stroke="#C4B5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="520" y="315" width="280" height="26" rx="6" fill="#7C3AED"/>
+  <rect x="520" y="329" width="280" height="12" fill="#7C3AED"/>
+  <text x="660" y="332" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">知识图谱 (/knowledge-graph)</text>
+  <text x="535" y="358" font-family="Arial, sans-serif" font-size="9" fill="#374151">• ECharts 力导向图可视化</text>
+  <text x="535" y="373" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 4 种节点：岗位 / 技能 / 行业 / 公司</text>
+  <text x="535" y="388" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 点击节点查看详情面板</text>
+  <text x="535" y="403" font-family="Arial, sans-serif" font-size="9" fill="#374151">• 数据：mockGraphData（接入 jobs_kg 后替换）</text>
+  <text x="535" y="425" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">-------------- useAsyncData + ECharts init --------------</text>
+
+  <!-- ===== BOTTOM: Backend Connection ===== -->
+  <rect x="200" y="620" width="700" height="45" rx="22" fill="#1E3A5F" filter="url(#shadow)"/>
+  <text x="550" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">后端 FastAPI (localhost:8720) — 数据持久化与 Agent 引擎</text>
+  <text x="550" y="656" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#93C5FD">MongoDB recruitment · jobs_clean · agent1_output · audit_queue · jobs_kg · match_reports</text>
+
+  <!-- Down arrows from pages to backend -->
+  <line x1="360" y1="590" x2="360" y2="620" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="660" y1="440" x2="660" y2="620" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <line x1="750" y1="440" x2="750" y2="620" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+
+  <!-- ===== Legend ===== -->
+  <rect x="30" y="690" width="1040" height="140" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="40" y="712" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">图例说明：</text>
+  <rect x="40" y="725" width="12" height="12" rx="2" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1"/>
+  <text x="56" y="735" font-family="Arial, sans-serif" font-size="9" fill="#374151">页面模块</text>
+  <line x1="120" y1="731" x2="150" y2="731" stroke="#6B7280" stroke-width="1.2" marker-end="url(#arrow)"/>
+  <text x="155" y="735" font-family="Arial, sans-serif" font-size="9" fill="#374151">页面跳转</text>
+  <path d="M 230 728 L 260 728" stroke="#6B7280" stroke-width="1.2" fill="none" stroke-dasharray="4,3" marker-end="url(#arrow)"/>
+  <text x="265" y="735" font-family="Arial, sans-serif" font-size="9" fill="#374151">关联跳转</text>
+
+  <text x="40" y="765" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">数据流向：</text>
+  <text x="140" y="765" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">jobs_clean (岗位数据)  → 首页/岗位信息 → 简历匹配</text>
+  <text x="140" y="780" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">agent1_output (新岗位)  → 能力洞察新岗位发现</text>
+  <text x="140" y="795" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">audit_queue (待审核)  → 能力洞察审核 → jobs_kg (知识图谱)</text>
+  <text x="140" y="810" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">match_reports (匹配报告)  → 简历匹配结果展示</text>
+
+  <text x="550" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#9CA3AF">技术栈：Nuxt 3 + Vue 3 + TypeScript + TailwindCSS + ECharts</text>
+</svg>

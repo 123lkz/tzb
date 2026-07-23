@@ -1,0 +1,37 @@
+﻿姓名：张三
+电话：13800138000
+邮箱：zhangsan@example.com
+硕士 · 5年工作经验 · 当前职位：算法工程师
+
+教育背景
+2016-09 — 2019-06  清华大学  计算机科学与技术  硕士
+2012-09 — 2016-06  北京大学  信息与计算科学  本科
+
+工作经历
+2019-07 — 2022-08  字节跳动  算法工程师
+  负责推荐系统的 CTR/CVR 预估模型开发
+  使用 TensorFlow 和 PyTorch 训练大规模深度学习模型
+  优化模型推理性能，将延迟降低 40%
+  参与特征工程平台建设，日均处理 10 亿+ 样本
+
+2022-09 — 至今  阿里巴巴  高级算法工程师
+  带领 3 人团队开发大模型微调平台
+  基于 LoRA/QLoRA 实现参数高效微调
+  负责模型蒸馏和量化部署，模型体积压缩 60%
+  使用 LangChain 构建 RAG 知识问答系统
+
+项目经验
+电商智能推荐系统
+  使用 PyTorch + DeepFM 构建多任务学习推荐模型
+  利用 Flink + Kafka 搭建实时特征流水线
+  AUC 提升 2.3%，CTR 提升 5.1%
+
+大模型知识库问答系统
+  使用 LangChain + ChromaDB 构建文档检索增强生成系统
+  集成 Qwen 和 DeepSeek 模型
+  支持多轮对话、文档摘要、信息抽取
+
+专业技能
+Python, TensorFlow, PyTorch, LangChain, DeepSpeed, Transformers
+Flink, Kafka, SQL, Redis, Elasticsearch
+Docker, Kubernetes, Git, Linux

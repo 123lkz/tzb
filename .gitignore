@@ -1,28 +1,36 @@
- # Agent / IDE metadata
- .agents/
- .codex/
- .vscode/
- 
- # Environment files
- .env
- 
- # Dependencies
- node_modules/
- 
- # OS / system
- *.stackdump
- *.log
- Thumbs.db
- .DS_Store
- 
- # Build outputs
- dist/
- build/
- __pycache__/
- *.pyc
- .pyo
- 
- # IDE
- .idea/
- *.swp
- *.swo
+# Agent / IDE metadata
+.agents/
+.codex/
+.vscode/
+
+# Environment files
+.env
+
+# Dependencies
+node_modules/
+
+# OS / system
+*.stackdump
+*.log
+Thumbs.db
+.DS_Store
+
+# Build outputs
+dist/
+build/
+.nuxt/
+.output/
+__pycache__/
+*.pyc
+.pyo
+
+# Temporary / log / output files
+pipeline_output.txt
+_pipeline_log.txt
+temp_*
+~$*
+
+# IDE
+.idea/
+*.swp
+*.swo

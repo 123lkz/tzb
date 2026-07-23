@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4A5568"/>
+    </marker>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EFF6FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DBEAFE;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0FDF4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DCFCE7;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF7ED;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFEDD5;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="boxGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FDF2F8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FCE7F3;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="960" height="720" fill="#FFFFFF"/>
+  <text x="480" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E3A5F">前端架构图</text>
+  <text x="480" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">岗位全景图谱 — 人岗匹配平台</text>
+  <rect x="30" y="70" width="900" height="60" rx="6" fill="url(#headerGrad)" filter="url(#shadow)"/>
+  <text x="480" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">Nuxt 3 SSR (Nitro) — node-server</text>
+  <text x="480" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#BFDBFE">Vite 7 构建 / TypeScript 严格模式 / TailwindCSS / ECharts 5</text>
+  <line x1="480" y1="130" x2="480" y2="150" stroke="#4A5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="40" y="172" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">Pages 页面层</text>
+  <rect x="30" y="182" width="170" height="70" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="115" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">首页总览</text>
+  <text x="115" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">/</text>
+  <text x="115" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">8 StatCard + 6 图表</text>
+  <rect x="212" y="182" width="170" height="70" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="297" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">岗位信息</text>
+  <text x="297" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">/positions</text>
+  <text x="297" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">多字段过滤 + 分页</text>
+  <rect x="395" y="182" width="170" height="70" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="480" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">简历匹配</text>
+  <text x="480" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">/matching</text>
+  <text x="480" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">指定匹配 + 全局匹配</text>
+  <rect x="578" y="182" width="170" height="70" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="663" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">能力洞察</text>
+  <text x="663" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">/insights</text>
+  <text x="663" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">趋势分析 + 审核</text>
+  <rect x="760" y="182" width="170" height="70" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="845" y="206" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">知识图谱</text>
+  <text x="845" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">/knowledge-graph</text>
+  <text x="845" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">ECharts 力导向图</text>
+  <line x1="480" y1="252" x2="480" y2="270" stroke="#4A5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="40" y="292" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">组件系统 (Components)</text>
+  <rect x="30" y="302" width="290" height="120" rx="5" fill="url(#boxGrad2)" stroke="#86EFAC" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="175" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">Common 通用组件</text>
+  <line x1="50" y1="326" x2="300" y2="326" stroke="#86EFAC" stroke-width="0.5"/>
+  <text x="175" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Card — 磨砂玻璃卡片 (hover?)</text>
+  <text x="175" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Loading — 加载动画 (text?)</text>
+  <text x="175" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">StatCard — 指标卡片</text>
+  <text x="175" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">RankList — 排名列表</text>
+  <rect x="335" y="302" width="290" height="120" rx="5" fill="url(#boxGrad3)" stroke="#FDBA74" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="480" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9A3412">Layout 布局组件</text>
+  <line x1="355" y1="326" x2="605" y2="326" stroke="#FDBA74" stroke-width="0.5"/>
+  <text x="480" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">app.vue — SideMenu + NuxtPage</text>
+  <text x="480" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">SideMenu — 5项导航 (SVG图标)</text>
+  <text x="480" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">Header — 标题栏 (breadcrumbs?)</text>
+  <text x="480" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9A3412">页面过渡 .page-enter-active</text>
+  <rect x="640" y="302" width="290" height="120" rx="5" fill="url(#boxGrad4)" stroke="#F9A8D4" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="785" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9D174D">Echart 图表组件</text>
+  <line x1="660" y1="326" x2="910" y2="326" stroke="#F9A8D4" stroke-width="0.5"/>
+  <text x="785" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">BarChart — 柱状图</text>
+  <text x="785" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">DoughnutChart — 环形图</text>
+  <text x="785" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">HorizontalBarChart — 水平柱</text>
+  <text x="785" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">LineChart — 折线图</text>
+  <line x1="480" y1="422" x2="480" y2="440" stroke="#4A5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="40" y="462" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#374151">数据层 (Data Layer)</text>
+  <rect x="30" y="472" width="290" height="95" rx="5" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="175" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">API 调用层 (api.ts)</text>
+  <line x1="50" y1="498" x2="300" y2="498" stroke="#93C5FD" stroke-width="0.5"/>
+  <text x="175" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">callApi() → localhost:8720/api</text>
+  <text x="175" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">15s 超时 + 自动回退 mock</text>
+  <text x="175" y="546" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">USE_BACKEND 控制开关</text>
+  <rect x="335" y="472" width="290" height="95" rx="5" fill="url(#boxGrad2)" stroke="#86EFAC" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="480" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">模拟数据层 (mockData.ts)</text>
+  <line x1="355" y1="498" x2="605" y2="498" stroke="#86EFAC" stroke-width="0.5"/>
+  <text x="480" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">mockPositions (20条) + mockGraphData</text>
+  <text x="480" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">generateMockReport() + filterPositions()</text>
+  <text x="480" y="546" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">回退机制保障开发效率</text>
+  <rect x="640" y="472" width="290" height="95" rx="5" fill="url(#boxGrad3)" stroke="#FDBA74" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="785" y="492" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9A3412">类型定义 (types/index.ts)</text>
+  <line x1="660" y1="498" x2="910" y2="498" stroke="#FDBA74" stroke-width="0.5"/>
+  <text x="785" y="514" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">PositionInfo / ResumeProfile</text>
+  <text x="785" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">MatchReport / GraphData</text>
+  <text x="785" y="546" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#374151">全部 strict TypeScript</text>
+  <line x1="480" y1="567" x2="480" y2="585" stroke="#4A5568" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="180" y="595" width="600" height="50" rx="25" fill="#1E3A5F" filter="url(#shadow)"/>
+  <text x="480" y="618" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">连接后端 FastAPI → http://localhost:8720</text>
+  <text x="480" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#93C5FD">fetchPositions / parseResume / matchPosition / insights/*</text>
+  <text x="40" y="670" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#374151">图例：</text>
+  <rect x="90" y="658" width="14" height="14" rx="2" fill="url(#boxGrad1)" stroke="#93C5FD" stroke-width="1"/>
+  <text x="108" y="669" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">网页层</text>
+  <rect x="150" y="658" width="14" height="14" rx="2" fill="url(#boxGrad2)" stroke="#86EFAC" stroke-width="1"/>
+  <text x="168" y="669" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">公共层</text>
+  <rect x="210" y="658" width="14" height="14" rx="2" fill="url(#boxGrad3)" stroke="#FDBA74" stroke-width="1"/>
+  <text x="228" y="669" font-family="Arial, sans-serif" font-size="9" fill="#6B7280">布局/数据</text>
+  <text x="480" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#9CA3AF">技术栈：Nuxt 3 + Vue 3 + TypeScript + TailwindCSS + ECharts + Nitro</text>
+</svg>

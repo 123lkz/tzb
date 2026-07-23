@@ -1,0 +1,138 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6B7280"/>
+    </marker>
+    <linearGradient id="apiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E40AF"/><stop offset="100%" style="stop-color:#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="ag1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9333EA"/><stop offset="100%" style="stop-color:#A855F7"/>
+    </linearGradient>
+    <linearGradient id="ag2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0891B2"/><stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="ag3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97706"/><stop offset="100%" style="stop-color:#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="dbGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065F46"/><stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1000" height="780" fill="#FFFFFF"/>
+  <text x="500" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1E3A5F">后端架构图</text>
+  <text x="500" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">FastAPI + Uvicorn + MongoDB + Agent 引擎</text>
+  
+  <!-- L1: FastAPI Server -->
+  <rect x="30" y="75" width="940" height="150" rx="8" fill="url(#apiGrad)" filter="url(#shadow)"/>
+  <text x="500" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">FastAPI Server — localhost:8720</text>
+  <text x="500" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#BFDBFE">Uvicorn ASGI · CORS all origins · python-multipart</text>
+  
+  <rect x="50" y="132" width="200" height="80" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="150" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">公开 API</text>
+  <text x="60" y="170" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">GET /api/health</text>
+  <text x="60" y="185" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">GET /api/positions</text>
+  <text x="60" y="200" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">POST /api/parse-resume /match-*</text>
+  
+  <rect x="270" y="132" width="200" height="80" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="370" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">Insights API</text>
+  <text x="280" y="170" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">GET /insights/overview</text>
+  <text x="280" y="185" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">GET /insights/skills-trend</text>
+  <text x="280" y="200" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">POST /insights/run-discovery</text>
+  
+  <rect x="490" y="132" width="200" height="80" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="590" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">审核 API</text>
+  <text x="500" y="170" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">GET /insights/audit-queue</text>
+  <text x="500" y="185" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">POST /insights/audit-queue/approve</text>
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">POST /new-positions/confirm|dismiss</text>
+  
+  <rect x="710" y="132" width="240" height="80" rx="5" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="830" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">工具函数</text>
+  <text x="720" y="170" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">_parse_salary(s)</text>
+  <text x="720" y="185" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">_infer_industry(skills)</text>
+  <text x="720" y="200" font-family="Arial, sans-serif" font-size="9" fill="#BFDBFE">_infer_province(city)</text>
+  
+  <line x1="500" y1="225" x2="500" y2="250" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- L2: Agent Engine -->
+  <rect x="30" y="260" width="940" height="200" rx="8" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="500" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#374151">Agent 引擎层</text>
+  
+  <rect x="50" y="295" width="290" height="150" rx="6" fill="url(#ag1Grad)" filter="url(#shadow)"/>
+  <text x="195" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Agent1 — 新岗位发现与技能演化</text>
+  <line x1="65" y1="325" x2="325" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="65" y="342" font-family="Arial, sans-serif" font-size="9" fill="#E9D5FF">job_clusterer → novel_detector</text>
+  <text x="65" y="357" font-family="Arial, sans-serif" font-size="9" fill="#E9D5FF">→ label_generator → skill_evolution</text>
+  <text x="65" y="377" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD">输入：jobs_clean → HDBSCAN 聚类</text>
+  <text x="65" y="392" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD">→ LLM 标签生成</text>
+  <text x="65" y="407" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD">→ 季度窗口技能频率统计</text>
+  <text x="65" y="422" font-family="Arial, sans-serif" font-size="9" fill="#C4B5FD">输出：agent1_output</text>
+  <text x="65" y="437" font-family="Arial, sans-serif" font-size="8" fill="#A78BFA">嵌入模型：all-MiniLM-L6-v2</text>
+  
+  <rect x="355" y="295" width="290" height="150" rx="6" fill="url(#ag2Grad)" filter="url(#shadow)"/>
+  <text x="500" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Agent2 — NLP 画像与数据质量</text>
+  <line x1="370" y1="325" x2="630" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="370" y="342" font-family="Arial, sans-serif" font-size="9" fill="#CFFAFE">ProfileStore（MongoDB 统一入口）</text>
+  <text x="370" y="357" font-family="Arial, sans-serif" font-size="9" fill="#CFFAFE">Pydantic Schemas 数据模型</text>
+  <text x="370" y="377" font-family="Arial, sans-serif" font-size="9" fill="#A5F3FC">nlp_profile — 画像生成</text>
+  <text x="370" y="392" font-family="Arial, sans-serif" font-size="9" fill="#A5F3FC">data_quality — 质量检查</text>
+  <text x="370" y="407" font-family="Arial, sans-serif" font-size="9" fill="#A5F3FC">dedup — 去重</text>
+  <text x="370" y="422" font-family="Arial, sans-serif" font-size="9" fill="#A5F3FC">hallucination — 幻觉防护</text>
+  <text x="370" y="437" font-family="Arial, sans-serif" font-size="8" fill="#67E8F9">LLM 客户端：deepseek-chat</text>
+  
+  <rect x="660" y="295" width="290" height="150" rx="6" fill="url(#ag3Grad)" filter="url(#shadow)"/>
+  <text x="805" y="317" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">Agent3 — 简历解析与匹配</text>
+  <line x1="675" y1="325" x2="935" y2="325" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="675" y="342" font-family="Arial, sans-serif" font-size="9" fill="#FEF3C7">ResumeParser</text>
+  <text x="675" y="357" font-family="Arial, sans-serif" font-size="9" fill="#FDE68A">支持 .word / .pdf / .txt</text>
+  <text x="675" y="372" font-family="Arial, sans-serif" font-size="9" fill="#FDE68A">LLM + 规则混合解析</text>
+  <text x="675" y="392" font-family="Arial, sans-serif" font-size="9" fill="#FEF3C7">MatchEngine</text>
+  <text x="675" y="407" font-family="Arial, sans-serif" font-size="9" fill="#FDE68A">技能/经验/职责多维匹配</text>
+  <text x="675" y="422" font-family="Arial, sans-serif" font-size="9" fill="#FDE68A">输出 MatchReport</text>
+  <text x="675" y="437" font-family="Arial, sans-serif" font-size="8" fill="#FBBF24">结果写入 match_reports</text>
+  
+  <line x1="500" y1="460" x2="500" y2="490" stroke="#6B7280" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- L3: MongoDB -->
+  <rect x="30" y="500" width="940" height="155" rx="8" fill="url(#dbGrad)" filter="url(#shadow)"/>
+  <text x="500" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#FFFFFF">MongoDB — recruitment</text>
+  <text x="500" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#A7F3D0">localhost:27017 · 10 个业务集合</text>
+  
+  <rect x="50" y="555" width="135" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="117" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">爬虫写入</text>
+  <text x="117" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">jobs_clean (100)</text>
+  
+  <rect x="195" y="555" width="135" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="262" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Agent2 写入</text>
+  <text x="262" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">nlp_profiles (61)</text>
+  <text x="262" y="604" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">relation_profiles (100)</text>
+  
+  <rect x="340" y="555" width="135" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="407" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Agent1 写入</text>
+  <text x="407" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">agent1_output (210)</text>
+  
+  <rect x="485" y="555" width="135" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="552" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Agent3 写入</text>
+  <text x="552" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">match_reports (19)</text>
+  
+  <rect x="630" y="555" width="155" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="707" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">审核流转</text>
+  <text x="707" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">audit_queue (17) → jobs_kg (23)</text>
+  
+  <rect x="795" y="555" width="155" height="55" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.3)" stroke-width="0.5"/>
+  <text x="872" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">其他</text>
+  <text x="872" y="592" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">jobs_deduplicated (100)</text>
+  <text x="872" y="604" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#A7F3D0">quality_reports (50)</text>
+  
+  <!-- Footer -->
+  <rect x="130" y="680" width="740" height="45" rx="22" fill="#1E293B" filter="url(#shadow)"/>
+  <text x="500" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF">前端 (:8570) ↔ HTTP ↔ 后端 API (:8720) ↔ Agent ↔ MongoDB</text>
+  
+  <text x="40" y="748" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#374151">图例：</text>
+  <rect x="80" y="738" width="12" height="12" rx="2" fill="url(#apiGrad)"/><text x="96" y="748" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">API</text>
+  <rect x="120" y="738" width="12" height="12" rx="2" fill="url(#ag1Grad)"/><text x="136" y="748" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Agent1</text>
+  <rect x="170" y="738" width="12" height="12" rx="2" fill="url(#ag2Grad)"/><text x="186" y="748" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Agent2</text>
+  <rect x="220" y="738" width="12" height="12" rx="2" fill="url(#ag3Grad)"/><text x="236" y="748" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">Agent3</text>
+  <rect x="270" y="738" width="12" height="12" rx="2" fill="url(#dbGrad)"/><text x="286" y="748" font-family="Arial, sans-serif" font-size="8" fill="#6B7280">MongoDB</text>
+</svg>

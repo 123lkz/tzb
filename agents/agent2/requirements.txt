@@ -1,0 +1,18 @@
+# Agent 2 - Dependencies
+
+# Core
+pydantic>=2.0.0
+pymongo>=4.0.0
+httpx>=0.25.0
+python-dotenv>=1.0.0
+
+# LLM (iFlytek Spark)
+websocket-client>=1.6.0
+
+# Test
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Utils
+loguru>=0.7.0
+tenacity>=8.0.0

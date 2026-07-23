@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1050" width="100%" height="100%" style="background:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;">
+<defs>
+<filter id="shadow" x="-4%" y="-4%" width="108%" height="112%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/></filter>
+<filter id="shadow-sm" x="-2%" y="-2%" width="104%" height="108%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.06"/></filter>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/></marker>
+<marker id="arrow-purple" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#8b5cf6"/></marker>
+<marker id="arrow-amber" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#d97706"/></marker>
+<linearGradient id="header-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#4c1d95"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient>
+</defs>
+
+<!-- 标题 -->
+<rect x="30" y="20" width="1340" height="36" rx="6" fill="url(#header-grad)"/>
+<text x="700" y="44" text-anchor="middle" fill="#fff" font-size="15" font-weight="600">Agent 3 架构图：简历解析 + 人岗匹配</text>
+
+<!-- ========== 左侧：层级标识 ========== -->
+<rect x="30" y="75" width="1340" height="28" rx="14" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1"/>
+<text x="700" y="94" text-anchor="middle" fill="#4c1d95" font-size="12" font-weight="600">AI 智能体分析层（紫色） — 核心创新层 · 解决难题 3：高精度简历解析与人岗匹配</text>
+
+<!-- ========== 第一部分：输入源 ========== -->
+<rect x="40" y="116" width="170" height="120" rx="6" fill="#ede9fe"/>
+<text x="125" y="168" text-anchor="middle" fill="#4c1d95" font-size="14" font-weight="700">输入源</text>
+<text x="125" y="188" text-anchor="middle" fill="#8b5cf6" font-size="11">Input Sources</text>
+<rect x="60" y="200" width="130" height="24" rx="12" fill="#8b5cf6"/><text x="125" y="216" text-anchor="middle" fill="#fff" font-size="10" font-weight="600">外部输入</text>
+
+<!-- 简历文件输入 -->
+<rect x="240" y="120" width="260" height="55" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="370" y="142" text-anchor="middle" fill="#1e40af" font-size="14" font-weight="600">简历文件输入</text>
+<text x="370" y="160" text-anchor="middle" fill="#64748b" font-size="10">PDF / Word / TXT 格式</text>
+<text x="370" y="174" text-anchor="middle" fill="#64748b" font-size="10">用户通过 CLI 提供文件路径</text>
+
+<!-- MongoDB 输入 -->
+<rect x="530" y="120" width="310" height="55" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="685" y="142" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="600">MongoDB · 来自 Agent2</text>
+<text x="685" y="160" text-anchor="middle" fill="#64748b" font-size="10">jobs_kg（高置信度岗位-技能关系）</text>
+<text x="685" y="174" text-anchor="middle" fill="#64748b" font-size="10">nlp_profiles（PositionProfile / SkillProfile）</text>
+
+<!-- 输入描述标签 -->
+<rect x="870" y="120" width="200" height="55" rx="8" fill="#fef3c7" stroke="#fcd34d" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="970" y="142" text-anchor="middle" fill="#b45309" font-size="14" font-weight="600">Agent2 复用</text>
+<text x="970" y="160" text-anchor="middle" fill="#64748b" font-size="10">DeepSeekClient</text>
+<text x="970" y="174" text-anchor="middle" fill="#64748b" font-size="10">ProfileStore</text>
+
+<!-- 数据流箭头：输入 → 简历解析 -->
+<line x1="370" y1="175" x2="370" y2="215" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="685" y1="175" x2="685" y2="215" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="4,3"/>
+
+<!-- ========== 第二部分：简历解析模块 ========== -->
+<rect x="40" y="226" width="170" height="230" rx="6" fill="#f5f3ff"/>
+<text x="125" y="330" text-anchor="middle" fill="#4c1d95" font-size="14" font-weight="700">简历解析</text>
+<text x="125" y="350" text-anchor="middle" fill="#8b5cf6" font-size="11">Resume Parsing</text>
+<rect x="60" y="395" width="130" height="24" rx="12" fill="#7c3aed"/><text x="125" y="411" text-anchor="middle" fill="#fff" font-size="10" font-weight="600">Step 1</text>
+<rect x="60" y="423" width="130" height="24" rx="12" fill="#8b5cf6"/><text x="125" y="439" text-anchor="middle" fill="#fff" font-size="10" font-weight="600">resume_parser/</text>
+
+<!-- resume_parser 模块框 -->
+<rect x="240" y="226" width="1020" height="105" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="240" y="226" width="1020" height="28" rx="8" fill="#8b5cf6"/>
+<text x="750" y="245" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">resume_parser/ — 简历解析模块</text>
+
+<!-- 子模块 -->
+<rect x="260" y="266" width="220" height="52" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="370" y="286" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">FileExtractor</text>
+<text x="370" y="306" text-anchor="middle" fill="#64748b" font-size="10">PyMuPDF(pdf) / python-docx(docx) / txt</text>
+
+<rect x="500" y="266" width="220" height="52" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="610" y="286" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">SectionSplitter</text>
+<text x="610" y="306" text-anchor="middle" fill="#64748b" font-size="10">纯规则正则段落分割</text>
+
+<rect x="740" y="266" width="220" height="52" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="850" y="286" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">ResumeParser</text>
+<text x="850" y="306" text-anchor="middle" fill="#64748b" font-size="10">LLM NER 抽取 / 规则降级</text>
+
+<rect x="980" y="266" width="260" height="52" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="1110" y="286" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">ResumeProfile 模型</text>
+<text x="1110" y="306" text-anchor="middle" fill="#64748b" font-size="10">Pydantic v2 · 含个人/教育/经验/技能</text>
+
+<!-- 子模块间箭头 -->
+<line x1="480" y1="292" x2="500" y2="292" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="720" y1="292" x2="740" y2="292" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="960" y1="292" x2="980" y2="292" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- Prompt 模板说明 -->
+<rect x="240" y="344" width="500" height="55" rx="6" fill="#fffbeb" stroke="#fcd34d" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="490" y="364" text-anchor="middle" fill="#b45309" font-size="12" font-weight="600">LLM Prompt 模板</text>
+<text x="490" y="382" text-anchor="middle" fill="#64748b" font-size="10">简历解析 Prompt · 技能等价判断 Prompt · 职责覆盖判断 Prompt</text>
+<text x="490" y="396" text-anchor="middle" fill="#64748b" font-size="10">所有 Prompt 要求结构化 JSON 输出 + 自然语言推理链</text>
+
+<!-- 降级策略说明 -->
+<rect x="760" y="344" width="500" height="55" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="1010" y="364" text-anchor="middle" fill="#dc2626" font-size="12" font-weight="600">降级策略：规则兜底</text>
+<text x="1010" y="382" text-anchor="middle" fill="#64748b" font-size="10">未配置 LLM 时自动降级到正则提取（姓名/电话/邮箱/技能列表）</text>
+<text x="1010" y="396" text-anchor="middle" fill="#64748b" font-size="10">输出 parsing_method = "rule", confidence = 0.4</text>
+
+<!-- 数据流箭头：简历解析 → MongoDB -->
+<line x1="550" y1="399" x2="550" y2="420" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- MongoDB 中间存储 -->
+<rect x="350" y="420" width="400" height="36" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="550" y="443" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">MongoDB · resume_profiles（结构化简历画像）</text>
+
+<!-- 数据流箭头：resume_profiles → 匹配引擎 -->
+<line x1="550" y1="456" x2="550" y2="486" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- ========== 第三部分：人岗匹配模块 ========== -->
+<rect x="40" y="496" width="170" height="310" rx="6" fill="#f5f3ff"/>
+<text x="125" y="640" text-anchor="middle" fill="#4c1d95" font-size="14" font-weight="700">人岗匹配</text>
+<text x="125" y="660" text-anchor="middle" fill="#8b5cf6" font-size="11">Job Matching</text>
+<rect x="60" y="715" width="130" height="24" rx="12" fill="#7c3aed"/><text x="125" y="731" text-anchor="middle" fill="#fff" font-size="10" font-weight="600">Step 2</text>
+<rect x="60" y="743" width="130" height="24" rx="12" fill="#8b5cf6"/><text x="125" y="759" text-anchor="middle" fill="#fff" font-size="10" font-weight="600">job_matching/</text>
+
+<!-- job_matching 模块框 -->
+<rect x="240" y="496" width="1020" height="200" rx="8" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<rect x="240" y="496" width="1020" height="28" rx="8" fill="#8b5cf6"/>
+<text x="750" y="515" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">job_matching/ — 人岗匹配模块</text>
+
+<!-- MatchEngine -->
+<rect x="260" y="536" width="480" height="100" rx="8" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow)"/>
+<rect x="260" y="536" width="480" height="32" rx="8" fill="#7c3aed"/>
+<text x="500" y="557" text-anchor="middle" fill="#fff" font-size="13" font-weight="600">MatchEngine · 三维匹配计算引擎</text>
+
+<!-- 三维子维度 -->
+<rect x="275" y="580" width="142" height="46" rx="6" fill="#eff6ff" stroke="#93c5fd" stroke-width="1"/>
+<text x="346" y="598" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">技能匹配 (0.45)</text>
+<text x="346" y="616" text-anchor="middle" fill="#64748b" font-size="9">required+optional vs 候选</text>
+
+<rect x="429" y="580" width="142" height="46" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1"/>
+<text x="500" y="598" text-anchor="middle" fill="#166534" font-size="12" font-weight="600">经验匹配 (0.30)</text>
+<text x="500" y="616" text-anchor="middle" fill="#64748b" font-size="9">年限+学历+行业背景</text>
+
+<rect x="583" y="580" width="142" height="46" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
+<text x="654" y="598" text-anchor="middle" fill="#b45309" font-size="12" font-weight="600">职责匹配 (0.25)</text>
+<text x="654" y="616" text-anchor="middle" fill="#64748b" font-size="9">工作/项目 vs 核心职责</text>
+
+<!-- GapAnalyzer -->
+<rect x="760" y="536" width="230" height="70" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="875" y="558" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">GapAnalyzer</text>
+<text x="875" y="576" text-anchor="middle" fill="#64748b" font-size="10">可缺失必需技能 → 差距项</text>
+<text x="875" y="594" text-anchor="middle" fill="#64748b" font-size="10">引用 SkillProfile 生成原因+建议</text>
+
+<!-- MatchReportBuilder -->
+<rect x="1010" y="536" width="230" height="70" rx="6" fill="#fff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="1125" y="558" text-anchor="middle" fill="#4338ca" font-size="13" font-weight="600">MatchReportBuilder</text>
+<text x="1125" y="576" text-anchor="middle" fill="#64748b" font-size="10">组装 MatchReport</text>
+<text x="1125" y="594" text-anchor="middle" fill="#64748b" font-size="10">计算综合评分+置信度+推荐建议</text>
+
+<!-- 子模块间箭头 -->
+<line x1="740" y1="571" x2="760" y2="571" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="990" y1="571" x2="1010" y2="571" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+<!-- 两种匹配模式 -->
+<rect x="260" y="652" width="460" height="34" rx="6" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="490" y="674" text-anchor="middle" fill="#4c1d95" font-size="12" font-weight="600">模式 A：--position "岗位名" | 一对一精确匹配</text>
+
+<rect x="740" y="652" width="500" height="34" rx="6" fill="#ede9fe" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow-sm)"/>
+<text x="990" y="674" text-anchor="middle" fill="#4c1d95" font-size="12" font-weight="600">模式 B：--match-all | 遍历全部岗位，Top-K 排序</text>
+
+<!-- 输出产物框 -->
+<rect x="260" y="700" width="200" height="70" rx="6" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="360" y="722" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">MatchReport</text>
+<text x="360" y="740" text-anchor="middle" fill="#64748b" font-size="10">综合匹配度</text>
+<text x="360" y="756" text-anchor="middle" fill="#64748b" font-size="10">三维评分 + 差距清单</text>
+
+<rect x="500" y="700" width="200" height="70" rx="6" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="600" y="722" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">推荐建议</text>
+<text x="600" y="740" text-anchor="middle" fill="#64748b" font-size="10">highly_recommend</text>
+<text x="600" y="756" text-anchor="middle" fill="#64748b" font-size="10">/ recommend / consider</text>
+
+<rect x="740" y="700" width="200" height="70" rx="6" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="840" y="722" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">证据链</text>
+<text x="840" y="740" text-anchor="middle" fill="#64748b" font-size="10">逐技能匹配结果</text>
+<text x="840" y="756" text-anchor="middle" fill="#64748b" font-size="10">+ 溯源 Provenance</text>
+
+<rect x="980" y="700" width="260" height="70" rx="6" fill="#fff7ed" stroke="#fdba74" stroke-width="1" filter="url(#shadow)"/>
+<text x="1110" y="722" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">优势 + 差距分析</text>
+<text x="1110" y="740" text-anchor="middle" fill="#64748b" font-size="10">strengths + gaps</text>
+<text x="1110" y="756" text-anchor="middle" fill="#64748b" font-size="10">每项差距含原因+学习建议</text>
+
+<!-- 数据流箭头：匹配 → MongoDB -->
+<line x1="550" y1="770" x2="550" y2="792" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- 最终 MongoDB 存储 -->
+<rect x="240" y="796" width="620" height="36" rx="8" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="550" y="819" text-anchor="middle" fill="#c2410c" font-size="13" font-weight="600">MongoDB · match_reports（人岗匹配诊断报告）</text>
+
+<!-- 控制台输出 -->
+<rect x="880" y="796" width="380" height="36" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1070" y="819" text-anchor="middle" fill="#475569" font-size="13" font-weight="600">CLI 控制台：打印匹配排行摘要</text>
+
+<!-- 数据流箭头：输出 → 应用展示层 -->
+<line x1="550" y1="832" x2="550" y2="860" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+<!-- ========== 底部：与下游的交互 ========== -->
+<rect x="40" y="862" width="170" height="100" rx="6" fill="#fce7f3"/>
+<text x="125" y="902" text-anchor="middle" fill="#831843" font-size="14" font-weight="700">下游消费</text>
+<text x="125" y="922" text-anchor="middle" fill="#ec4899" font-size="11">Downstream</text>
+
+<rect x="240" y="864" width="350" height="60" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="415" y="888" text-anchor="middle" fill="#be185d" font-size="13" font-weight="600">知识图谱层</text>
+<text x="415" y="908" text-anchor="middle" fill="#64748b" font-size="10">岗位-技能关系图谱 · 动态演化引擎</text>
+
+<rect x="620" y="864" width="350" height="60" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="795" y="888" text-anchor="middle" fill="#be185d" font-size="13" font-weight="600">应用展示层</text>
+<text x="795" y="908" text-anchor="middle" fill="#64748b" font-size="10">人岗匹配诊断界面 · 全景图谱仪表盘</text>
+
+<rect x="1000" y="864" width="260" height="60" rx="8" fill="#fdf2f8" stroke="#f9a8d4" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="1130" y="888" text-anchor="middle" fill="#be185d" font-size="13" font-weight="600">FastAPI 后端 API</text>
+<text x="1130" y="908" text-anchor="middle" fill="#64748b" font-size="10">简历上传 · 匹配查询 · 报告展示</text>
+
+<!-- 底部总结 -->
+<rect x="40" y="960" width="1320" height="50" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="700" y="982" text-anchor="middle" fill="#475569" font-size="12" font-weight="600">复用 Agent2 的 DeepSeekClient、ProfileStore、SkillProfile/PositionProfile 数据模型 · 39 个纯逻辑测试</text>
+<text x="700" y="1000" text-anchor="middle" fill="#94a3b8" font-size="11">Python 3.12 · Pydantic v2 · PyMuPDF · python-docx · Loguru · MongoDB</text>
+</svg>

@@ -1,0 +1,320 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="1200" height="1600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#060e1a"/>
+    </linearGradient>
+    <linearGradient id="boxFrontend" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#0099cc"/>
+    </linearGradient>
+    <linearGradient id="boxBackend" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c4dff"/>
+      <stop offset="100%" stop-color="#536dfe"/>
+    </linearGradient>
+    <linearGradient id="boxAgent3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00b248"/>
+    </linearGradient>
+    <linearGradient id="boxExt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff6d00"/>
+      <stop offset="100%" stop-color="#e65100"/>
+    </linearGradient>
+    <linearGradient id="boxReady" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#546e7a"/>
+      <stop offset="100%" stop-color="#37474f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,0.5)"/>
+    </filter>
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="5" refY="10" orient="auto">
+      <path d="M0,0 L5,10 L10,0" fill="#4dd0e1"/>
+    </marker>
+    <marker id="arrowDownDim" markerWidth="10" markerHeight="10" refX="5" refY="10" orient="auto">
+      <path d="M0,0 L5,10 L10,0" fill="#546e7a"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" fill="#00e5ff" font-size="26" font-weight="bold" font-family="Arial, sans-serif">前后端系统架构图</text>
+  <text x="600" y="72" text-anchor="middle" fill="rgba(176,196,222,0.4)" font-size="13" font-family="Arial, sans-serif">新一代信息技术岗位全景图谱平台 · 可扩展架构 (v1.0)</text>
+  <line x1="100" y1="85" x2="1100" y2="85" stroke="rgba(0,229,255,0.15)" stroke-width="1"/>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 1: FRONTEND -->
+  <!-- ============================================================ -->
+
+  <rect x="50" y="105" width="1100" height="370" rx="8" fill="rgba(0,229,255,0.04)" stroke="rgba(0,229,255,0.12)" stroke-width="1.5"/>
+  <text x="70" y="132" fill="#00e5ff" font-size="14" font-weight="bold" font-family="Arial, sans-serif">前端层</text>
+  <text x="170" y="132" fill="rgba(176,196,222,0.3)" font-size="11" font-family="Arial, sans-serif">Nuxt 3 + Vue 3 + TypeScript + TailwindCSS</text>
+  <line x1="70" y1="140" x2="1130" y2="140" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+
+  <!-- Browser icon -->
+  <rect x="90" y="155" width="500" height="295" rx="6" fill="rgba(0,229,255,0.06)" stroke="rgba(0,229,255,0.08)" stroke-width="1"/>
+  <text x="110" y="180" fill="rgba(176,196,222,0.5)" font-size="11" font-family="Arial, sans-serif">用户界面</text>
+
+  <!-- Page boxes -->
+  <rect x="105" y="195" width="105" height="45" rx="4" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+  <text x="157" y="223" text-anchor="middle" fill="#00e5ff" font-size="11" font-family="Arial, sans-serif">首页仪表盘</text>
+
+  <rect x="220" y="195" width="105" height="45" rx="4" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+  <text x="272" y="223" text-anchor="middle" fill="#00e5ff" font-size="11" font-family="Arial, sans-serif">岗位信息</text>
+
+  <rect x="335" y="195" width="105" height="45" rx="4" fill="rgba(0,229,255,0.12)" stroke="rgba(0,229,255,0.35)" stroke-width="1.5"/>
+  <text x="387" y="223" text-anchor="middle" fill="#00e5ff" font-size="11" font-weight="bold" font-family="Arial, sans-serif">简历匹配</text>
+
+  <rect x="450" y="195" width="105" height="45" rx="4" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+  <text x="502" y="223" text-anchor="middle" fill="#00e5ff" font-size="11" font-family="Arial, sans-serif">知识图谱</text>
+
+  <!-- Components -->
+  <text x="110" y="270" fill="rgba(176,196,222,0.4)" font-size="10" font-family="Arial, sans-serif">组件层</text>
+  <rect x="105" y="280" width="90" height="30" rx="3" fill="rgba(0,229,255,0.04)" stroke="rgba(0,229,255,0.1)" stroke-width="1"/>
+  <text x="150" y="299" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">Card / Loading</text>
+  <rect x="205" y="280" width="90" height="30" rx="3" fill="rgba(0,229,255,0.04)" stroke="rgba(0,229,255,0.1)" stroke-width="1"/>
+  <text x="250" y="299" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">Header / SideMenu</text>
+  <rect x="305" y="280" width="90" height="30" rx="3" fill="rgba(0,229,255,0.04)" stroke="rgba(0,229,255,0.1)" stroke-width="1"/>
+  <text x="350" y="299" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">ECharts 图表</text>
+
+  <!-- API Layer -->
+  <text x="110" y="340" fill="rgba(176,196,222,0.4)" font-size="10" font-family="Arial, sans-serif">数据层</text>
+  <rect x="105" y="350" width="220" height="40" rx="4" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+  <text x="215" y="370" text-anchor="middle" fill="#80deea" font-size="10" font-weight="bold" font-family="Arial, sans-serif">utils/api.ts</text>
+  <text x="215" y="383" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">Mock Data API | Agent3 Backend API (双模式)</text>
+
+  <rect x="340" y="350" width="220" height="40" rx="4" fill="rgba(0,229,255,0.08)" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+  <text x="450" y="370" text-anchor="middle" fill="#80deea" font-size="10" font-weight="bold" font-family="Arial, sans-serif">utils/mockData.ts</text>
+  <text x="450" y="383" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">20 条岗位数据 · 过滤 · 排序 · 匹配</text>
+
+  <!-- Right side: Types info -->
+  <rect x="620" y="155" width="500" height="295" rx="6" fill="rgba(0,229,255,0.06)" stroke="rgba(0,229,255,0.08)" stroke-width="1"/>
+  <text x="640" y="180" fill="rgba(176,196,222,0.5)" font-size="11" font-family="Arial, sans-serif">类型定义 (types/index.ts)</text>
+
+  <rect x="635" y="195" width="465" height="25" rx="3" fill="rgba(0,229,255,0.03)" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+  <text x="650" y="212" fill="rgba(176,196,222,0.4)" font-size="10" font-family="Arial, sans-serif">PositionInfo · ResumeProfile · MatchReport · DimensionScore · SkillMatchItem · GapItem · GraphData</text>
+
+  <!-- Routes -->
+  <rect x="635" y="230" width="465" height="25" rx="3" fill="rgba(0,229,255,0.03)" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+  <text x="650" y="247" fill="rgba(176,196,222,0.4)" font-size="10" font-family="Arial, sans-serif">路由: / /positions /positions/:id /matching /matching/:id /knowledge-graph</text>
+
+  <!-- Key features -->
+  <rect x="635" y="270" width="465" height="85" rx="3" fill="rgba(0,229,255,0.03)" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+  <text x="650" y="290" fill="#00e5ff" font-size="10" font-family="Arial, sans-serif">核心功能</text>
+  <circle cx="655" cy="305" r="2" fill="rgba(176,196,222,0.3)"/>
+  <text x="665" y="309" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">6 字段过滤 + 排序 + 统计卡片 + 分页</text>
+  <circle cx="655" cy="320" r="2" fill="rgba(176,196,222,0.3)"/>
+  <text x="665" y="324" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">简历上传 (PDF/Word/TXT) + 搜索式岗位选择</text>
+  <circle cx="655" cy="335" r="2" fill="rgba(176,196,222,0.3)"/>
+  <text x="665" y="339" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">指定岗位匹配 + 全局最优匹配</text>
+
+  <!-- Dark mode info -->
+  <rect x="635" y="365" width="465" height="75" rx="3" fill="rgba(0,229,255,0.03)" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+  <text x="650" y="385" fill="#00e5ff" font-size="10" font-family="Arial, sans-serif">暗色主题</text>
+  <text x="650" y="402" fill="rgba(176,196,222,0.4)" font-size="9" font-family="Arial, sans-serif">主色调: #00eaff / #00ffff · 背景: #0a1628 · 卡片: rgba(0,255,255,0.08)</text>
+  <text x="650" y="418" fill="rgba(176,196,222,0.4)" font-size="9" font-family="Arial, sans-serif">ECharts 图表: BarChart · DoughnutChart · HorizontalBarChart · LineChart · RankList</text>
+
+    <!-- Arrow: Frontend API -> Backend API Gateway -->
+  <line x1="215" y1="475" x2="215" y2="595" stroke="#4dd0e1" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <rect x="130" y="505" width="80" height="46" rx="4" fill="rgba(0,0,0,0.6)" stroke="rgba(0,229,255,0.15)" stroke-width="1"/>
+  <text x="170" y="523" text-anchor="middle" fill="#4dd0e1" font-size="9" font-family="Arial, sans-serif">HTTP</text>
+  <text x="170" y="537" text-anchor="middle" fill="#4dd0e1" font-size="9" font-family="Arial, sans-serif">fetch</text>
+  <line x1="870" y1="475" x2="870" y2="595" stroke="rgba(77,208,225,0.3)" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arrowDown)"/>
+  <text x="880" y="540" fill="rgba(176,196,222,0.2)" font-size="8" font-family="Arial, sans-serif">返回 JSON</text>
+  <!-- ============================================================ -->
+  <!-- LAYER 2: BACKEND -->
+  <!-- ============================================================ -->
+
+  <rect x="50" y="550" width="1100" height="390" rx="8" fill="rgba(124,77,255,0.04)" stroke="rgba(124,77,255,0.12)" stroke-width="1.5"/>
+  <text x="70" y="577" fill="#b388ff" font-size="14" font-weight="bold" font-family="sans-serif">后端 API 层</text>
+  <text x="185" y="577" fill="rgba(176,196,222,0.3)" font-size="11" font-family="sans-serif">FastAPI · Python · 端口 8720</text>
+  <line x1="70" y1="585" x2="1130" y2="585" stroke="rgba(124,77,255,0.06)" stroke-width="1"/>
+
+  <rect x="90" y="600" width="480" height="310" rx="6" fill="rgba(124,77,255,0.06)" stroke="rgba(124,77,255,0.08)" stroke-width="1"/>
+  <text x="110" y="625" fill="rgba(176,196,222,0.5)" font-size="11" font-family="sans-serif">API 网关 (backend/server.py)</text>
+
+  <rect x="105" y="640" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="215" y="658" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">GET /api/health</text>
+  <text x="215" y="670" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">健康检查</text>
+
+  <rect x="335" y="640" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="445" y="658" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">GET /api/positions</text>
+  <text x="445" y="670" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">岗位搜索</text>
+
+  <rect x="105" y="685" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="215" y="703" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">POST /api/parse-resume</text>
+  <text x="215" y="715" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">解析简历</text>
+
+  <rect x="335" y="685" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="445" y="703" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">POST /api/match-position</text>
+  <text x="445" y="715" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">指定岗位匹配</text>
+
+  <rect x="105" y="730" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="215" y="748" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">POST /api/match-all</text>
+  <text x="215" y="760" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">全局匹配 Top-5</text>
+
+  <rect x="335" y="730" width="220" height="35" rx="4" fill="rgba(124,77,255,0.08)" stroke="rgba(124,77,255,0.2)" stroke-width="1"/>
+  <text x="445" y="748" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">POST /api/shutdown</text>
+  <text x="445" y="760" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="sans-serif">关闭服务器</text>
+
+  <rect x="105" y="780" width="450" height="50" rx="4" fill="rgba(124,77,255,0.06)" stroke="rgba(124,77,255,0.15)" stroke-width="1"/>
+  <text x="330" y="800" text-anchor="middle" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">数据转换层</text>
+  <text x="330" y="818" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="9" font-family="sans-serif">_snake_to_camel() 转换 snake_case → camelCase</text>
+
+  <rect x="620" y="600" width="500" height="310" rx="6" fill="rgba(124,77,255,0.06)" stroke="rgba(124,77,255,0.08)" stroke-width="1"/>
+  <text x="640" y="625" fill="rgba(176,196,222,0.5)" font-size="11" font-family="sans-serif">数据流</text>
+
+  <rect x="635" y="640" width="465" height="115" rx="4" fill="rgba(0,0,0,0.2)" stroke="rgba(124,77,255,0.1)" stroke-width="1"/>
+  <text x="650" y="660" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">简历匹配请求流程</text>
+  <text x="650" y="682" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">前端上传简历 → POST /api/match-position → Agent3Orchestrator</text>
+  <text x="650" y="700" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">→ ResumeParser.parse() → ResumeProfile → MatchEngine.match()</text>
+  <text x="650" y="718" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">→ GapAnalyzer → ReportBuilder → _snake_to_camel() </text>
+  <text x="650" y="736" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">→ 前端渲染 MatchReport</text>
+
+  <rect x="635" y="765" width="465" height="55" rx="4" fill="rgba(0,0,0,0.2)" stroke="rgba(124,77,255,0.1)" stroke-width="1"/>
+  <text x="650" y="785" fill="#b388ff" font-size="10" font-weight="bold" font-family="sans-serif">降级机制</text>
+  <text x="650" y="805" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">Agent3/MongoDB 不可用 → 模拟模式 · 后端 API 不可用 → 前端 mock 数据</text>
+
+  <rect x="635" y="830" width="465" height="65" rx="4" fill="rgba(0,229,255,0.04)" stroke="rgba(0,229,255,0.1)" stroke-width="1"/>
+  <circle cx="655" cy="855" r="5" fill="#00e676"/>
+  <text x="670" y="860" fill="#00e676" font-size="10" font-weight="bold" font-family="sans-serif">Agent3 已接入</text>
+  <text x="670" y="878" fill="rgba(176,196,222,0.4)" font-size="9" font-family="sans-serif">简历解析 (LLM+规则) + 三维匹配 (技能/经验/职责) + 差距分析</text>
+
+
+  <!-- Arrow: Backend -> Agent3 -->
+  <line x1="600" y1="943" x2="600" y2="1000" stroke="#4dd0e1" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <text x="610" y="975" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">调用</text>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 3: AGENT3 -->
+  <!-- ============================================================ -->
+
+  <rect x="50" y="1005" width="1100" height="200" rx="8" fill="rgba(0,230,118,0.04)" stroke="rgba(0,230,118,0.12)" stroke-width="1.5"/>
+  <text x="70" y="1032" fill="#00e676" font-size="14" font-weight="bold" font-family="Arial, sans-serif">AI 智能体层</text>
+  <text x="200" y="1032" fill="rgba(176,196,222,0.3)" font-size="11" font-family="Arial, sans-serif">Agent3 · 简历解析 + 人岗匹配</text>
+  <line x1="70" y1="1040" x2="1130" y2="1040" stroke="rgba(0,230,118,0.06)" stroke-width="1"/>
+
+  <!-- Agent3 structure -->
+  <rect x="90" y="1055" width="320" height="130" rx="6" fill="rgba(0,230,118,0.06)" stroke="rgba(0,230,118,0.08)" stroke-width="1"/>
+  <text x="110" y="1078" fill="#00e676" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Agent3Orchestrator</text>
+
+  <rect x="105" y="1090" width="135" height="35" rx="3" fill="rgba(0,230,118,0.08)" stroke="rgba(0,230,118,0.2)" stroke-width="1"/>
+  <text x="172" y="1108" text-anchor="middle" fill="#00e676" font-size="9" font-weight="bold" font-family="Arial, sans-serif">ResumeParser</text>
+  <text x="172" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">LLM + 规则混合</text>
+
+  <rect x="250" y="1090" width="135" height="35" rx="3" fill="rgba(0,230,118,0.08)" stroke="rgba(0,230,118,0.2)" stroke-width="1"/>
+  <text x="317" y="1108" text-anchor="middle" fill="#00e676" font-size="9" font-weight="bold" font-family="Arial, sans-serif">MatchEngine</text>
+  <text x="317" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">三维匹配 0.45/0.30/0.25</text>
+
+  <rect x="105" y="1135" width="135" height="35" rx="3" fill="rgba(0,230,118,0.08)" stroke="rgba(0,230,118,0.2)" stroke-width="1"/>
+  <text x="172" y="1153" text-anchor="middle" fill="#00e676" font-size="9" font-weight="bold" font-family="Arial, sans-serif">GapAnalyzer</text>
+  <text x="172" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">差距分析</text>
+
+  <rect x="250" y="1135" width="135" height="35" rx="3" fill="rgba(0,230,118,0.08)" stroke="rgba(0,230,118,0.2)" stroke-width="1"/>
+  <text x="317" y="1153" text-anchor="middle" fill="#00e676" font-size="9" font-weight="bold" font-family="Arial, sans-serif">ReportBuilder</text>
+  <text x="317" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">匹配报告组装</text>
+
+  <!-- Dependencies -->
+  <rect x="440" y="1055" width="320" height="130" rx="6" fill="rgba(0,230,118,0.06)" stroke="rgba(0,230,118,0.08)" stroke-width="1"/>
+  <text x="460" y="1078" fill="#00e676" font-size="11" font-weight="bold" font-family="Arial, sans-serif">依赖</text>
+
+  <rect x="455" y="1090" width="135" height="35" rx="3" fill="rgba(0,0,0,0.2)" stroke="rgba(0,230,118,0.1)" stroke-width="1"/>
+  <text x="522" y="1108" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">DeepSeek API</text>
+  <text x="522" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">LLM 推理</text>
+
+  <rect x="600" y="1090" width="135" height="35" rx="3" fill="rgba(0,0,0,0.2)" stroke="rgba(0,230,118,0.1)" stroke-width="1"/>
+  <text x="667" y="1108" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">ProfileStore</text>
+  <text x="667" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">MongoDB</text>
+
+  <rect x="455" y="1135" width="135" height="35" rx="3" fill="rgba(0,0,0,0.2)" stroke="rgba(0,230,118,0.1)" stroke-width="1"/>
+  <text x="522" y="1153" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">PyMuPDF</text>
+  <text x="522" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">PDF 解析</text>
+
+  <rect x="600" y="1135" width="135" height="35" rx="3" fill="rgba(0,0,0,0.2)" stroke="rgba(0,230,118,0.1)" stroke-width="1"/>
+  <text x="667" y="1153" text-anchor="middle" fill="rgba(176,196,222,0.5)" font-size="9" font-family="Arial, sans-serif">python-docx</text>
+  <text x="667" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">Word 解析</text>
+
+  <!-- Extensions column -->
+  <rect x="790" y="1055" width="330" height="130" rx="6" fill="rgba(255,109,0,0.06)" stroke="rgba(255,109,0,0.08)" stroke-width="1"/>
+  <text x="810" y="1078" fill="#ff6d00" font-size="11" font-weight="bold" font-family="Arial, sans-serif">预留扩展</text>
+
+  <rect x="805" y="1090" width="145" height="35" rx="3" fill="rgba(255,109,0,0.08)" stroke="rgba(255,109,0,0.2)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="877" y="1108" text-anchor="middle" fill="#ffab40" font-size="9" font-family="Arial, sans-serif">Agent1</text>
+  <text x="877" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">新岗位发现 · 能力演化</text>
+
+  <rect x="960" y="1090" width="145" height="35" rx="3" fill="rgba(255,109,0,0.08)" stroke="rgba(255,109,0,0.2)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="1032" y="1108" text-anchor="middle" fill="#ffab40" font-size="9" font-family="Arial, sans-serif">Agent2</text>
+  <text x="1032" y="1120" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">数据质量 · 幻觉防控</text>
+
+  <rect x="805" y="1135" width="145" height="35" rx="3" fill="rgba(255,109,0,0.08)" stroke="rgba(255,109,0,0.2)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="877" y="1153" text-anchor="middle" fill="#ffab40" font-size="9" font-family="Arial, sans-serif">知识图谱</text>
+  <text x="877" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">Neo4j · 动态演化</text>
+
+  <rect x="960" y="1135" width="145" height="35" rx="3" fill="rgba(255,109,0,0.08)" stroke="rgba(255,109,0,0.2)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="1032" y="1153" text-anchor="middle" fill="#ffab40" font-size="9" font-family="Arial, sans-serif">数据采集</text>
+  <text x="1032" y="1165" text-anchor="middle" fill="rgba(176,196,222,0.3)" font-size="8" font-family="Arial, sans-serif">7 平台爬虫</text>
+
+  <!-- Arrow: Extensions -> Future -->
+  <line x1="600" y1="1208" x2="600" y2="1270" stroke="#546e7a" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrowDownDim)"/>
+  <text x="610" y="1245" fill="rgba(176,196,222,0.2)" font-size="9" font-family="Arial, sans-serif">未来接入</text>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 4: FUTURE EXTENSIONS -->
+  <!-- ============================================================ -->
+
+  <rect x="50" y="1275" width="1100" height="200" rx="8" fill="rgba(84,110,122,0.04)" stroke="rgba(84,110,122,0.12)" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="70" y="1302" fill="rgba(176,196,222,0.3)" font-size="14" font-weight="bold" font-family="Arial, sans-serif">可扩展层（预留）</text>
+  <text x="210" y="1302" fill="rgba(176,196,222,0.2)" font-size="11" font-family="Arial, sans-serif">后续迭代方向</text>
+  <line x1="70" y1="1310" x2="1130" y2="1310" stroke="rgba(84,110,122,0.06)" stroke-width="1"/>
+
+  <!-- Agent1 details -->
+  <rect x="90" y="1325" width="320" height="130" rx="6" fill="rgba(84,110,122,0.06)" stroke="rgba(84,110,122,0.08)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="110" y="1348" fill="rgba(176,196,222,0.4)" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Agent1 <tspan fill="rgba(176,196,222,0.2)" font-size="9">新岗位发现 + 能力演化</tspan></text>
+  <text x="110" y="1370" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">API: POST /api/agent1/discover</text>
+  <text x="110" y="1388" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">API: GET /api/agent1/skills-trend</text>
+  <text x="110" y="1410" fill="rgba(176,196,222,0.2)" font-size="8" font-family="Arial, sans-serif">前置条件: MongoDB jobs_clean 数据</text>
+
+  <!-- Agent2 details -->
+  <rect x="440" y="1325" width="320" height="130" rx="6" fill="rgba(84,110,122,0.06)" stroke="rgba(84,110,122,0.08)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="460" y="1348" fill="rgba(176,196,222,0.4)" font-size="11" font-weight="bold" font-family="Arial, sans-serif">Agent2 <tspan fill="rgba(176,196,222,0.2)" font-size="9">数据质量 + 幻觉防控</tspan></text>
+  <text x="460" y="1370" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">API: GET /api/agent2/quality-report</text>
+  <text x="460" y="1388" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">API: GET /api/agent2/audit-queue</text>
+  <text x="460" y="1410" fill="rgba(176,196,222,0.2)" font-size="8" font-family="Arial, sans-serif">前置条件: MongoDB 连接</text>
+
+  <!-- Knowledge Graph details -->
+  <rect x="790" y="1325" width="330" height="130" rx="6" fill="rgba(84,110,122,0.06)" stroke="rgba(84,110,122,0.08)" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="810" y="1348" fill="rgba(176,196,222,0.4)" font-size="11" font-weight="bold" font-family="Arial, sans-serif">知识图谱 <tspan fill="rgba(176,196,222,0.2)" font-size="9">Neo4j · 动态演化</tspan></text>
+  <text x="810" y="1370" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">API: GET /api/graph-data</text>
+  <text x="810" y="1388" fill="rgba(176,196,222,0.3)" font-size="9" font-family="Arial, sans-serif">前端: pages/knowledge-graph.vue</text>
+  <text x="810" y="1410" fill="rgba(176,196,222,0.2)" font-size="8" font-family="Arial, sans-serif">前置条件: Neo4j 部署</text>
+
+  <!-- Legend -->
+  <rect x="50" y="1500" width="1100" height="80" rx="6" fill="rgba(0,0,0,0.2)" stroke="rgba(84,110,122,0.08)" stroke-width="1"/>
+  <text x="80" y="1525" fill="rgba(176,196,222,0.4)" font-size="11" font-weight="bold" font-family="Arial, sans-serif">图例</text>
+
+  <rect x="160" y="1512" width="16" height="16" rx="3" fill="rgba(0,229,255,0.3)"/>
+  <text x="185" y="1525" fill="rgba(176,196,222,0.5)" font-size="10" font-family="Arial, sans-serif">前端层</text>
+
+  <rect x="310" y="1512" width="16" height="16" rx="3" fill="rgba(124,77,255,0.3)"/>
+  <text x="335" y="1525" fill="rgba(176,196,222,0.5)" font-size="10" font-family="Arial, sans-serif">后端 API 层</text>
+
+  <rect x="480" y="1512" width="16" height="16" rx="3" fill="rgba(0,230,118,0.3)"/>
+  <text x="505" y="1525" fill="rgba(176,196,222,0.5)" font-size="10" font-family="Arial, sans-serif">Agent3（已接入）</text>
+
+  <rect x="660" y="1512" width="16" height="16" rx="3" fill="rgba(255,109,0,0.3)" stroke="rgba(255,109,0,0.5)" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="685" y="1525" fill="rgba(176,196,222,0.5)" font-size="10" font-family="Arial, sans-serif">预留扩展</text>
+
+  <rect x="830" y="1512" width="16" height="16" rx="3" fill="rgba(84,110,122,0.3)" stroke="rgba(84,110,122,0.5)" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="855" y="1525" fill="rgba(176,196,222,0.5)" font-size="10" font-family="Arial, sans-serif">可扩展层</text>
+
+  <text x="80" y="1555" fill="rgba(176,196,222,0.2)" font-size="9" font-family="Arial, sans-serif">虚线框 = 预留/未接入 · 实线框 = 已实现 · 加粗边框 = 当前焦点</text>
+
+</svg>

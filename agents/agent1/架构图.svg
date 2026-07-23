@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1300" width="100%" height="100%" style="background:#f8fafc;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif;">
+<defs>
+<filter id="shadow" x="-4%" y="-4%" width="108%" height="112%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/></filter>
+<filter id="shadow-sm" x="-2%" y="-2%" width="104%" height="108%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.06"/></filter>
+<marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/></marker>
+<linearGradient id="header-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="layer-title" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#8b5cf6"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="80" fill="url(#header-grad)"/>
+<text x="600" y="35" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Agent 1 技术架构图</text>
+<text x="600" y="58" text-anchor="middle" fill="#c4b5fd" font-size="13">AI智能体分析层 · 新岗位发现 + 能力更新</text>
+<rect x="50" y="105" width="1100" height="36" rx="6" fill="url(#layer-title)"/>
+<text x="600" y="128" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">第一层：输入层 — MongoDB jobs_clean</text>
+<rect x="400" y="155" width="400" height="56" rx="8" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow)"/>
+<text x="600" y="178" text-anchor="middle" fill="#1e40af" font-size="14" font-weight="700">MongoDB jobs_clean</text>
+<text x="600" y="196" text-anchor="middle" fill="#3b82f6" font-size="11">数据清洗后的标准化招聘数据</text>
+<line x1="600" y1="211" x2="600" y2="245" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="50" y="255" width="1100" height="36" rx="6" fill="#7c3aed"/>
+<text x="600" y="278" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">第二层：Agent 1 核心流水线</text>
+<rect x="60" y="310" width="340" height="270" rx="10" fill="#fff" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)"/>
+<rect x="60" y="310" width="340" height="36" rx="10" fill="#f59e0b"/><rect x="60" y="330" width="340" height="16" fill="#f59e0b"/>
+<text x="230" y="333" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">新岗位发现</text>
+<text x="230" y="353" text-anchor="middle" fill="#92400e" font-size="11">job_discovery/</text>
+<rect x="80" y="365" width="300" height="40" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+<text x="230" y="383" text-anchor="middle" fill="#92400e" font-size="12" font-weight="600">JobClusterer（文本聚类）</text>
+<rect x="80" y="415" width="300" height="40" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+<text x="230" y="433" text-anchor="middle" fill="#92400e" font-size="12" font-weight="600">NoveltyDetector（新兴性检测）</text>
+<rect x="80" y="465" width="300" height="40" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+<text x="230" y="483" text-anchor="middle" fill="#92400e" font-size="12" font-weight="600">LabelGenerator（LLM标注）</text>
+<rect x="80" y="520" width="300" height="35" rx="6" fill="#fffbeb" stroke="#d97706" stroke-width="1" stroke-dasharray="4"/>
+<text x="230" y="543" text-anchor="middle" fill="#b45309" font-size="11">输出：NewPositionSuggestion[]</text>
+<rect x="430" y="310" width="340" height="270" rx="10" fill="#fff" stroke="#8b5cf6" stroke-width="2" filter="url(#shadow)"/>
+<rect x="430" y="310" width="340" height="36" rx="10" fill="#8b5cf6"/><rect x="430" y="330" width="340" height="16" fill="#8b5cf6"/>
+<text x="600" y="333" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">能力演化检测</text>
+<text x="600" y="353" text-anchor="middle" fill="#4c1d95" font-size="11">skill_evolution/</text>
+<rect x="450" y="365" width="300" height="40" rx="6" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1"/>
+<text x="600" y="383" text-anchor="middle" fill="#5b21b6" font-size="12" font-weight="600">SkillTrendAnalyzer</text>
+<rect x="450" y="415" width="300" height="40" rx="6" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1"/>
+<text x="600" y="433" text-anchor="middle" fill="#5b21b6" font-size="12" font-weight="600">EvolutionDetector</text>
+<rect x="450" y="465" width="300" height="55" rx="6" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1"/>
+<text x="600" y="483" text-anchor="middle" fill="#5b21b6" font-size="12" font-weight="600">四种变化类型</text>
+<text x="600" y="500" text-anchor="middle" fill="#6d28d9" font-size="10">new | dying | rising | declining</text>
+<rect x="450" y="530" width="300" height="30" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1" stroke-dasharray="4"/>
+<text x="600" y="550" text-anchor="middle" fill="#5b21b6" font-size="11">输出：SkillChangeSuggestion[]</text>
+<rect x="800" y="310" width="340" height="270" rx="10" fill="#fff" stroke="#10b981" stroke-width="2" filter="url(#shadow)"/>
+<rect x="800" y="310" width="340" height="36" rx="10" fill="#10b981"/><rect x="800" y="330" width="340" height="16" fill="#10b981"/>
+<text x="970" y="333" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">输出适配层</text>
+<text x="970" y="353" text-anchor="middle" fill="#065f46" font-size="11">output_adapter/</text>
+<rect x="820" y="365" width="300" height="40" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+<text x="970" y="383" text-anchor="middle" fill="#065f46" font-size="12" font-weight="600">ChangeRecordBuilder</text>
+<rect x="820" y="415" width="300" height="40" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+<text x="970" y="433" text-anchor="middle" fill="#065f46" font-size="12" font-weight="600">GraphInterface</text>
+<rect x="820" y="465" width="300" height="55" rx="6" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+<text x="970" y="483" text-anchor="middle" fill="#065f46" font-size="12" font-weight="600">Agent1Output统一输出</text>
+<text x="970" y="500" text-anchor="middle" fill="#047857" font-size="10">output_type: new_position / skill_change</text>
+<rect x="820" y="530" width="300" height="30" rx="6" fill="#ecfdf5" stroke="#059669" stroke-width="1" stroke-dasharray="4"/>
+<text x="970" y="550" text-anchor="middle" fill="#065f46" font-size="11">写入 MongoDB agent1_output</text>
+<line x1="400" y1="450" x2="428" y2="450" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="770" y1="450" x2="798" y2="450" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="600" y1="580" x2="600" y2="610" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="50" y="620" width="1100" height="36" rx="6" fill="#dc2626"/>
+<text x="600" y="643" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">第三层：核心创新 — 三阶段降级策略</text>
+<rect x="80" y="675" width="480" height="95" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="320" y="698" text-anchor="middle" fill="#b91c1c" font-size="13" font-weight="700">传统方法</text>
+<text x="320" y="720" text-anchor="middle" fill="#991b1b" font-size="12">固定岗位目录 + 规则匹配 + 人工维护</text>
+<text x="320" y="742" text-anchor="middle" fill="#991b1b" font-size="12">更新周期长，无法覆盖新兴岗位</text>
+<text x="320" y="762" text-anchor="middle" fill="#dc2626" font-size="11">问题：维护成本高，时效性差</text>
+<text x="590" y="730" text-anchor="middle" fill="#64748b" font-size="24" font-weight="700">VS</text>
+<rect x="640" y="675" width="480" height="95" rx="8" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="880" y="698" text-anchor="middle" fill="#047857" font-size="13" font-weight="700">我们的方法</text>
+<text x="880" y="720" text-anchor="middle" fill="#065f46" font-size="12">无监督聚类 + 新兴性检测 + LLM标注</text>
+<text x="880" y="742" text-anchor="middle" fill="#065f46" font-size="12">自动发现 + 持续更新 + 充分降级</text>
+<text x="880" y="762" text-anchor="middle" fill="#059669" font-size="11">优势：自动化 · 可解释 · 离线可用</text>
+<line x1="600" y1="770" x2="600" y2="800" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="50" y="810" width="1100" height="36" rx="6" fill="#059669"/>
+<text x="600" y="833" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">第四层：输出 — MongoDB 产物</text>
+<rect x="200" y="865" width="300" height="70" rx="8" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="350" y="890" text-anchor="middle" fill="#065f46" font-size="12" font-weight="700">agent1_output</text>
+<text x="350" y="910" text-anchor="middle" fill="#047857" font-size="10">新岗位建议 + 技能变更建议</text>
+<text x="350" y="925" text-anchor="middle" fill="#047857" font-size="10">pending → verified → merged</text>
+<rect x="700" y="865" width="300" height="70" rx="8" fill="#fff" stroke="#10b981" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="850" y="890" text-anchor="middle" fill="#065f46" font-size="12" font-weight="700">[间接] jobs_kg → Neo4j</text>
+<text x="850" y="910" text-anchor="middle" fill="#047857" font-size="10">经 Agent2 校验后入图数据库</text>
+<text x="850" y="925" text-anchor="middle" fill="#047857" font-size="10">Agent2：幻觉防控 + 置信度评分</text>
+<line x1="500" y1="900" x2="698" y2="900" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="50" y="965" width="1100" height="36" rx="6" fill="#2563eb"/>
+<text x="600" y="988" text-anchor="middle" fill="#fff" font-size="14" font-weight="600">第五层：关键技术选型与三阶段降级</text>
+<rect x="60" y="1015" width="300" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="210" y="1040" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="700">文本向量化</text>
+<text x="210" y="1060" text-anchor="middle" fill="#2563eb" font-size="11">首选：SentenceTransformer</text>
+<text x="210" y="1075" text-anchor="middle" fill="#3b82f6" font-size="10">降级：TF-IDF</text>
+<rect x="380" y="1015" width="300" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="530" y="1040" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="700">聚类算法</text>
+<text x="530" y="1060" text-anchor="middle" fill="#2563eb" font-size="11">首选：HDBSCAN</text>
+<text x="530" y="1075" text-anchor="middle" fill="#3b82f6" font-size="10">降级：KMeans</text>
+<rect x="700" y="1015" width="300" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#shadow-sm)"/>
+<text x="850" y="1040" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="700">新簇标注</text>
+<text x="850" y="1060" text-anchor="middle" fill="#2563eb" font-size="11">首选：DeepSeek LLM</text>
+<text x="850" y="1075" text-anchor="middle" fill="#3b82f6" font-size="10">降级：统计规则</text>
+<rect x="50" y="1105" width="1100" height="70" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+<text x="600" y="1128" text-anchor="middle" fill="#64748b" font-size="12">核心创新：三阶段自动降级策略，确保在任何环境下均可运行</text>
+<text x="600" y="1148" text-anchor="middle" fill="#64748b" font-size="11">文件结构：agents/agent1/main.py — job_discovery/ — skill_evolution/ — output_adapter/ — tests/</text>
+<text x="600" y="1168" text-anchor="middle" fill="#94a3b8" font-size="10">输出接口：agent1_output 集合，通过 status 状态机与 Agent2 / 全景图谱层对接</text>
+<rect x="930" y="1200" width="220" height="30" rx="4" fill="#e2e8f0"/>
+<text x="1040" y="1220" text-anchor="middle" fill="#64748b" font-size="11">Agent 1 | 2026-07-17</text>
+</svg>
