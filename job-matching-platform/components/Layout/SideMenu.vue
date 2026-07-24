@@ -5,11 +5,11 @@ function active(p:string){return p==="/"?route.path==="/":route.path.startsWith(
 </script>
 <template>
 <aside class="w-56 flex-shrink-0 h-full bg-[#0d0117] border-r border-[rgba(0,255,255,0.1)] flex flex-col">
-<div class="h-16 flex items-center justify-center border-b border-[rgba(0,255,255,0.1)]"><h1 class="text-lg font-bold text-gradient">岗好遇见</h1></div>
+<div class="h-16 flex items-center justify-center gap-2 border-b border-[rgba(0,255,255,0.1)]"><img src="/logo-icon.png" class="h-8 w-auto"/><img src="/logo-text.png" class="h-6 w-auto"/></div>
 <nav class="flex-1 py-4 overflow-y-auto custom-scrollbar">
 <NuxtLink v-for="it in items" :key="it.p" :to="it.p" class="flex items-center gap-3 px-6 py-3 mx-2 rounded-lg transition-all duration-300 text-sm" :class="active(it.p)?'bg-[rgba(0,255,255,0.15)] text-[#00ffff]':'text-[rgba(176,196,222,0.6)] hover:text-[#00ffff] hover:bg-[rgba(0,255,255,0.05)]'">
 <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path :d="it.i" stroke-linecap="round" stroke-linejoin="round"/></svg>
 <span>{{it.l}}</span></NuxtLink></nav>
-<div class="py-3 text-center border-t border-[rgba(0,255,255,0.1)]"><p class="text-xs text-[rgba(176,196,222,0.3)]">挑战杯 · 揭榜挂帅</p></div>
+<div class="py-3 text-center border-t border-[rgba(0,255,255,0.1)]"><p class="text-xs text-[rgba(176,196,222,0.3)]">岗好遇见</p></div>
 </aside>
 </template>

@@ -57,7 +57,7 @@
             <option v-for="p in positions" :key="p" :value="p">{{ p }}</option>
           </select>
         </div>
-        <div ref="trendRef" class="h-64 w-full" style="background:rgba(0,255,255,0.03);border-radius:4px"></div>
+        <div ref="trendRef" class="h-72 w-full" style="background:rgba(0,255,255,0.03);border-radius:4px"></div>
         <div v-if="skillTrend?.skills" class="flex flex-wrap gap-3 mt-2">
           <span v-for="(d, n) in skillTrend.skills" :key="n" class="text-xs" :style="{ color: gc(d.change) }">
             {{ n }} ({{ d.pct || '' }})
@@ -67,7 +67,7 @@
 
       <div v-if="newPositions.length > 0">
         <div class="text-xs text-[rgba(176,196,222,0.5)] mb-2">新发现岗位 ({{ newPositions.filter(p => p.status === 'pending').length }} 个待确认)</div>
-        <div class="max-h-[360px] overflow-y-auto custom-scrollbar pr-1">
+        <div class="max-h-[420px] overflow-y-auto custom-scrollbar pr-1">
           <div class="grid grid-cols-1 gap-3">
             <Card v-for="np in newPositions" :key="np.id" hover>
             <div class="flex items-start justify-between">
